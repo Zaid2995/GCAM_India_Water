@@ -29,6 +29,8 @@ module_water_L1233.Elec_water <- function(command, ...) {
              FILE = "water/Macknick_elec_water_m3MWh"))
   } else if(command == driver.DECLARE_OUTPUTS) {
     return(c("L1233.out_EJ_R_elec_F_tech_Yh_cool",
+             "L1233.out_EJ_R_elec_B_F_tech_Yh_cool",
+             "L1233.out_cons_EJ_R_B_F_tech_Yh_cool",
              "L1233.in_EJ_R_elec_F_tech_Yh_cool",
              "L1233.wdraw_km3_R_elec",
              "L1233.wdraw_km3_R_B_elec",
@@ -167,6 +169,7 @@ module_water_L1233.Elec_water <- function(command, ...) {
       left_join(L1231.in_EJ_R_elec_F_tech_Yh,
                 by = c("GCAM_region_ID", "sector", "fuel", "technology", "year")) %>%
       mutate(value = share * value) %>% select(-share) -> L1233.in_EJ_R_elec_F_tech_Yh_cool
+
 
     # STEP 7: MULTIPLY ELECTRICITY GENERATION BY WITHDRAWAL AND CONSUMPTION...
     # ... COEFFICIENTS, AND AGGREGATE BY REGION
