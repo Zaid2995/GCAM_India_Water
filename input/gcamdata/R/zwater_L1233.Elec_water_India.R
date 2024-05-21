@@ -8,14 +8,14 @@
 #' a vector of output names, or (if \code{command} is "MAKE") all
 #' the generated outputs: \code{L1233.out_EJ_R_elec_F_tech_Yh_cool}, \code{L1233.out_EJ_R_elec_B_F_tech_Yh_cool}, \code{L1233.in_EJ_R_elec_F_tech_Yh_cool}, \code{L1233.wdraw_km3_R_elec}, \code{L1233.wcons_km3_R_elec}, \code{L1233.shrwt_R_elec_cool_Yf}. The corresponding file in the
 #' original data system was \code{L1233.Elec_water.R} (water level1).
-#' @details The original structure contains electricity generation at the regional level which then computes water withdrawal and consumption accordingly. 
-#' In this chunk we are downscaling electricity generation at the basin level to create a new structure for the electricity sector where all fuels and their 
+#' @details The original structure contains electricity generation at the regional level which then computes water withdrawal and consumption accordingly.
+#' In this chunk we are downscaling electricity generation at the basin level to create a new structure for the electricity sector where all fuels and their
 #' corresponding cooling technologies will be present at the basin level in all of the regions. India-specific file will be created in Level 2.
 #' @note To create this new structure, an "infinite nesting" option has been utilised which was used for the first time in GCAM-USA in GCAMV7.
 #' @importFrom assertthat assert_that
 #' @importFrom dplyr arrange filter if_else group_by left_join mutate right_join select semi_join summarise #check which functions I am using and add/remove them here
 #' @importFrom tidyr complete fill nesting replace_na
-#' @author Zaid_Khan_MAY2024
+#' @author Zaid_Khan_2024
 module_water_L1233.Elec_water_India <- function(command, ...) {
   if(command == driver.DECLARE_INPUTS) {
     return(c(FILE = "common/iso_GCAM_regID",
@@ -288,8 +288,8 @@ module_water_L1233.Elec_water_India <- function(command, ...) {
       add_precursors("L1233.out_EJ_R_elec_F_tech_Yh_cool",
                      "L103.water_mapping_R_B_W_Ws_share") ->
       L1233.out_EJ_R_elec_B_F_tech_Yh_cool
-    
-    
+
+
     L1233.in_EJ_R_elec_F_tech_Yh_cool %>%
       add_title("Fuel inputs to electricity generation by region, fuel, technology, cooling system, and water type") %>%
       add_units("EJ") %>%
