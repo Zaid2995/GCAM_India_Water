@@ -80,6 +80,7 @@
 		<Value name = "an_water">../input/gcamdata/xml/All/water_demand_livestock.xml</Value>
 		<Value name = "municipal_water">../input/gcamdata/xml/All/water_demand_municipal.xml</Value>
 		<Value name = "primary_ene_water">../input/gcamdata/xml/All/water_demand_primary.xml</Value>
+		<!--Value name = "Basin_level_Shrwt_India">../input/gcamdata/xml/India/Water/IndiaBasinWaterelectdshrwt.xml</Value-->
 
 		<Value name = "ind_urb_proc">../input/gcamdata/xml/All/ind_urb_processing_sectors.xml</Value>
 		<Value name = "nonco2_energy">../input/gcamdata/xml/All/all_energy_emissions.xml</Value>
@@ -156,9 +157,19 @@
 		<Value name = "Building heating cooling days">../input/gcamdata/xml/India/Building/CDD_HDD_BAU.xml</Value>
 		<Value name = "Building fuel adder">../input/gcamdata/xml/India/Building/IndiaBuildingFuelAdder.xml</Value>
 		
+        <!--Electricity_Water_India-->
+        <Value name = "elec_water_india">../input/gcamdata/xml/India/Water/electricity_water_india_nonewheaderfiles.xml</Value>
+        <Value name = "elec_water_Supplysector_logit">../input/gcamdata/xml/India/Water/IndiaSupplysectorLogit.xml</Value>
+        <Value name = "elec_water_Basin_logit">../input/gcamdata/xml/India/Water/IndiaBasinelecLogit.xml</Value>
+        <Value name = "elec_water_Subsector_logit">../input/gcamdata/xml/India/Water/IndiaSubsectorelec_logit.xml</Value>
+        <Value name = "elec_water_DeletePassthrough">../input/gcamdata/xml/India/Water/DeletePassthroughsector_Indiaelec.xml</Value>
+        <Value name = "elec_water_IndiaBasins_elecmarket">../input/gcamdata/xml/India/Water/IndiaBasinsElecMarket.xml</Value>
+        <Value name = "elec_water_IndiaCSPReserve">../input/gcamdata/xml/India/Water/IndiaCSPReserve.xml</Value>
+
+
 	</ScenarioComponents>
 	<Strings>
-		<Value name="scenarioName">BAU</Value>
+		<Value name="scenarioName">BAU_elec_water</Value>
 		<Value name="debug-region">India</Value>
 		<Value name="MAGICC-input-dir">../input/magicc/inputs</Value>
 		<Value name="MAGICC-output-dir">../output</Value>
