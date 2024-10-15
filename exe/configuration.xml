@@ -164,6 +164,7 @@
         <Value name = "elec_water_Subsector_logit">../input/gcamdata/xml/India/Water/IndiaSubsectorelec_logit.xml</Value>
         <Value name = "elec_water_Plantlevel_logit">../input/gcamdata/xml/India/Water/Indiaplantelec_logit.xml</Value>
         <Value name = "elec_water_DeletePassthrough">../input/gcamdata/xml/India/Water/DeletePassthroughsector_Indiaelec.xml</Value>
+        <Value name = "elec_water_IndiaElecReserve">../input/gcamdata/xml/India/Water/IndiaElecReserve.xml</Value>
         <!--Value name = "elec_water_IndiaBasins_elecmarket">../input/gcamdata/xml/India/Water/IndiaBasinsElecMarket.xml</Value-->
         <!--Value name = "elec_water_IndiaCSPReserve">../input/gcamdata/xml/India/Water/IndiaCSPReserve.xml</Value-->
 
