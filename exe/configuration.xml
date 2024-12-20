@@ -84,18 +84,18 @@
 
         <!--Electricity_Water_India-->
         <Value name = "elec_water_DeletePassthrough">../input/gcamdata/xml/India/Water/DeletePassthroughsector_Indiaelec.xml</Value>
-		<Value name = "elec_India">../input/gcamdata/xml/India/Water/electricity_India.xml</Value>
         <Value name = "elec_water_india">../input/gcamdata/xml/India/Water/electricity_water_india_NEW.xml</Value>
-		<Value name = "elec_water_IndiaElecReserve">../input/gcamdata/xml/India/Water/zwaterindia_basinelecgen.xml</Value>
+		<Value name = "elec_water_basinelecgen">../input/gcamdata/xml/India/Water/zwater_Indiabasinelecgen_1990reduce30prc.xml</Value>
         <Value name = "elec_water_IndiaElecReserve">../input/gcamdata/xml/India/Water/IndiaElecReserve.xml</Value>
         <Value name = "elec_water_IndiaSectorUseTrialMarket">../input/gcamdata/xml/India/Water/IndiaSectorUseTrialMarket_elec.xml</Value>
         <Value name = "elec_water_Supplysector_logit">../input/gcamdata/xml/India/Water/IndiaSupplysectorelecLogit.xml</Value>
-        <Value name = "elec_water_Basin_logit">../input/gcamdata/xml/India/Water/zwaterindia_Basineleclogit.xml</Value>
-        <Value name = "elec_water_Subsector_logit">../input/gcamdata/xml/India/Water/zwaterindia_IndiaSubsectorelec_logit.xml</Value>
-        <Value name = "elec_water_Plantlevel_logit">../input/gcamdata/xml/India/Water/zwaterindia_Indiaplantelec_logit.xml</Value>
-        <Value name = "elec_water_Coolingtechlevel_logit">../input/gcamdata/xml/India/Water/zwaterindia_Indiacoolingelec_logit.xml</Value>
-        <Value name = "elec_water_tech_coef">../input/gcamdata/xml/India/Water/zwaterindia_IndiaGlobalTechCoef_elec_cool.xml</Value>
-        <Value name = "elec_water_inttech_coef">../input/gcamdata/xml/India/Water/zwaterindia_IndiaGlobalIntTechCoef_elec_cool.xml</Value>
+        <Value name = "elec_water_Basin_logit">../input/gcamdata/xml/India/Water/zwater_Indiabasineleclogit.xml</Value>
+        <Value name = "elec_water_Subsector_logit">../input/gcamdata/xml/India/Water/zwater_IndiaSubsectorelec_logit.xml</Value>
+        <Value name = "elec_water_Plantlevel_logit">../input/gcamdata/xml/India/Water/zwater_Indiaplantelec_logit.xml</Value>
+        <Value name = "elec_water_Coolingtechlevel_logit">../input/gcamdata/xml/India/Water/zwater_Indiacoolingelec_logit.xml</Value>
+        <Value name = "elec_water_tech_coef">../input/gcamdata/xml/India/Water/zwater_IndiaGlobalTechCoef_elec_cool.xml</Value>
+        <Value name = "elec_water_inttech_coef">../input/gcamdata/xml/India/Water/zwater_IndiaGlobalIntTechCoef_elec_cool.xml</Value>
+		<!--Value name = "elec_India">../input/gcamdata/xml/India/Water/electricity_India.xml</Value-->
 
 
 		<Value name = "ind_urb_proc">../input/gcamdata/xml/All/ind_urb_processing_sectors.xml</Value>
