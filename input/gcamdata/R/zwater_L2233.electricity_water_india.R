@@ -18,11 +18,12 @@
 #' \code{L2233.IndiaGlobalIntTechCapFac_elec_cool},\code{L2233.IndiaGlobalIntTechLifetime_elec_cool},\code{L2233.IndiaGlobalIntTechShrwt_elec_cool},
 #' \code{L2233.IndiaGlobalTechCapFac_elec_cool},\code{L2233.IndiaGlobalTechCapture_elec_cool},\code{L2233.IndiaGlobalTechLifetime_elec_cool},
 #' \code{L2233.IndiaGlobalTechProfitShutdown_elec_cool},\code{L2233.IndiaGlobalTechSCurve_elec_cool},\code{L2233.IndiaGlobalTechShrwt_elec_cool},
+#' \code{L2233.IndiaGlobalTechCoef_elec_cool},\code{L2233.IndiaGlobalIntTechCoef_elec_cool},
 #' \code{L2233.IndiaPrimaryRenewKeyword_elec_cool},\code{L2233.IndiaPrimaryRenewKeywordInt_elec_cool},\code{L2233.IndiaBasinsStubTechTrackCapital_elec},
 #' \code{L2233.IndiaBasinsStubTechFixOut_hydro}.
 #'
 #' The corresponding file in the
-#' original data system was \code{L2233.electricity_water.R} (water level2).
+#' original data system was \code{L2233.electricity_water_india.R} (water level2).
 #' @details Disaggregates electricity sector for all cooling system types at the basin level.
 #' @importFrom assertthat assert_that
 #' @importFrom dplyr bind_rows filter first if_else group_by left_join mutate right_join select summarise first
@@ -77,7 +78,9 @@ module_water_L2233.electricity_water_india <- function(command, ...) {
              "L223.GlobalIntTechOMvar_elec",
              "L223.GlobalTechEff_elec",
              "L223.GlobalIntTechEff_elec",
-             "L2233.GlobalTechShrwt_elecPassthru"
+             "L2233.GlobalTechShrwt_elecPassthru",
+             "L2233.GlobalTechCoef_elec_cool",
+             "L2233.GlobalIntTechCoef_elec_cool"
     ))
 
   } else if(command == driver.DECLARE_OUTPUTS) {
@@ -126,6 +129,8 @@ module_water_L2233.electricity_water_india <- function(command, ...) {
              "L2233.IndiaGlobalTechProfitShutdown_elec_cool",
              "L2233.IndiaGlobalTechSCurve_elec_cool",
              "L2233.IndiaGlobalTechShrwt_elec_cool",
+             "L2233.IndiaGlobalTechCoef_elec_cool",
+             "L2233.IndiaGlobalIntTechCoef_elec_cool",
              "L2233.IndiaPrimaryRenewKeyword_elec_cool",
              "L2233.IndiaPrimaryRenewKeywordInt_elec_cool",
              "L2233.IndiaBasinsStubTechTrackCapital_elec",
@@ -188,6 +193,8 @@ module_water_L2233.electricity_water_india <- function(command, ...) {
     L2233.GlobalTechProfitShutdown_elec_cool <- get_data(all_data, "water/Exogenous/elecwatergcamfiles/L2233.GlobalTechProfitShutdown_elec_cool", strip_attributes = TRUE)
     L2233.GlobalTechSCurve_elec_cool <- get_data(all_data, "water/Exogenous/elecwatergcamfiles/L2233.GlobalTechSCurve_elec_cool", strip_attributes = TRUE)
     L2233.GlobalTechShrwt_elec_cool <- get_data(all_data, "water/Exogenous/elecwatergcamfiles/L2233.GlobalTechShrwt_elec_cool", strip_attributes = TRUE)
+    L2233.GlobalTechCoef_elec_cool <- get_data(all_data, "L2233.GlobalTechCoef_elec_cool",strip_attributes = TRUE)
+    L2233.GlobalIntTechCoef_elec_cool <- get_data(all_data, "L2233.GlobalIntTechCoef_elec_cool",strip_attributes = TRUE)
     L2233.PrimaryRenewKeyword_elec_cool <- get_data(all_data, "water/Exogenous/elecwatergcamfiles/L2233.PrimaryRenewKeyword_elec_cool", strip_attributes = TRUE)
     L2233.PrimaryRenewKeywordInt_elec_cool <- get_data(all_data, "water/Exogenous/elecwatergcamfiles/L2233.PrimaryRenewKeywordInt_elec_cool", strip_attributes = TRUE)
     L2233.StubTechTrackCapital_elec <- get_data(all_data, "water/Exogenous/elecwatergcamfiles/L2233.StubTechTrackCapital_elec", strip_attributes = TRUE)
@@ -235,13 +242,36 @@ module_water_L2233.electricity_water_india <- function(command, ...) {
 
     L103.water_mapping_R_B_W_wdraw_share %>% select(-water_type) -> L103.water_mapping_R_B_W_wdraw_share
 
+    L103.water_mapping_R_B_W_wdraw_share %>%
+      rename(region = GCAM_region_ID) %>%
+      filter(region == "17") -> L103.water_mapping_R_B_W_wdraw_share_renamed
+
+    #Removing Indus, Irrawaddy and BengalBay basins since they are mapped to Pakistan and Myanmar respectively
+    L103.water_mapping_R_B_W_wdraw_share_renamed <- L103.water_mapping_R_B_W_wdraw_share_renamed[L103.water_mapping_R_B_W_wdraw_share_renamed$GCAM_basin_ID != "89", ]
+    L103.water_mapping_R_B_W_wdraw_share_renamed <- L103.water_mapping_R_B_W_wdraw_share_renamed[L103.water_mapping_R_B_W_wdraw_share_renamed$GCAM_basin_ID != "116", ]
+    L103.water_mapping_R_B_W_wdraw_share_renamed <- L103.water_mapping_R_B_W_wdraw_share_renamed[L103.water_mapping_R_B_W_wdraw_share_renamed$GCAM_basin_ID != "137", ]
+
+
+    #Reallocating the remaining of the total share to the other 17 basins in India since Indus and Myanmar are out
+
+    L103.water_mapping_R_B_W_wdraw_share_renamed %>%
+      mutate(value = sum(share)) %>%
+      mutate(value2 = (1-value)) %>%
+      mutate(share = share+(value2/16)) %>%
+      mutate(value3 = sum(share)) %>%
+      select(-value, -value2, -value3) -> L103.water_mapping_R_B_W_wdraw_share_renamed
+
+    L103.water_mapping_R_B_W_wdraw_share_renamed %>%
+      rename(GCAM_region_ID = region) -> L103.water_mapping_R_B_W_wdraw_share_renamed
+
     L1233.out_EJ_R_elec_F_tech_Yh_cool %>%
-      inner_join(L103.water_mapping_R_B_W_wdraw_share,
-                by =  c("GCAM_region_ID"
-                )) %>%
+    filter(GCAM_region_ID == "17") -> L1233.out_EJ_R_elec_F_tech_Yh_cool_India
+
+    L1233.out_EJ_R_elec_F_tech_Yh_cool_India %>%
+      inner_join(L103.water_mapping_R_B_W_wdraw_share_renamed,
+                by =  c("GCAM_region_ID")) %>%
       mutate(calOutputValue = value * share) %>%
-      select(- water_sector, - share, - value, -plant_type) %>%
-      filter(GCAM_region_ID == 17) ->
+      select(- water_sector, - share, - value, -plant_type) ->
       L2233.out_EJ_elec_B_F_tech_Yh_cool_India
 
     #Joining with the original elec-water map to get the desired columns and associated cooling technologies
@@ -267,18 +297,24 @@ module_water_L2233.electricity_water_india <- function(command, ...) {
 
       L2233.out_EJ_elec_B_F_tech_Yh_cool_India %>%
       filter(year %in% MODEL_BASE_YEARS) %>%
-        rename(region = GCAM_region_ID, calOutputValue = value) ->
+        rename(region = GCAM_region_ID, calOutputValue = value) %>%
+        mutate(share.weight.year = year) ->
         L2233.out_EJ_elec_B_F_tech_Yh_cool_India
 
       #Defining subsector and tech shareweights
 
       L2233.out_EJ_elec_B_F_tech_Yh_cool_India %>%
-      mutate(tech.share.weight = calOutputValue) %>%
-      mutate(tech.share.weight = if_else(calOutputValue > 0, 1, 0)) %>%
-      mutate(subs.share.weight = calOutputValue) %>%
-      mutate(subs.share.weight = if_else(calOutputValue > 0, 1, 0)) %>%
-      mutate(share.weight.year = year) ->
+        group_by(region, supplysector, subsector0, subsector1, subsector, share.weight.year) %>%
+        summarise(value = sum(calOutputValue)) %>% ungroup %>%
+        mutate(subs.share.weight = if_else(value > 0, 1, 0)) %>%
+        select(-value) -> L2233.out_EJ_elec_B_F_tech_Yh_cool_India_agg
+
+      L2233.out_EJ_elec_B_F_tech_Yh_cool_India %>%
+        left_join_error_no_match(L2233.out_EJ_elec_B_F_tech_Yh_cool_India_agg,
+                   by = c("share.weight.year", "region", "supplysector", "subsector0", "subsector1", "subsector")) %>%
+      mutate(tech.share.weight = if_else(calOutputValue > 0, 1, 0)) ->
       L2233.out_EJ_elec_B_F_tech_Yh_cool_India
+
 
       #Defining the order of columns
 
@@ -303,6 +339,11 @@ module_water_L2233.electricity_water_india <- function(command, ...) {
               supplysector = from.supplysector, subsector1 = from.subsector,
               stub.technology = to.technology) ->
       L2233.IndiaStubTecheleccool
+
+    #Removing Indus, Irrawaddy and BengalBay basins since they are mapped to Pakistan and Myanmar respectively
+    L2233.IndiaStubTecheleccool <- L2233.IndiaStubTecheleccool[L2233.IndiaStubTecheleccool$subsector0 != "IndusR", ]
+    L2233.IndiaStubTecheleccool <- L2233.IndiaStubTecheleccool[L2233.IndiaStubTecheleccool$subsector0 != "BengalBay", ]
+    L2233.IndiaStubTecheleccool <- L2233.IndiaStubTecheleccool[L2233.IndiaStubTecheleccool$subsector0 != "IrrawaddyR", ]
 
     L2233.IndiaStubTecheleccool$subsector[L2233.IndiaStubTecheleccool$subsector == 'wind_offshore'] <- 'wind'
     L2233.IndiaStubTecheleccool$subsector[L2233.IndiaStubTecheleccool$subsector == 'wind_storage'] <- 'wind'
@@ -330,6 +371,11 @@ module_water_L2233.electricity_water_india <- function(command, ...) {
 
       L2233.IndiaBasinsElecMarket <- L2233.IndiaBasinsElecMarket %>% distinct()
 
+      #Removing Indus, Irrawaddy and BengalBay basins since they are mapped to Pakistan and Myanmar respectively
+      L2233.IndiaBasinsElecMarket <- L2233.IndiaBasinsElecMarket[L2233.IndiaBasinsElecMarket$subsector0 != "IndusR", ]
+      L2233.IndiaBasinsElecMarket <- L2233.IndiaBasinsElecMarket[L2233.IndiaBasinsElecMarket$subsector0 != "BengalBay", ]
+      L2233.IndiaBasinsElecMarket <- L2233.IndiaBasinsElecMarket[L2233.IndiaBasinsElecMarket$subsector0 != "IrrawaddyR", ]
+
       L2233.IndiaBasinsElecMarket <- L2233.IndiaBasinsElecMarket [c(
         "region", "supplysector", "subsector0",
         "marginal.revenue.sector", "marginal.revenue.market")]  #OUTPUT
@@ -356,6 +402,12 @@ module_water_L2233.electricity_water_india <- function(command, ...) {
       IndiaSupplysectorelec %>%
       rename(nesting.subsector = subsector) %>%
       select(-output.unit, -input.unit, -price.unit) -> L2233.IndiaBasinelecLogit
+
+      #Removing Indus, Irrawaddy and BengalBay basins since they are mapped to Pakistan and Myanmar respectively
+      L2233.IndiaBasinelecLogit <- L2233.IndiaBasinelecLogit[L2233.IndiaBasinelecLogit$nesting.subsector != "IndusR", ]
+      L2233.IndiaBasinelecLogit <- L2233.IndiaBasinelecLogit[L2233.IndiaBasinelecLogit$nesting.subsector != "BengalBay", ]
+      L2233.IndiaBasinelecLogit <- L2233.IndiaBasinelecLogit[L2233.IndiaBasinelecLogit$nesting.subsector != "IrrawaddyR", ]
+
 
       L2233.IndiaBasinelecLogit <- L2233.IndiaBasinelecLogit[c(
          "region", "supplysector", "nesting.subsector", "logit.year.fillout", "logit.exponent", "logit.type")]  #OUTPUT
@@ -398,7 +450,7 @@ module_water_L2233.electricity_water_india <- function(command, ...) {
         distinct()->
         L2233.IndiaSubsectorelec_shrwt
 
-      L2233.IndiaSubsectorelec_shrwt$year.fillout[L2233.IndiaSubsectorelec_shrwt$year.fillout == 'start-year'] <- '2015'
+      L2233.IndiaSubsectorelec_shrwt$year.fillout[L2233.IndiaSubsectorelec_shrwt$year.fillout == 'start-year'] <- '1975'
 
       #OUTPUT
 
@@ -482,6 +534,12 @@ module_water_L2233.electricity_water_india <- function(command, ...) {
       L2233.IndiaTechShrwtFlltelec <- L2233.IndiaTechShrwtFlltelec %>%
         distinct()
 
+      #Removing Indus, Irrawaddy and BengalBay basins since they are mapped to Pakistan and Myanmar respectively
+      L2233.IndiaTechShrwtFlltelec <- L2233.IndiaTechShrwtFlltelec[L2233.IndiaTechShrwtFlltelec$subsector0 != "IndusR", ]
+      L2233.IndiaTechShrwtFlltelec <- L2233.IndiaTechShrwtFlltelec[L2233.IndiaTechShrwtFlltelec$subsector0 != "BengalBay", ]
+      L2233.IndiaTechShrwtFlltelec <- L2233.IndiaTechShrwtFlltelec[L2233.IndiaTechShrwtFlltelec$subsector0 != "IrrawaddyR", ]
+
+
       L2233.IndiaTechShrwtFlltelec <- L2233.IndiaTechShrwtFlltelec[c
                   ("region", "supplysector", "subsector0",
   "subsector1", "subsector", "year.fillout", "share.weight")]    #OUTPUT
@@ -503,7 +561,15 @@ module_water_L2233.electricity_water_india <- function(command, ...) {
       L2233.IndiaTechInterpelec <- L2233.IndiaTechInterpelec %>%
         distinct()
 
-      L2233.IndiaTechInterpelec <- L2233.IndiaTechInterpelec[c
+      #Removing Indus, Irrawaddy and BengalBay basins since they are mapped to Pakistan and Myanmar respectively
+      L2233.IndiaTechInterpelec <- L2233.IndiaTechInterpelec[L2233.IndiaTechInterpelec$subsector0 != "IndusR", ]
+      L2233.IndiaTechInterpelec <- L2233.IndiaTechInterpelec[L2233.IndiaTechInterpelec$subsector0 != "BengalBay", ]
+      L2233.IndiaTechInterpelec <- L2233.IndiaTechInterpelec[L2233.IndiaTechInterpelec$subsector0 != "IrrawaddyR", ]
+
+      #Removing nuclear sharweight details since they are already added in the next file being generated
+      L2233.IndiaTechInterpelec <- L2233.IndiaTechInterpelec[L2233.IndiaTechInterpelec$subsector1 != "nuclear", ]
+
+          L2233.IndiaTechInterpelec <- L2233.IndiaTechInterpelec[c
             ("region", "supplysector", "subsector0",
     "subsector1", "subsector", "apply.to", "from.year", "to.year",
                 "interpolation.function")]   #OUTPUT
@@ -519,6 +585,13 @@ module_water_L2233.electricity_water_india <- function(command, ...) {
                -technology, -minicam.energy.input) %>%
         rename (supplysector = from.supplysector, subsector1 = from.subsector,
                 subsector = from.technology) -> L2233.IndiaTechInterpToelec
+
+      #Removing Indus, Irrawaddy and BengalBay basins since they are mapped to Pakistan and Myanmar respectively
+      L2233.IndiaTechInterpToelec <- L2233.IndiaTechInterpToelec[L2233.IndiaTechInterpToelec$subsector0 != "IndusR", ]
+      L2233.IndiaTechInterpToelec <- L2233.IndiaTechInterpToelec[L2233.IndiaTechInterpToelec$subsector0 != "BengalBay", ]
+      L2233.IndiaTechInterpToelec <- L2233.IndiaTechInterpToelec[L2233.IndiaTechInterpToelec$subsector0 != "IrrawaddyR", ]
+
+
       L2233.IndiaTechInterpToelec <- L2233.IndiaTechInterpToelec[c
           ("region", "supplysector", "subsector0",
   "subsector1", "subsector", "apply.to", "from.year", "to.year",
@@ -527,6 +600,19 @@ module_water_L2233.electricity_water_india <- function(command, ...) {
       L2233.IndiaTechInterpToelec <- L2233.IndiaTechInterpToelec %>%
         distinct()   #OUTPUT
 
+      #Combining the two shareweight files
+
+      L2233.IndiaTechInterpToelec <- rbind(L2233.IndiaTechInterpToelec, L2233.IndiaTechInterpelec)
+
+      L2233.IndiaTechInterpToelec <- L2233.IndiaTechInterpToelec %>%
+        distinct()
+
+      L2233.IndiaTechInterpToelec$to.value <- "1"
+
+      L2233.IndiaTechInterpToelec <- L2233.IndiaTechInterpToelec[c
+                                  ("region", "supplysector", "subsector0",
+                                  "subsector1", "subsector", "apply.to", "from.year", "to.year",
+                                    "to.value", "interpolation.function")]    #OUTPUT
 
       #DEFINING NUCLEAR TECHNOLOGY LEVEL SHAREWEIGHT
 
@@ -541,6 +627,12 @@ module_water_L2233.electricity_water_india <- function(command, ...) {
                 subsector = from.technology) -> L2233.IndiaTechShrwtnucelec
 
       L2233.IndiaTechShrwtnucelec <- L2233.IndiaTechShrwtnucelec %>% distinct()
+
+      #Removing Indus, Irrawaddy and BengalBay basins since they are mapped to Pakistan and Myanmar respectively
+      L2233.IndiaTechShrwtnucelec <- L2233.IndiaTechShrwtnucelec[L2233.IndiaTechShrwtnucelec$subsector0 != "IndusR", ]
+      L2233.IndiaTechShrwtnucelec <- L2233.IndiaTechShrwtnucelec[L2233.IndiaTechShrwtnucelec$subsector0 != "BengalBay", ]
+      L2233.IndiaTechShrwtnucelec <- L2233.IndiaTechShrwtnucelec[L2233.IndiaTechShrwtnucelec$subsector0 != "IrrawaddyR", ]
+
 
       L2233.IndiaTechShrwtnucelec <- L2233.IndiaTechShrwtnucelec [c
               ("region", "supplysector", "subsector0",
@@ -563,6 +655,11 @@ module_water_L2233.electricity_water_india <- function(command, ...) {
 
       L2233.IndiaTechShrwtrenewelec <- L2233.IndiaTechShrwtrenewelec %>%
         distinct()
+
+      #Removing Indus, Irrawaddy and BengalBay basins since they are mapped to Pakistan and Myanmar respectively
+      L2233.IndiaTechShrwtrenewelec <- L2233.IndiaTechShrwtrenewelec[L2233.IndiaTechShrwtrenewelec$subsector0 != "IndusR", ]
+      L2233.IndiaTechShrwtrenewelec <- L2233.IndiaTechShrwtrenewelec[L2233.IndiaTechShrwtrenewelec$subsector0 != "BengalBay", ]
+      L2233.IndiaTechShrwtrenewelec <- L2233.IndiaTechShrwtrenewelec[L2233.IndiaTechShrwtrenewelec$subsector0 != "IrrawaddyR", ]
 
       L2233.IndiaTechShrwtrenewelec <- L2233.IndiaTechShrwtrenewelec [c
                                       ("region", "supplysector", "subsector0",
@@ -638,6 +735,12 @@ module_water_L2233.electricity_water_india <- function(command, ...) {
 
       L2233.IndiaCSPReserve <- L2233.IndiaCSPReserve %>% distinct()
 
+       #Removing Indus, Irrawaddy and BengalBay basins since they are mapped to Pakistan and Myanmar respectively
+      L2233.IndiaCSPReserve <- L2233.IndiaCSPReserve[L2233.IndiaCSPReserve$subsector0 != "IndusR", ]
+      L2233.IndiaCSPReserve <- L2233.IndiaCSPReserve[L2233.IndiaCSPReserve$subsector0 != "BengalBay", ]
+      L2233.IndiaCSPReserve <- L2233.IndiaCSPReserve[L2233.IndiaCSPReserve$subsector0 != "IrrawaddyR", ]
+
+
       L2233.IndiaCSPReserve <- L2233.IndiaCSPReserve[c(
         "region", "supplysector", "subsector0", "subsector1", "subsector",
         "electricity.reserve.margin", "average.grid.capacity.factor")] #OUTPUT
@@ -655,7 +758,14 @@ module_water_L2233.electricity_water_india <- function(command, ...) {
                                -minicam.energy.input) %>%
       rename(subsector1 = from.subsector, supplysector = from.supplysector,
              subsector = to.subsector, stub.technology = to.technology) -> L2233.IndiaElecTechShrwtBasinscool
-    L2233.IndiaElecTechShrwtBasinscool <- L2233.IndiaElecTechShrwtBasinscool[c(
+
+    #Removing Indus, Irrawaddy and BengalBay basins since they are mapped to Pakistan and Myanmar respectively
+    L2233.IndiaElecTechShrwtBasinscool <- L2233.IndiaElecTechShrwtBasinscool[L2233.IndiaElecTechShrwtBasinscool$subsector0 != "IndusR", ]
+    L2233.IndiaElecTechShrwtBasinscool <- L2233.IndiaElecTechShrwtBasinscool[L2233.IndiaElecTechShrwtBasinscool$subsector0 != "BengalBay", ]
+    L2233.IndiaElecTechShrwtBasinscool <- L2233.IndiaElecTechShrwtBasinscool[L2233.IndiaElecTechShrwtBasinscool$subsector0 != "IrrawaddyR", ]
+
+
+     L2233.IndiaElecTechShrwtBasinscool <- L2233.IndiaElecTechShrwtBasinscool[c(
       "region", "supplysector", "subsector0", "subsector1",
       "subsector", "stub.technology", "year",
       "share.weight.year", "tech.share.weight")] #OUTPUT
@@ -672,6 +782,13 @@ module_water_L2233.electricity_water_india <- function(command, ...) {
       select(-supplysector, -to.supplysector) %>%
       rename (subsector1 = from.subsector, supplysector = from.supplysector,
               subsector = from.technology, stub.technology = to.technology) -> L2233.IndiaStubTechShrwteleccool
+
+    #Removing Indus, Irrawaddy and BengalBay basins since they are mapped to Pakistan and Myanmar respectively
+    L2233.IndiaStubTechShrwteleccool <- L2233.IndiaStubTechShrwteleccool[L2233.IndiaStubTechShrwteleccool$subsector0 != "IndusR", ]
+    L2233.IndiaStubTechShrwteleccool <- L2233.IndiaStubTechShrwteleccool[L2233.IndiaStubTechShrwteleccool$subsector0 != "BengalBay", ]
+    L2233.IndiaStubTechShrwteleccool <- L2233.IndiaStubTechShrwteleccool[L2233.IndiaStubTechShrwteleccool$subsector0 != "IrrawaddyR", ]
+
+
     L2233.IndiaStubTechShrwteleccool <- L2233.IndiaStubTechShrwteleccool[c
               ("region", "supplysector", "subsector0",
    "subsector1", "subsector", "stub.technology", "year", "share.weight")]  #OUTPUT
@@ -689,6 +806,12 @@ module_water_L2233.electricity_water_india <- function(command, ...) {
 
       L2233.IndiaStubTechCapfactorelecCSP <- L2233.IndiaStubTechCapfactorelecCSP %>% distinct()
 
+      #Removing Indus, Irrawaddy and BengalBay basins since they are mapped to Pakistan and Myanmar respectively
+      L2233.IndiaStubTechCapfactorelecCSP <- L2233.IndiaStubTechCapfactorelecCSP[L2233.IndiaStubTechCapfactorelecCSP$subsector0 != "IndusR", ]
+      L2233.IndiaStubTechCapfactorelecCSP <- L2233.IndiaStubTechCapfactorelecCSP[L2233.IndiaStubTechCapfactorelecCSP$subsector0 != "BengalBay", ]
+      L2233.IndiaStubTechCapfactorelecCSP <- L2233.IndiaStubTechCapfactorelecCSP[L2233.IndiaStubTechCapfactorelecCSP$subsector0 != "IrrawaddyR", ]
+
+
       L2233.IndiaStubTechCapfactorelecCSP  <- L2233.IndiaStubTechCapfactorelecCSP[c
                                     ("region", "supplysector", "subsector0", "subsector1", "subsector", "stub.technology",
                                       "year", "capacity.factor")] #OUTPUT
@@ -705,6 +828,12 @@ module_water_L2233.electricity_water_india <- function(command, ...) {
       rename(minicam.energy.input = minicam.energy.input.x, subsector = to.subsector,
              supplysector = from.supplysector, subsector1 = fuel) %>%
       select (-to.supplysector, -to.technology) -> L2233.IndiaStubTechEffeleccool
+
+    #Removing Indus, Irrawaddy and BengalBay basins since they are mapped to Pakistan and Myanmar respectively
+    L2233.IndiaStubTechEffeleccool <- L2233.IndiaStubTechEffeleccool[L2233.IndiaStubTechEffeleccool$subsector0 != "IndusR", ]
+    L2233.IndiaStubTechEffeleccool <- L2233.IndiaStubTechEffeleccool[L2233.IndiaStubTechEffeleccool$subsector0 != "BengalBay", ]
+    L2233.IndiaStubTechEffeleccool <- L2233.IndiaStubTechEffeleccool[L2233.IndiaStubTechEffeleccool$subsector0 != "IrrawaddyR", ]
+
 
     L2233.IndiaStubTechEffeleccool <- L2233.IndiaStubTechEffeleccool %>% distinct()
 
@@ -833,6 +962,62 @@ module_water_L2233.electricity_water_india <- function(command, ...) {
 
       L2233.IndiaGlobalTechShrwt_elec_cool <- L2233.GlobalTechShrwt_elec_cool
 
+      #WATER CONSUMPTION AND WITHDRAWAL COEFFICIENTS FOR COOLING TECHS
+
+      L2233.GlobalTechCoef_elec_cool$sector.name <- sub("^(elec_).*", "electricity", L2233.GlobalTechCoef_elec_cool$sector.name)
+
+      L2233.IndiaGlobalTechCoef_elec_cool <- L2233.GlobalTechCoef_elec_cool
+
+
+      L2233.GlobalIntTechCoef_elec_cool$sector.name <- sub("^(elec_).*", "electricity", L2233.GlobalIntTechCoef_elec_cool$sector.name)
+
+      L2233.IndiaGlobalIntTechCoef_elec_cool <- L2233.GlobalIntTechCoef_elec_cool
+
+
+      #ALTERATIONS TO THE WATER COEFFICIENT FILES TO MAKE THEM EXOGENOUSLY COMPATIBLE ONLY FOR INDIA
+      #Conventional techs
+      #Add region
+      L2233.IndiaGlobalTechCoef_elec_cool2 <- L2233.IndiaGlobalTechCoef_elec_cool
+
+      L2233.IndiaGlobalTechCoef_elec_cool2$region <- "India"
+      #Add Basins
+      L2233.IndiaGlobalTechCoef_elec_cool2 %>%
+        inner_join(L2233.IndiaBasins, by = "region") %>%
+        rename(supplysector = sector.name, subsector = subsector.name, stub.technology = technology) ->
+        L2233.IndiaGlobalTechCoef_elec_cool2
+      #Add the new structure to this
+      L2233.IndiaGlobalTechCoef_elec_cool2 %>%
+      inner_join(L2233.IndiaStubTecheleccool, by = "subsector") -> L2233.IndiaGlobalTechCoef_elec_cool2
+      L2233.IndiaGlobalTechCoef_elec_cool2 %>%
+       rename(region = region.x, supplysector = supplysector.x, subsector0 = subsector0.x,
+               stub.technology = stub.technology.x) %>%
+        select(region, supplysector, subsector0, subsector1, subsector, stub.technology, year, minicam.energy.input, coefficient)->
+        L2233.IndiaGlobalTechCoef_elec_cool2
+      #Remove repetitions
+      L2233.IndiaGlobalTechCoef_elec_cool2 <- L2233.IndiaGlobalTechCoef_elec_cool2 %>%  distinct()
+
+      #Intermittent techs
+      #Add region
+      L2233.IndiaGlobalIntTechCoef_elec_cool2 <- L2233.IndiaGlobalIntTechCoef_elec_cool
+
+      L2233.IndiaGlobalIntTechCoef_elec_cool2$region <- "India"
+      #Add Basins
+      L2233.IndiaGlobalIntTechCoef_elec_cool2 %>%
+        inner_join(L2233.IndiaBasins, by = "region") %>%
+        rename(supplysector = sector.name, subsector = subsector.name, stub.technology = technology) ->
+        L2233.IndiaGlobalIntTechCoef_elec_cool2
+      #Add the new structure to this
+      L2233.IndiaGlobalIntTechCoef_elec_cool2 %>%
+        inner_join(L2233.IndiaStubTecheleccool, by = "subsector") -> L2233.IndiaGlobalIntTechCoef_elec_cool2
+      L2233.IndiaGlobalIntTechCoef_elec_cool2 %>%
+        rename(region = region.x, supplysector = supplysector.x, subsector0 = subsector0.x,
+               stub.technology = stub.technology.x) %>%
+        select(region, supplysector, subsector0, subsector1, subsector, stub.technology, year, minicam.energy.input, coefficient)->
+        L2233.IndiaGlobalIntTechCoef_elec_cool2
+      #Remove repetitions
+      L2233.IndiaGlobalIntTechCoef_elec_cool2 <- L2233.IndiaGlobalIntTechCoef_elec_cool2 %>%  distinct()
+
+
       #KEYWORD INFO
 
       L2233.PrimaryRenewKeyword_elec_cool$sector.name <- sub("^(elec_).*", "electricity", L2233.PrimaryRenewKeyword_elec_cool$sector.name)
@@ -864,15 +1049,12 @@ module_water_L2233.electricity_water_india <- function(command, ...) {
       #followed in the creation of the main output (L2233.out_EJ_elec_B_F_tech_Yh_cool_India)).
       #Can/will be changed later according to the hydro power station locations.
 
-      L103.water_mapping_R_B_W_wdraw_share %>%
-        rename(region = GCAM_region_ID) %>%
-      filter(region == "17") -> L103.water_mapping_R_B_W_wdraw_share_renamed
 
-      L103.water_mapping_R_B_W_wdraw_share_renamed$region <- sub("^(17).*", "India", L103.water_mapping_R_B_W_wdraw_share_renamed$region)
+      L103.water_mapping_R_B_W_wdraw_share_renamed$GCAM_region_ID <- sub("^(17).*", "India", L103.water_mapping_R_B_W_wdraw_share_renamed$GCAM_region_ID)
 
       L103.water_mapping_R_B_W_wdraw_share_renamed %>%
-        filter(region == "India") %>%
-        inner_join(basin_to_country_mapping, by = "GCAM_basin_ID") -> L2233.IndiaStubTechFixOut_hydro
+        inner_join(basin_to_country_mapping, by = "GCAM_basin_ID") %>%
+        rename(region = GCAM_region_ID) -> L2233.IndiaStubTechFixOut_hydro
 
 
       L2233.IndiaStubTechFixOut_hydro %>%
@@ -1239,6 +1421,26 @@ module_water_L2233.electricity_water_india <- function(command, ...) {
          L2233.IndiaGlobalTechShrwt_elec_cool
 
 
+       L2233.IndiaGlobalTechCoef_elec_cool %>%
+         add_title("Coefficients for water elec sector water withdrawal and consumption (standard techs)") %>%
+         add_units("m^3/GJ") %>%
+         add_comments("Water footprints mapped onto supplysector-subsector-technology tables") %>%
+         add_comments("m^3/MWh converted to m^3/GJ") %>%
+         add_legacy_name("L2233.IndiaGlobalTechCoef_elec_cool") %>%
+         add_precursors("L2233.GlobalTechCoef_elec_cool") ->
+         L2233.IndiaGlobalTechCoef_elec_cool
+
+
+       L2233.IndiaGlobalIntTechCoef_elec_cool %>%
+         add_title("Coefficients for water elec sector water withdrawal and consumption (intermittent techs)") %>%
+         add_units("m^3/GJ") %>%
+         add_comments("Water footprints mapped onto supplysector-subsector-technology tables") %>%
+         add_comments("m^3/MWh converted to m^3/GJ") %>%
+         add_legacy_name("L2233.IndiaGlobalIntTechCoef_elec_cool") %>%
+         add_precursors("L2233.GlobalIntTechCoef_elec_cool") ->
+         L2233.IndiaGlobalIntTechCoef_elec_cool
+
+
        L2233.IndiaPrimaryRenewKeyword_elec_cool %>%
          add_title("keywords for non-intermittent renewable technologies for the electricity sector") %>%
          add_units("NA") ->
@@ -1317,6 +1519,8 @@ module_water_L2233.electricity_water_india <- function(command, ...) {
                 L2233.IndiaGlobalTechProfitShutdown_elec_cool,
                 L2233.IndiaGlobalTechSCurve_elec_cool,
                 L2233.IndiaGlobalTechShrwt_elec_cool,
+                L2233.IndiaGlobalTechCoef_elec_cool,
+                L2233.IndiaGlobalIntTechCoef_elec_cool,
                 L2233.IndiaPrimaryRenewKeyword_elec_cool,
                 L2233.IndiaPrimaryRenewKeywordInt_elec_cool,
                 L2233.IndiaBasinsStubTechTrackCapital_elec,

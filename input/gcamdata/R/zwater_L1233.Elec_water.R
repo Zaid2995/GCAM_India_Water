@@ -2,7 +2,7 @@
 
 #' module_water_L1233.Elec_water
 #'
-#' Water consumption and withdrawals for electricity.
+#' Water withdrawals and water consumption by basin.
 #'
 #' @param command API command to execute
 #' @param ... other optional parameters, depending on command
@@ -29,8 +29,6 @@ module_water_L1233.Elec_water <- function(command, ...) {
              FILE = "water/Macknick_elec_water_m3MWh"))
   } else if(command == driver.DECLARE_OUTPUTS) {
     return(c("L1233.out_EJ_R_elec_F_tech_Yh_cool",
-             "L1233.out_EJ_R_elec_B_F_tech_Yh_cool",
-             "L1233.out_cons_EJ_R_B_F_tech_Yh_cool",
              "L1233.in_EJ_R_elec_F_tech_Yh_cool",
              "L1233.wdraw_km3_R_elec",
              "L1233.wdraw_km3_R_B_elec",

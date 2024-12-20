@@ -262,3 +262,4 @@ module_water_electricity_water_xml <- function(command, ...) {
     stop("Unknown command")
   }
 }
+
