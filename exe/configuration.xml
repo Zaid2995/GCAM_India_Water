@@ -83,52 +83,27 @@
 		<!--Value name = "Basin_level_Shrwt_India">../input/gcamdata/xml/India/Water/IndiaBasinWaterelectdshrwt.xml</Value-->
 
         <!--Electricity_Water_India-->
-        <Value name = "elec_water_DeletePassthrough">../input/gcamdata/xml/India/Water/DeletePassthroughsector_Indiaelec.xml</Value>
-        <Value name = "elec_water_india">../input/gcamdata/xml/India/Water/electricity_water_india_NEW.xml</Value>
-		<Value name = "elec_water_basinelecgen">../input/gcamdata/xml/India/Water/zwater_Indiabasinelecgen_1990reduce30prc.xml</Value>
-        <Value name = "elec_water_IndiaElecReserve">../input/gcamdata/xml/India/Water/IndiaElecReserve.xml</Value>
-        <Value name = "elec_water_IndiaSectorUseTrialMarket">../input/gcamdata/xml/India/Water/IndiaSectorUseTrialMarket_elec.xml</Value>
-        <Value name = "elec_water_Supplysector_logit">../input/gcamdata/xml/India/Water/IndiaSupplysectorelecLogit.xml</Value>
+        <Value name = "elec_water_DeletePassthrough">../input/gcamdata/xml/India/Water/zwater_DeletePassthroughsector_Indiaelec.xml</Value>
+        <Value name = "elec_water_india">../input/gcamdata/xml/India/Water/zwater_electricity_water_india.xml</Value>
+		<Value name = "elec_water_basinelecgen">../input/gcamdata/xml/India/Water/zwater_Indiabasinselectricitygen.xml</Value>
+        <Value name = "elec_water_IndiaElecReserve">../input/gcamdata/xml/India/Water/zwater_IndiaElecReserve.xml</Value>
+        <Value name = "elec_water_IndiaSectorUseTrialMarket">../input/gcamdata/xml/India/Water/zwater_IndiaSectorUseTrialMarket_elec.xml</Value>
+        <Value name = "elec_water_Supplysector_logit">../input/gcamdata/xml/India/Water/zwater_IndiaSupplysectorelecLogit.xml</Value>
         <Value name = "elec_water_Basin_logit">../input/gcamdata/xml/India/Water/zwater_Indiabasineleclogit.xml</Value>
         <Value name = "elec_water_Subsector_logit">../input/gcamdata/xml/India/Water/zwater_IndiaSubsectorelec_logit.xml</Value>
         <Value name = "elec_water_Plantlevel_logit">../input/gcamdata/xml/India/Water/zwater_Indiaplantelec_logit.xml</Value>
         <Value name = "elec_water_Coolingtechlevel_logit">../input/gcamdata/xml/India/Water/zwater_Indiacoolingelec_logit.xml</Value>
         <Value name = "elec_water_tech_coef">../input/gcamdata/xml/India/Water/zwater_IndiaGlobalTechCoef_elec_cool.xml</Value>
         <Value name = "elec_water_inttech_coef">../input/gcamdata/xml/India/Water/zwater_IndiaGlobalIntTechCoef_elec_cool.xml</Value>
-		<!--Value name = "elec_India">../input/gcamdata/xml/India/Water/electricity_India.xml</Value-->
 
 
-		<Value name = "ind_urb_proc">../input/gcamdata/xml/All/ind_urb_processing_sectors.xml</Value>
-		<Value name = "nonco2_energy">../input/gcamdata/xml/All/all_energy_emissions.xml</Value>
-		<Value name = "nonco2_fgas">../input/gcamdata/xml/All/all_fgas_emissions.xml</Value>
-		<Value name = "nonco2_unmgd">../input/gcamdata/xml/All/all_unmgd_emissions.xml</Value>
-		<Value name = "nonco2_aglu">../input/gcamdata/xml/All/all_aglu_emissions_IRR_MGMT.xml</Value>
-		<Value name = "nonco2_aglu_prot">../input/gcamdata/xml/All/all_protected_unmgd_emissions.xml</Value>
-		<Value name = "nonco2_em_controls">../input/gcamdata/xml/All/emission_factor_controls.xml</Value>
-		
-		<!-- Global nonCO2 GHG MAC files -->
-		<Value name = "nonco2_energy">../input/gcamdata/xml/All/all_energy_emissions_MAC.xml</Value>
-		<Value name = "nonco2_fgas">../input/gcamdata/xml/All/all_fgas_emissions_MAC.xml</Value>
-		<Value name = "nonco2_aglu">../input/gcamdata/xml/All/all_aglu_emissions_IRR_MGMT_MAC.xml</Value> 
-		<Value name = "nonco2_proc">../input/gcamdata/xml/All/ind_urb_processing_sectors_MAC.xml</Value> 
-
-		<Value name = "macro">../input/gcamdata/xml/All/socioeconomics_macro.xml</Value>
-		
-		<Value name = "bio_feedstock_limit">../input/gcamdata/xml/All/liquids_limits.xml</Value>
-		<Value name = "bio_elec_w_feed_limit">../input/gcamdata/xml/All/water_elec_liquids_limits.xml</Value>
-		<Value name = "bio_externality">../input/gcamdata/xml/All/bio_externality.xml</Value>
-        <Value name = "gas_trade">../input/gcamdata/xml/All/gas_trade.xml</Value>
-
-        <Value name = "prune_ag">../input/gcamdata/xml/All/prune_empty_ag.xml</Value>
-
-		<Value name = "solver">../input/solution/cal_broyden_config.xml</Value>
-		
-		<!-- India specific parameters (Don't change!!) -->
+		<!--India specific parameters (Don't change!!) -->
 		<!-- Socioeconomics -->
-		<!--Value name = "India GDP HighGR">../input/gcamdata/xml/India/Socioeconomics/LTS_India_update_BAU-new.xml</Value>
-		<Value name = "India laborforce">../input/gcamdata/xml/India/Socioeconomics/Laborforce.xml</Value-->
+		<Value name = "India GDP HighGR">../input/gcamdata/xml/India/Socioeconomics/LTS_India_update_BAU-new.xml</Value>
+		<Value name = "India laborforce">../input/gcamdata/xml/India/Socioeconomics/Laborforce.xml</Value>
+
 		<!-- Electricity -->	
-		
+
 		<!-- Capital costs and capacity factors -->
 		 <!--Value name = "India capital cost">../input/gcamdata/xml/India/Electricity/India_state_tech_CC_now.xml</Value> 
 		 <Value name = "India capital cost">../input/gcamdata/xml/India/Electricity/India_state_inttech_CC_RT_now.xml</Value>
@@ -173,6 +148,31 @@
 		<Value name = "Building heating cooling days">../input/gcamdata/xml/India/Building/CDD_HDD_BAU.xml</Value>
 		<Value name = "Building fuel adder">../input/gcamdata/xml/India/Building/IndiaBuildingFuelAdder.xml</Value-->
 
+
+		<Value name = "ind_urb_proc">../input/gcamdata/xml/All/ind_urb_processing_sectors.xml</Value>
+		<Value name = "nonco2_energy">../input/gcamdata/xml/All/all_energy_emissions.xml</Value>
+		<Value name = "nonco2_fgas">../input/gcamdata/xml/All/all_fgas_emissions.xml</Value>
+		<Value name = "nonco2_unmgd">../input/gcamdata/xml/All/all_unmgd_emissions.xml</Value>
+		<Value name = "nonco2_aglu">../input/gcamdata/xml/All/all_aglu_emissions_IRR_MGMT.xml</Value>
+		<Value name = "nonco2_aglu_prot">../input/gcamdata/xml/All/all_protected_unmgd_emissions.xml</Value>
+		<Value name = "nonco2_em_controls">../input/gcamdata/xml/All/emission_factor_controls.xml</Value>
+		
+		<!-- Global nonCO2 GHG MAC files -->
+		<Value name = "nonco2_energy">../input/gcamdata/xml/All/all_energy_emissions_MAC.xml</Value>
+		<Value name = "nonco2_fgas">../input/gcamdata/xml/All/all_fgas_emissions_MAC.xml</Value>
+		<Value name = "nonco2_aglu">../input/gcamdata/xml/All/all_aglu_emissions_IRR_MGMT_MAC.xml</Value> 
+		<Value name = "nonco2_proc">../input/gcamdata/xml/All/ind_urb_processing_sectors_MAC.xml</Value> 
+
+		<Value name = "macro">../input/gcamdata/xml/All/socioeconomics_macro.xml</Value>
+		
+		<Value name = "bio_feedstock_limit">../input/gcamdata/xml/All/liquids_limits.xml</Value>
+		<Value name = "bio_elec_w_feed_limit">../input/gcamdata/xml/All/water_elec_liquids_limits.xml</Value>
+		<Value name = "bio_externality">../input/gcamdata/xml/All/bio_externality.xml</Value>
+        <Value name = "gas_trade">../input/gcamdata/xml/All/gas_trade.xml</Value>
+
+        <Value name = "prune_ag">../input/gcamdata/xml/All/prune_empty_ag.xml</Value>
+
+		<Value name = "solver">../input/solution/cal_broyden_config.xml</Value>
 
 
 	</ScenarioComponents>
