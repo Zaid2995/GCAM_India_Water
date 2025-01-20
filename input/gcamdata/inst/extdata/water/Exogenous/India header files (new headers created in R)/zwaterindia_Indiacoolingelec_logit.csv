@@ -1,0 +1,1317 @@
+INPUT_TABLE
+Variable ID
+Indiacoolingelec_logit
+
+region,supplysector,subsector0,subsector1,subsector,stub.technology,logit.year.fillout,logit.exponent,logit.type
+India,electricity,SabarmatiR,wind,wind,wind,1975,-6,relative.cost.logit
+India,electricity,SabarmatiR,wind,wind,wind_offshore,1975,-6,relative.cost.logit
+India,electricity,SabarmatiR,wind,wind,wind_storage,1975,-6,relative.cost.logit
+India,electricity,GangesR,wind,wind,wind,1975,-6,relative.cost.logit
+India,electricity,GangesR,wind,wind,wind_offshore,1975,-6,relative.cost.logit
+India,electricity,GangesR,wind,wind,wind_storage,1975,-6,relative.cost.logit
+India,electricity,MahiR,wind,wind,wind,1975,-6,relative.cost.logit
+India,electricity,MahiR,wind,wind,wind_offshore,1975,-6,relative.cost.logit
+India,electricity,MahiR,wind,wind,wind_storage,1975,-6,relative.cost.logit
+India,electricity,TaptiR,wind,wind,wind,1975,-6,relative.cost.logit
+India,electricity,TaptiR,wind,wind,wind_offshore,1975,-6,relative.cost.logit
+India,electricity,TaptiR,wind,wind,wind_storage,1975,-6,relative.cost.logit
+India,electricity,BengalW,wind,wind,wind,1975,-6,relative.cost.logit
+India,electricity,BengalW,wind,wind,wind_offshore,1975,-6,relative.cost.logit
+India,electricity,BengalW,wind,wind,wind_storage,1975,-6,relative.cost.logit
+India,electricity,BrahmaniR,wind,wind,wind,1975,-6,relative.cost.logit
+India,electricity,BrahmaniR,wind,wind,wind_offshore,1975,-6,relative.cost.logit
+India,electricity,BrahmaniR,wind,wind,wind_storage,1975,-6,relative.cost.logit
+India,electricity,MahanadiR,wind,wind,wind,1975,-6,relative.cost.logit
+India,electricity,MahanadiR,wind,wind,wind_offshore,1975,-6,relative.cost.logit
+India,electricity,MahanadiR,wind,wind,wind_storage,1975,-6,relative.cost.logit
+India,electricity,GodavariR,wind,wind,wind,1975,-6,relative.cost.logit
+India,electricity,GodavariR,wind,wind,wind_offshore,1975,-6,relative.cost.logit
+India,electricity,GodavariR,wind,wind,wind_storage,1975,-6,relative.cost.logit
+India,electricity,IndCstNE,wind,wind,wind,1975,-6,relative.cost.logit
+India,electricity,IndCstNE,wind,wind,wind_offshore,1975,-6,relative.cost.logit
+India,electricity,IndCstNE,wind,wind,wind_storage,1975,-6,relative.cost.logit
+India,electricity,IndCstW,wind,wind,wind,1975,-6,relative.cost.logit
+India,electricity,IndCstW,wind,wind,wind_offshore,1975,-6,relative.cost.logit
+India,electricity,IndCstW,wind,wind,wind_storage,1975,-6,relative.cost.logit
+India,electricity,KrishnaR,wind,wind,wind,1975,-6,relative.cost.logit
+India,electricity,KrishnaR,wind,wind,wind_offshore,1975,-6,relative.cost.logit
+India,electricity,KrishnaR,wind,wind,wind_storage,1975,-6,relative.cost.logit
+India,electricity,IndCstE,wind,wind,wind,1975,-6,relative.cost.logit
+India,electricity,IndCstE,wind,wind,wind_offshore,1975,-6,relative.cost.logit
+India,electricity,IndCstE,wind,wind,wind_storage,1975,-6,relative.cost.logit
+India,electricity,PennarR,wind,wind,wind,1975,-6,relative.cost.logit
+India,electricity,PennarR,wind,wind,wind_offshore,1975,-6,relative.cost.logit
+India,electricity,PennarR,wind,wind,wind_storage,1975,-6,relative.cost.logit
+India,electricity,CauveryR,wind,wind,wind,1975,-6,relative.cost.logit
+India,electricity,CauveryR,wind,wind,wind_offshore,1975,-6,relative.cost.logit
+India,electricity,CauveryR,wind,wind,wind_storage,1975,-6,relative.cost.logit
+India,electricity,IndCstS,wind,wind,wind,1975,-6,relative.cost.logit
+India,electricity,IndCstS,wind,wind,wind_offshore,1975,-6,relative.cost.logit
+India,electricity,IndCstS,wind,wind,wind_storage,1975,-6,relative.cost.logit
+India,electricity,NarmadaR,wind,wind,wind,1975,-6,relative.cost.logit
+India,electricity,NarmadaR,wind,wind,wind_offshore,1975,-6,relative.cost.logit
+India,electricity,NarmadaR,wind,wind,wind_storage,1975,-6,relative.cost.logit
+India,electricity,SabarmatiR,solar,solar,PV,1975,-6,relative.cost.logit
+India,electricity,SabarmatiR,solar,solar,PV_storage,1975,-6,relative.cost.logit
+India,electricity,SabarmatiR,solar,CSP,CSP (recirculating),1975,-6,relative.cost.logit
+India,electricity,SabarmatiR,solar,CSP,CSP (dry_hybrid),1975,-6,relative.cost.logit
+India,electricity,SabarmatiR,solar,CSP_storage,CSP_storage (recirculating),1975,-6,relative.cost.logit
+India,electricity,SabarmatiR,solar,CSP_storage,CSP_storage (dry_hybrid),1975,-6,relative.cost.logit
+India,electricity,GangesR,solar,solar,PV,1975,-6,relative.cost.logit
+India,electricity,GangesR,solar,solar,PV_storage,1975,-6,relative.cost.logit
+India,electricity,GangesR,solar,CSP,CSP (recirculating),1975,-6,relative.cost.logit
+India,electricity,GangesR,solar,CSP,CSP (dry_hybrid),1975,-6,relative.cost.logit
+India,electricity,GangesR,solar,CSP_storage,CSP_storage (recirculating),1975,-6,relative.cost.logit
+India,electricity,GangesR,solar,CSP_storage,CSP_storage (dry_hybrid),1975,-6,relative.cost.logit
+India,electricity,MahiR,solar,solar,PV,1975,-6,relative.cost.logit
+India,electricity,MahiR,solar,solar,PV_storage,1975,-6,relative.cost.logit
+India,electricity,MahiR,solar,CSP,CSP (recirculating),1975,-6,relative.cost.logit
+India,electricity,MahiR,solar,CSP,CSP (dry_hybrid),1975,-6,relative.cost.logit
+India,electricity,MahiR,solar,CSP_storage,CSP_storage (recirculating),1975,-6,relative.cost.logit
+India,electricity,MahiR,solar,CSP_storage,CSP_storage (dry_hybrid),1975,-6,relative.cost.logit
+India,electricity,TaptiR,solar,solar,PV,1975,-6,relative.cost.logit
+India,electricity,TaptiR,solar,solar,PV_storage,1975,-6,relative.cost.logit
+India,electricity,TaptiR,solar,CSP,CSP (recirculating),1975,-6,relative.cost.logit
+India,electricity,TaptiR,solar,CSP,CSP (dry_hybrid),1975,-6,relative.cost.logit
+India,electricity,TaptiR,solar,CSP_storage,CSP_storage (recirculating),1975,-6,relative.cost.logit
+India,electricity,TaptiR,solar,CSP_storage,CSP_storage (dry_hybrid),1975,-6,relative.cost.logit
+India,electricity,BengalW,solar,solar,PV,1975,-6,relative.cost.logit
+India,electricity,BengalW,solar,solar,PV_storage,1975,-6,relative.cost.logit
+India,electricity,BengalW,solar,CSP,CSP (recirculating),1975,-6,relative.cost.logit
+India,electricity,BengalW,solar,CSP,CSP (dry_hybrid),1975,-6,relative.cost.logit
+India,electricity,BengalW,solar,CSP_storage,CSP_storage (recirculating),1975,-6,relative.cost.logit
+India,electricity,BengalW,solar,CSP_storage,CSP_storage (dry_hybrid),1975,-6,relative.cost.logit
+India,electricity,BrahmaniR,solar,solar,PV,1975,-6,relative.cost.logit
+India,electricity,BrahmaniR,solar,solar,PV_storage,1975,-6,relative.cost.logit
+India,electricity,BrahmaniR,solar,CSP,CSP (recirculating),1975,-6,relative.cost.logit
+India,electricity,BrahmaniR,solar,CSP,CSP (dry_hybrid),1975,-6,relative.cost.logit
+India,electricity,BrahmaniR,solar,CSP_storage,CSP_storage (recirculating),1975,-6,relative.cost.logit
+India,electricity,BrahmaniR,solar,CSP_storage,CSP_storage (dry_hybrid),1975,-6,relative.cost.logit
+India,electricity,MahanadiR,solar,solar,PV,1975,-6,relative.cost.logit
+India,electricity,MahanadiR,solar,solar,PV_storage,1975,-6,relative.cost.logit
+India,electricity,MahanadiR,solar,CSP,CSP (recirculating),1975,-6,relative.cost.logit
+India,electricity,MahanadiR,solar,CSP,CSP (dry_hybrid),1975,-6,relative.cost.logit
+India,electricity,MahanadiR,solar,CSP_storage,CSP_storage (recirculating),1975,-6,relative.cost.logit
+India,electricity,MahanadiR,solar,CSP_storage,CSP_storage (dry_hybrid),1975,-6,relative.cost.logit
+India,electricity,GodavariR,solar,solar,PV,1975,-6,relative.cost.logit
+India,electricity,GodavariR,solar,solar,PV_storage,1975,-6,relative.cost.logit
+India,electricity,GodavariR,solar,CSP,CSP (recirculating),1975,-6,relative.cost.logit
+India,electricity,GodavariR,solar,CSP,CSP (dry_hybrid),1975,-6,relative.cost.logit
+India,electricity,GodavariR,solar,CSP_storage,CSP_storage (recirculating),1975,-6,relative.cost.logit
+India,electricity,GodavariR,solar,CSP_storage,CSP_storage (dry_hybrid),1975,-6,relative.cost.logit
+India,electricity,IndCstNE,solar,solar,PV,1975,-6,relative.cost.logit
+India,electricity,IndCstNE,solar,solar,PV_storage,1975,-6,relative.cost.logit
+India,electricity,IndCstNE,solar,CSP,CSP (recirculating),1975,-6,relative.cost.logit
+India,electricity,IndCstNE,solar,CSP,CSP (dry_hybrid),1975,-6,relative.cost.logit
+India,electricity,IndCstNE,solar,CSP_storage,CSP_storage (recirculating),1975,-6,relative.cost.logit
+India,electricity,IndCstNE,solar,CSP_storage,CSP_storage (dry_hybrid),1975,-6,relative.cost.logit
+India,electricity,IndCstW,solar,solar,PV,1975,-6,relative.cost.logit
+India,electricity,IndCstW,solar,solar,PV_storage,1975,-6,relative.cost.logit
+India,electricity,IndCstW,solar,CSP,CSP (recirculating),1975,-6,relative.cost.logit
+India,electricity,IndCstW,solar,CSP,CSP (dry_hybrid),1975,-6,relative.cost.logit
+India,electricity,IndCstW,solar,CSP_storage,CSP_storage (recirculating),1975,-6,relative.cost.logit
+India,electricity,IndCstW,solar,CSP_storage,CSP_storage (dry_hybrid),1975,-6,relative.cost.logit
+India,electricity,KrishnaR,solar,solar,PV,1975,-6,relative.cost.logit
+India,electricity,KrishnaR,solar,solar,PV_storage,1975,-6,relative.cost.logit
+India,electricity,KrishnaR,solar,CSP,CSP (recirculating),1975,-6,relative.cost.logit
+India,electricity,KrishnaR,solar,CSP,CSP (dry_hybrid),1975,-6,relative.cost.logit
+India,electricity,KrishnaR,solar,CSP_storage,CSP_storage (recirculating),1975,-6,relative.cost.logit
+India,electricity,KrishnaR,solar,CSP_storage,CSP_storage (dry_hybrid),1975,-6,relative.cost.logit
+India,electricity,IndCstE,solar,solar,PV,1975,-6,relative.cost.logit
+India,electricity,IndCstE,solar,solar,PV_storage,1975,-6,relative.cost.logit
+India,electricity,IndCstE,solar,CSP,CSP (recirculating),1975,-6,relative.cost.logit
+India,electricity,IndCstE,solar,CSP,CSP (dry_hybrid),1975,-6,relative.cost.logit
+India,electricity,IndCstE,solar,CSP_storage,CSP_storage (recirculating),1975,-6,relative.cost.logit
+India,electricity,IndCstE,solar,CSP_storage,CSP_storage (dry_hybrid),1975,-6,relative.cost.logit
+India,electricity,PennarR,solar,solar,PV,1975,-6,relative.cost.logit
+India,electricity,PennarR,solar,solar,PV_storage,1975,-6,relative.cost.logit
+India,electricity,PennarR,solar,CSP,CSP (recirculating),1975,-6,relative.cost.logit
+India,electricity,PennarR,solar,CSP,CSP (dry_hybrid),1975,-6,relative.cost.logit
+India,electricity,PennarR,solar,CSP_storage,CSP_storage (recirculating),1975,-6,relative.cost.logit
+India,electricity,PennarR,solar,CSP_storage,CSP_storage (dry_hybrid),1975,-6,relative.cost.logit
+India,electricity,CauveryR,solar,solar,PV,1975,-6,relative.cost.logit
+India,electricity,CauveryR,solar,solar,PV_storage,1975,-6,relative.cost.logit
+India,electricity,CauveryR,solar,CSP,CSP (recirculating),1975,-6,relative.cost.logit
+India,electricity,CauveryR,solar,CSP,CSP (dry_hybrid),1975,-6,relative.cost.logit
+India,electricity,CauveryR,solar,CSP_storage,CSP_storage (recirculating),1975,-6,relative.cost.logit
+India,electricity,CauveryR,solar,CSP_storage,CSP_storage (dry_hybrid),1975,-6,relative.cost.logit
+India,electricity,IndCstS,solar,solar,PV,1975,-6,relative.cost.logit
+India,electricity,IndCstS,solar,solar,PV_storage,1975,-6,relative.cost.logit
+India,electricity,IndCstS,solar,CSP,CSP (recirculating),1975,-6,relative.cost.logit
+India,electricity,IndCstS,solar,CSP,CSP (dry_hybrid),1975,-6,relative.cost.logit
+India,electricity,IndCstS,solar,CSP_storage,CSP_storage (recirculating),1975,-6,relative.cost.logit
+India,electricity,IndCstS,solar,CSP_storage,CSP_storage (dry_hybrid),1975,-6,relative.cost.logit
+India,electricity,NarmadaR,solar,solar,PV,1975,-6,relative.cost.logit
+India,electricity,NarmadaR,solar,solar,PV_storage,1975,-6,relative.cost.logit
+India,electricity,NarmadaR,solar,CSP,CSP (recirculating),1975,-6,relative.cost.logit
+India,electricity,NarmadaR,solar,CSP,CSP (dry_hybrid),1975,-6,relative.cost.logit
+India,electricity,NarmadaR,solar,CSP_storage,CSP_storage (recirculating),1975,-6,relative.cost.logit
+India,electricity,NarmadaR,solar,CSP_storage,CSP_storage (dry_hybrid),1975,-6,relative.cost.logit
+India,electricity,SabarmatiR,coal,coal (conv pul),coal (conv pul) (once through),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,coal,coal (conv pul),coal (conv pul) (seawater),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,coal,coal (conv pul),coal (conv pul) (recirculating),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,coal,coal (conv pul),coal (conv pul) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,coal,coal (conv pul),coal (conv pul) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,coal,coal (IGCC),coal (IGCC) (once through),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,coal,coal (IGCC),coal (IGCC) (seawater),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,coal,coal (IGCC),coal (IGCC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,coal,coal (IGCC),coal (IGCC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,coal,coal (conv pul CCS),coal (conv pul CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,coal,coal (conv pul CCS),coal (conv pul CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,coal,coal (conv pul CCS),coal (conv pul CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,coal,coal (conv pul CCS),coal (conv pul CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,coal,coal (IGCC CCS),coal (IGCC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,coal,coal (IGCC CCS),coal (IGCC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,coal,coal (IGCC CCS),coal (IGCC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,coal,coal (IGCC CCS),coal (IGCC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,GangesR,coal,coal (conv pul),coal (conv pul) (once through),1975,-10,relative.cost.logit
+India,electricity,GangesR,coal,coal (conv pul),coal (conv pul) (seawater),1975,-10,relative.cost.logit
+India,electricity,GangesR,coal,coal (conv pul),coal (conv pul) (recirculating),1975,-10,relative.cost.logit
+India,electricity,GangesR,coal,coal (conv pul),coal (conv pul) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,GangesR,coal,coal (conv pul),coal (conv pul) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,GangesR,coal,coal (IGCC),coal (IGCC) (once through),1975,-10,relative.cost.logit
+India,electricity,GangesR,coal,coal (IGCC),coal (IGCC) (seawater),1975,-10,relative.cost.logit
+India,electricity,GangesR,coal,coal (IGCC),coal (IGCC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,GangesR,coal,coal (IGCC),coal (IGCC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,GangesR,coal,coal (conv pul CCS),coal (conv pul CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,GangesR,coal,coal (conv pul CCS),coal (conv pul CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,GangesR,coal,coal (conv pul CCS),coal (conv pul CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,GangesR,coal,coal (conv pul CCS),coal (conv pul CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,GangesR,coal,coal (IGCC CCS),coal (IGCC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,GangesR,coal,coal (IGCC CCS),coal (IGCC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,GangesR,coal,coal (IGCC CCS),coal (IGCC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,GangesR,coal,coal (IGCC CCS),coal (IGCC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,MahiR,coal,coal (conv pul),coal (conv pul) (once through),1975,-10,relative.cost.logit
+India,electricity,MahiR,coal,coal (conv pul),coal (conv pul) (seawater),1975,-10,relative.cost.logit
+India,electricity,MahiR,coal,coal (conv pul),coal (conv pul) (recirculating),1975,-10,relative.cost.logit
+India,electricity,MahiR,coal,coal (conv pul),coal (conv pul) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,MahiR,coal,coal (conv pul),coal (conv pul) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,MahiR,coal,coal (IGCC),coal (IGCC) (once through),1975,-10,relative.cost.logit
+India,electricity,MahiR,coal,coal (IGCC),coal (IGCC) (seawater),1975,-10,relative.cost.logit
+India,electricity,MahiR,coal,coal (IGCC),coal (IGCC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,MahiR,coal,coal (IGCC),coal (IGCC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,MahiR,coal,coal (conv pul CCS),coal (conv pul CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,MahiR,coal,coal (conv pul CCS),coal (conv pul CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,MahiR,coal,coal (conv pul CCS),coal (conv pul CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,MahiR,coal,coal (conv pul CCS),coal (conv pul CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,MahiR,coal,coal (IGCC CCS),coal (IGCC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,MahiR,coal,coal (IGCC CCS),coal (IGCC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,MahiR,coal,coal (IGCC CCS),coal (IGCC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,MahiR,coal,coal (IGCC CCS),coal (IGCC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,TaptiR,coal,coal (conv pul),coal (conv pul) (once through),1975,-10,relative.cost.logit
+India,electricity,TaptiR,coal,coal (conv pul),coal (conv pul) (seawater),1975,-10,relative.cost.logit
+India,electricity,TaptiR,coal,coal (conv pul),coal (conv pul) (recirculating),1975,-10,relative.cost.logit
+India,electricity,TaptiR,coal,coal (conv pul),coal (conv pul) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,TaptiR,coal,coal (conv pul),coal (conv pul) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,TaptiR,coal,coal (IGCC),coal (IGCC) (once through),1975,-10,relative.cost.logit
+India,electricity,TaptiR,coal,coal (IGCC),coal (IGCC) (seawater),1975,-10,relative.cost.logit
+India,electricity,TaptiR,coal,coal (IGCC),coal (IGCC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,TaptiR,coal,coal (IGCC),coal (IGCC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,TaptiR,coal,coal (conv pul CCS),coal (conv pul CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,TaptiR,coal,coal (conv pul CCS),coal (conv pul CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,TaptiR,coal,coal (conv pul CCS),coal (conv pul CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,TaptiR,coal,coal (conv pul CCS),coal (conv pul CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,TaptiR,coal,coal (IGCC CCS),coal (IGCC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,TaptiR,coal,coal (IGCC CCS),coal (IGCC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,TaptiR,coal,coal (IGCC CCS),coal (IGCC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,TaptiR,coal,coal (IGCC CCS),coal (IGCC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,BengalW,coal,coal (conv pul),coal (conv pul) (once through),1975,-10,relative.cost.logit
+India,electricity,BengalW,coal,coal (conv pul),coal (conv pul) (seawater),1975,-10,relative.cost.logit
+India,electricity,BengalW,coal,coal (conv pul),coal (conv pul) (recirculating),1975,-10,relative.cost.logit
+India,electricity,BengalW,coal,coal (conv pul),coal (conv pul) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,BengalW,coal,coal (conv pul),coal (conv pul) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,BengalW,coal,coal (IGCC),coal (IGCC) (once through),1975,-10,relative.cost.logit
+India,electricity,BengalW,coal,coal (IGCC),coal (IGCC) (seawater),1975,-10,relative.cost.logit
+India,electricity,BengalW,coal,coal (IGCC),coal (IGCC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,BengalW,coal,coal (IGCC),coal (IGCC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,BengalW,coal,coal (conv pul CCS),coal (conv pul CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,BengalW,coal,coal (conv pul CCS),coal (conv pul CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,BengalW,coal,coal (conv pul CCS),coal (conv pul CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,BengalW,coal,coal (conv pul CCS),coal (conv pul CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,BengalW,coal,coal (IGCC CCS),coal (IGCC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,BengalW,coal,coal (IGCC CCS),coal (IGCC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,BengalW,coal,coal (IGCC CCS),coal (IGCC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,BengalW,coal,coal (IGCC CCS),coal (IGCC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,coal,coal (conv pul),coal (conv pul) (once through),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,coal,coal (conv pul),coal (conv pul) (seawater),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,coal,coal (conv pul),coal (conv pul) (recirculating),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,coal,coal (conv pul),coal (conv pul) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,coal,coal (conv pul),coal (conv pul) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,coal,coal (IGCC),coal (IGCC) (once through),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,coal,coal (IGCC),coal (IGCC) (seawater),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,coal,coal (IGCC),coal (IGCC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,coal,coal (IGCC),coal (IGCC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,coal,coal (conv pul CCS),coal (conv pul CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,coal,coal (conv pul CCS),coal (conv pul CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,coal,coal (conv pul CCS),coal (conv pul CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,coal,coal (conv pul CCS),coal (conv pul CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,coal,coal (IGCC CCS),coal (IGCC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,coal,coal (IGCC CCS),coal (IGCC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,coal,coal (IGCC CCS),coal (IGCC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,coal,coal (IGCC CCS),coal (IGCC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,coal,coal (conv pul),coal (conv pul) (once through),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,coal,coal (conv pul),coal (conv pul) (seawater),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,coal,coal (conv pul),coal (conv pul) (recirculating),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,coal,coal (conv pul),coal (conv pul) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,coal,coal (conv pul),coal (conv pul) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,coal,coal (IGCC),coal (IGCC) (once through),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,coal,coal (IGCC),coal (IGCC) (seawater),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,coal,coal (IGCC),coal (IGCC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,coal,coal (IGCC),coal (IGCC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,coal,coal (conv pul CCS),coal (conv pul CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,coal,coal (conv pul CCS),coal (conv pul CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,coal,coal (conv pul CCS),coal (conv pul CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,coal,coal (conv pul CCS),coal (conv pul CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,coal,coal (IGCC CCS),coal (IGCC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,coal,coal (IGCC CCS),coal (IGCC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,coal,coal (IGCC CCS),coal (IGCC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,coal,coal (IGCC CCS),coal (IGCC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,GodavariR,coal,coal (conv pul),coal (conv pul) (once through),1975,-10,relative.cost.logit
+India,electricity,GodavariR,coal,coal (conv pul),coal (conv pul) (seawater),1975,-10,relative.cost.logit
+India,electricity,GodavariR,coal,coal (conv pul),coal (conv pul) (recirculating),1975,-10,relative.cost.logit
+India,electricity,GodavariR,coal,coal (conv pul),coal (conv pul) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,GodavariR,coal,coal (conv pul),coal (conv pul) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,GodavariR,coal,coal (IGCC),coal (IGCC) (once through),1975,-10,relative.cost.logit
+India,electricity,GodavariR,coal,coal (IGCC),coal (IGCC) (seawater),1975,-10,relative.cost.logit
+India,electricity,GodavariR,coal,coal (IGCC),coal (IGCC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,GodavariR,coal,coal (IGCC),coal (IGCC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,GodavariR,coal,coal (conv pul CCS),coal (conv pul CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,GodavariR,coal,coal (conv pul CCS),coal (conv pul CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,GodavariR,coal,coal (conv pul CCS),coal (conv pul CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,GodavariR,coal,coal (conv pul CCS),coal (conv pul CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,GodavariR,coal,coal (IGCC CCS),coal (IGCC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,GodavariR,coal,coal (IGCC CCS),coal (IGCC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,GodavariR,coal,coal (IGCC CCS),coal (IGCC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,GodavariR,coal,coal (IGCC CCS),coal (IGCC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,coal,coal (conv pul),coal (conv pul) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,coal,coal (conv pul),coal (conv pul) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,coal,coal (conv pul),coal (conv pul) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,coal,coal (conv pul),coal (conv pul) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,coal,coal (conv pul),coal (conv pul) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,coal,coal (IGCC),coal (IGCC) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,coal,coal (IGCC),coal (IGCC) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,coal,coal (IGCC),coal (IGCC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,coal,coal (IGCC),coal (IGCC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,coal,coal (conv pul CCS),coal (conv pul CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,coal,coal (conv pul CCS),coal (conv pul CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,coal,coal (conv pul CCS),coal (conv pul CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,coal,coal (conv pul CCS),coal (conv pul CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,coal,coal (IGCC CCS),coal (IGCC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,coal,coal (IGCC CCS),coal (IGCC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,coal,coal (IGCC CCS),coal (IGCC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,coal,coal (IGCC CCS),coal (IGCC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstW,coal,coal (conv pul),coal (conv pul) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstW,coal,coal (conv pul),coal (conv pul) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstW,coal,coal (conv pul),coal (conv pul) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstW,coal,coal (conv pul),coal (conv pul) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,IndCstW,coal,coal (conv pul),coal (conv pul) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstW,coal,coal (IGCC),coal (IGCC) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstW,coal,coal (IGCC),coal (IGCC) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstW,coal,coal (IGCC),coal (IGCC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstW,coal,coal (IGCC),coal (IGCC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstW,coal,coal (conv pul CCS),coal (conv pul CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstW,coal,coal (conv pul CCS),coal (conv pul CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstW,coal,coal (conv pul CCS),coal (conv pul CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstW,coal,coal (conv pul CCS),coal (conv pul CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstW,coal,coal (IGCC CCS),coal (IGCC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstW,coal,coal (IGCC CCS),coal (IGCC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstW,coal,coal (IGCC CCS),coal (IGCC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstW,coal,coal (IGCC CCS),coal (IGCC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,coal,coal (conv pul),coal (conv pul) (once through),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,coal,coal (conv pul),coal (conv pul) (seawater),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,coal,coal (conv pul),coal (conv pul) (recirculating),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,coal,coal (conv pul),coal (conv pul) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,coal,coal (conv pul),coal (conv pul) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,coal,coal (IGCC),coal (IGCC) (once through),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,coal,coal (IGCC),coal (IGCC) (seawater),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,coal,coal (IGCC),coal (IGCC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,coal,coal (IGCC),coal (IGCC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,coal,coal (conv pul CCS),coal (conv pul CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,coal,coal (conv pul CCS),coal (conv pul CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,coal,coal (conv pul CCS),coal (conv pul CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,coal,coal (conv pul CCS),coal (conv pul CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,coal,coal (IGCC CCS),coal (IGCC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,coal,coal (IGCC CCS),coal (IGCC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,coal,coal (IGCC CCS),coal (IGCC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,coal,coal (IGCC CCS),coal (IGCC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstE,coal,coal (conv pul),coal (conv pul) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstE,coal,coal (conv pul),coal (conv pul) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstE,coal,coal (conv pul),coal (conv pul) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstE,coal,coal (conv pul),coal (conv pul) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,IndCstE,coal,coal (conv pul),coal (conv pul) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstE,coal,coal (IGCC),coal (IGCC) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstE,coal,coal (IGCC),coal (IGCC) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstE,coal,coal (IGCC),coal (IGCC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstE,coal,coal (IGCC),coal (IGCC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstE,coal,coal (conv pul CCS),coal (conv pul CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstE,coal,coal (conv pul CCS),coal (conv pul CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstE,coal,coal (conv pul CCS),coal (conv pul CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstE,coal,coal (conv pul CCS),coal (conv pul CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstE,coal,coal (IGCC CCS),coal (IGCC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstE,coal,coal (IGCC CCS),coal (IGCC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstE,coal,coal (IGCC CCS),coal (IGCC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstE,coal,coal (IGCC CCS),coal (IGCC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,PennarR,coal,coal (conv pul),coal (conv pul) (once through),1975,-10,relative.cost.logit
+India,electricity,PennarR,coal,coal (conv pul),coal (conv pul) (seawater),1975,-10,relative.cost.logit
+India,electricity,PennarR,coal,coal (conv pul),coal (conv pul) (recirculating),1975,-10,relative.cost.logit
+India,electricity,PennarR,coal,coal (conv pul),coal (conv pul) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,PennarR,coal,coal (conv pul),coal (conv pul) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,PennarR,coal,coal (IGCC),coal (IGCC) (once through),1975,-10,relative.cost.logit
+India,electricity,PennarR,coal,coal (IGCC),coal (IGCC) (seawater),1975,-10,relative.cost.logit
+India,electricity,PennarR,coal,coal (IGCC),coal (IGCC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,PennarR,coal,coal (IGCC),coal (IGCC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,PennarR,coal,coal (conv pul CCS),coal (conv pul CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,PennarR,coal,coal (conv pul CCS),coal (conv pul CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,PennarR,coal,coal (conv pul CCS),coal (conv pul CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,PennarR,coal,coal (conv pul CCS),coal (conv pul CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,PennarR,coal,coal (IGCC CCS),coal (IGCC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,PennarR,coal,coal (IGCC CCS),coal (IGCC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,PennarR,coal,coal (IGCC CCS),coal (IGCC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,PennarR,coal,coal (IGCC CCS),coal (IGCC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,CauveryR,coal,coal (conv pul),coal (conv pul) (once through),1975,-10,relative.cost.logit
+India,electricity,CauveryR,coal,coal (conv pul),coal (conv pul) (seawater),1975,-10,relative.cost.logit
+India,electricity,CauveryR,coal,coal (conv pul),coal (conv pul) (recirculating),1975,-10,relative.cost.logit
+India,electricity,CauveryR,coal,coal (conv pul),coal (conv pul) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,CauveryR,coal,coal (conv pul),coal (conv pul) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,CauveryR,coal,coal (IGCC),coal (IGCC) (once through),1975,-10,relative.cost.logit
+India,electricity,CauveryR,coal,coal (IGCC),coal (IGCC) (seawater),1975,-10,relative.cost.logit
+India,electricity,CauveryR,coal,coal (IGCC),coal (IGCC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,CauveryR,coal,coal (IGCC),coal (IGCC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,CauveryR,coal,coal (conv pul CCS),coal (conv pul CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,CauveryR,coal,coal (conv pul CCS),coal (conv pul CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,CauveryR,coal,coal (conv pul CCS),coal (conv pul CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,CauveryR,coal,coal (conv pul CCS),coal (conv pul CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,CauveryR,coal,coal (IGCC CCS),coal (IGCC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,CauveryR,coal,coal (IGCC CCS),coal (IGCC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,CauveryR,coal,coal (IGCC CCS),coal (IGCC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,CauveryR,coal,coal (IGCC CCS),coal (IGCC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstS,coal,coal (conv pul),coal (conv pul) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstS,coal,coal (conv pul),coal (conv pul) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstS,coal,coal (conv pul),coal (conv pul) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstS,coal,coal (conv pul),coal (conv pul) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,IndCstS,coal,coal (conv pul),coal (conv pul) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstS,coal,coal (IGCC),coal (IGCC) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstS,coal,coal (IGCC),coal (IGCC) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstS,coal,coal (IGCC),coal (IGCC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstS,coal,coal (IGCC),coal (IGCC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstS,coal,coal (conv pul CCS),coal (conv pul CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstS,coal,coal (conv pul CCS),coal (conv pul CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstS,coal,coal (conv pul CCS),coal (conv pul CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstS,coal,coal (conv pul CCS),coal (conv pul CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstS,coal,coal (IGCC CCS),coal (IGCC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstS,coal,coal (IGCC CCS),coal (IGCC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstS,coal,coal (IGCC CCS),coal (IGCC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstS,coal,coal (IGCC CCS),coal (IGCC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,coal,coal (conv pul),coal (conv pul) (once through),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,coal,coal (conv pul),coal (conv pul) (seawater),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,coal,coal (conv pul),coal (conv pul) (recirculating),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,coal,coal (conv pul),coal (conv pul) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,coal,coal (conv pul),coal (conv pul) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,coal,coal (IGCC),coal (IGCC) (once through),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,coal,coal (IGCC),coal (IGCC) (seawater),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,coal,coal (IGCC),coal (IGCC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,coal,coal (IGCC),coal (IGCC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,coal,coal (conv pul CCS),coal (conv pul CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,coal,coal (conv pul CCS),coal (conv pul CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,coal,coal (conv pul CCS),coal (conv pul CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,coal,coal (conv pul CCS),coal (conv pul CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,coal,coal (IGCC CCS),coal (IGCC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,coal,coal (IGCC CCS),coal (IGCC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,coal,coal (IGCC CCS),coal (IGCC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,coal,coal (IGCC CCS),coal (IGCC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,gas,gas (steam/CT),gas (steam/CT) (once through),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,gas,gas (steam/CT),gas (steam/CT) (seawater),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,gas,gas (steam/CT),gas (steam/CT) (recirculating),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,gas,gas (steam/CT),gas (steam/CT) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,gas,gas (steam/CT),gas (steam/CT) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,gas,gas (CC),gas (CC) (once through),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,gas,gas (CC),gas (CC) (seawater),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,gas,gas (CC),gas (CC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,gas,gas (CC),gas (CC) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,gas,gas (CC),gas (CC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,gas,gas (CC CCS),gas (CC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,gas,gas (CC CCS),gas (CC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,gas,gas (CC CCS),gas (CC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,gas,gas (CC CCS),gas (CC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,GangesR,gas,gas (steam/CT),gas (steam/CT) (once through),1975,-10,relative.cost.logit
+India,electricity,GangesR,gas,gas (steam/CT),gas (steam/CT) (seawater),1975,-10,relative.cost.logit
+India,electricity,GangesR,gas,gas (steam/CT),gas (steam/CT) (recirculating),1975,-10,relative.cost.logit
+India,electricity,GangesR,gas,gas (steam/CT),gas (steam/CT) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,GangesR,gas,gas (steam/CT),gas (steam/CT) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,GangesR,gas,gas (CC),gas (CC) (once through),1975,-10,relative.cost.logit
+India,electricity,GangesR,gas,gas (CC),gas (CC) (seawater),1975,-10,relative.cost.logit
+India,electricity,GangesR,gas,gas (CC),gas (CC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,GangesR,gas,gas (CC),gas (CC) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,GangesR,gas,gas (CC),gas (CC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,GangesR,gas,gas (CC CCS),gas (CC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,GangesR,gas,gas (CC CCS),gas (CC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,GangesR,gas,gas (CC CCS),gas (CC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,GangesR,gas,gas (CC CCS),gas (CC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,MahiR,gas,gas (steam/CT),gas (steam/CT) (once through),1975,-10,relative.cost.logit
+India,electricity,MahiR,gas,gas (steam/CT),gas (steam/CT) (seawater),1975,-10,relative.cost.logit
+India,electricity,MahiR,gas,gas (steam/CT),gas (steam/CT) (recirculating),1975,-10,relative.cost.logit
+India,electricity,MahiR,gas,gas (steam/CT),gas (steam/CT) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,MahiR,gas,gas (steam/CT),gas (steam/CT) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,MahiR,gas,gas (CC),gas (CC) (once through),1975,-10,relative.cost.logit
+India,electricity,MahiR,gas,gas (CC),gas (CC) (seawater),1975,-10,relative.cost.logit
+India,electricity,MahiR,gas,gas (CC),gas (CC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,MahiR,gas,gas (CC),gas (CC) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,MahiR,gas,gas (CC),gas (CC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,MahiR,gas,gas (CC CCS),gas (CC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,MahiR,gas,gas (CC CCS),gas (CC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,MahiR,gas,gas (CC CCS),gas (CC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,MahiR,gas,gas (CC CCS),gas (CC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,TaptiR,gas,gas (steam/CT),gas (steam/CT) (once through),1975,-10,relative.cost.logit
+India,electricity,TaptiR,gas,gas (steam/CT),gas (steam/CT) (seawater),1975,-10,relative.cost.logit
+India,electricity,TaptiR,gas,gas (steam/CT),gas (steam/CT) (recirculating),1975,-10,relative.cost.logit
+India,electricity,TaptiR,gas,gas (steam/CT),gas (steam/CT) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,TaptiR,gas,gas (steam/CT),gas (steam/CT) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,TaptiR,gas,gas (CC),gas (CC) (once through),1975,-10,relative.cost.logit
+India,electricity,TaptiR,gas,gas (CC),gas (CC) (seawater),1975,-10,relative.cost.logit
+India,electricity,TaptiR,gas,gas (CC),gas (CC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,TaptiR,gas,gas (CC),gas (CC) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,TaptiR,gas,gas (CC),gas (CC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,TaptiR,gas,gas (CC CCS),gas (CC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,TaptiR,gas,gas (CC CCS),gas (CC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,TaptiR,gas,gas (CC CCS),gas (CC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,TaptiR,gas,gas (CC CCS),gas (CC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,BengalW,gas,gas (steam/CT),gas (steam/CT) (once through),1975,-10,relative.cost.logit
+India,electricity,BengalW,gas,gas (steam/CT),gas (steam/CT) (seawater),1975,-10,relative.cost.logit
+India,electricity,BengalW,gas,gas (steam/CT),gas (steam/CT) (recirculating),1975,-10,relative.cost.logit
+India,electricity,BengalW,gas,gas (steam/CT),gas (steam/CT) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,BengalW,gas,gas (steam/CT),gas (steam/CT) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,BengalW,gas,gas (CC),gas (CC) (once through),1975,-10,relative.cost.logit
+India,electricity,BengalW,gas,gas (CC),gas (CC) (seawater),1975,-10,relative.cost.logit
+India,electricity,BengalW,gas,gas (CC),gas (CC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,BengalW,gas,gas (CC),gas (CC) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,BengalW,gas,gas (CC),gas (CC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,BengalW,gas,gas (CC CCS),gas (CC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,BengalW,gas,gas (CC CCS),gas (CC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,BengalW,gas,gas (CC CCS),gas (CC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,BengalW,gas,gas (CC CCS),gas (CC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,gas,gas (steam/CT),gas (steam/CT) (once through),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,gas,gas (steam/CT),gas (steam/CT) (seawater),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,gas,gas (steam/CT),gas (steam/CT) (recirculating),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,gas,gas (steam/CT),gas (steam/CT) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,gas,gas (steam/CT),gas (steam/CT) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,gas,gas (CC),gas (CC) (once through),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,gas,gas (CC),gas (CC) (seawater),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,gas,gas (CC),gas (CC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,gas,gas (CC),gas (CC) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,gas,gas (CC),gas (CC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,gas,gas (CC CCS),gas (CC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,gas,gas (CC CCS),gas (CC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,gas,gas (CC CCS),gas (CC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,gas,gas (CC CCS),gas (CC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,gas,gas (steam/CT),gas (steam/CT) (once through),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,gas,gas (steam/CT),gas (steam/CT) (seawater),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,gas,gas (steam/CT),gas (steam/CT) (recirculating),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,gas,gas (steam/CT),gas (steam/CT) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,gas,gas (steam/CT),gas (steam/CT) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,gas,gas (CC),gas (CC) (once through),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,gas,gas (CC),gas (CC) (seawater),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,gas,gas (CC),gas (CC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,gas,gas (CC),gas (CC) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,gas,gas (CC),gas (CC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,gas,gas (CC CCS),gas (CC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,gas,gas (CC CCS),gas (CC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,gas,gas (CC CCS),gas (CC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,gas,gas (CC CCS),gas (CC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,GodavariR,gas,gas (steam/CT),gas (steam/CT) (once through),1975,-10,relative.cost.logit
+India,electricity,GodavariR,gas,gas (steam/CT),gas (steam/CT) (seawater),1975,-10,relative.cost.logit
+India,electricity,GodavariR,gas,gas (steam/CT),gas (steam/CT) (recirculating),1975,-10,relative.cost.logit
+India,electricity,GodavariR,gas,gas (steam/CT),gas (steam/CT) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,GodavariR,gas,gas (steam/CT),gas (steam/CT) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,GodavariR,gas,gas (CC),gas (CC) (once through),1975,-10,relative.cost.logit
+India,electricity,GodavariR,gas,gas (CC),gas (CC) (seawater),1975,-10,relative.cost.logit
+India,electricity,GodavariR,gas,gas (CC),gas (CC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,GodavariR,gas,gas (CC),gas (CC) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,GodavariR,gas,gas (CC),gas (CC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,GodavariR,gas,gas (CC CCS),gas (CC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,GodavariR,gas,gas (CC CCS),gas (CC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,GodavariR,gas,gas (CC CCS),gas (CC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,GodavariR,gas,gas (CC CCS),gas (CC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,gas,gas (steam/CT),gas (steam/CT) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,gas,gas (steam/CT),gas (steam/CT) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,gas,gas (steam/CT),gas (steam/CT) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,gas,gas (steam/CT),gas (steam/CT) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,gas,gas (steam/CT),gas (steam/CT) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,gas,gas (CC),gas (CC) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,gas,gas (CC),gas (CC) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,gas,gas (CC),gas (CC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,gas,gas (CC),gas (CC) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,gas,gas (CC),gas (CC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,gas,gas (CC CCS),gas (CC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,gas,gas (CC CCS),gas (CC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,gas,gas (CC CCS),gas (CC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,gas,gas (CC CCS),gas (CC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstW,gas,gas (steam/CT),gas (steam/CT) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstW,gas,gas (steam/CT),gas (steam/CT) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstW,gas,gas (steam/CT),gas (steam/CT) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstW,gas,gas (steam/CT),gas (steam/CT) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,IndCstW,gas,gas (steam/CT),gas (steam/CT) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstW,gas,gas (CC),gas (CC) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstW,gas,gas (CC),gas (CC) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstW,gas,gas (CC),gas (CC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstW,gas,gas (CC),gas (CC) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,IndCstW,gas,gas (CC),gas (CC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstW,gas,gas (CC CCS),gas (CC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstW,gas,gas (CC CCS),gas (CC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstW,gas,gas (CC CCS),gas (CC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstW,gas,gas (CC CCS),gas (CC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,gas,gas (steam/CT),gas (steam/CT) (once through),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,gas,gas (steam/CT),gas (steam/CT) (seawater),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,gas,gas (steam/CT),gas (steam/CT) (recirculating),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,gas,gas (steam/CT),gas (steam/CT) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,gas,gas (steam/CT),gas (steam/CT) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,gas,gas (CC),gas (CC) (once through),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,gas,gas (CC),gas (CC) (seawater),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,gas,gas (CC),gas (CC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,gas,gas (CC),gas (CC) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,gas,gas (CC),gas (CC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,gas,gas (CC CCS),gas (CC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,gas,gas (CC CCS),gas (CC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,gas,gas (CC CCS),gas (CC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,gas,gas (CC CCS),gas (CC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstE,gas,gas (steam/CT),gas (steam/CT) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstE,gas,gas (steam/CT),gas (steam/CT) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstE,gas,gas (steam/CT),gas (steam/CT) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstE,gas,gas (steam/CT),gas (steam/CT) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,IndCstE,gas,gas (steam/CT),gas (steam/CT) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstE,gas,gas (CC),gas (CC) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstE,gas,gas (CC),gas (CC) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstE,gas,gas (CC),gas (CC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstE,gas,gas (CC),gas (CC) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,IndCstE,gas,gas (CC),gas (CC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstE,gas,gas (CC CCS),gas (CC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstE,gas,gas (CC CCS),gas (CC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstE,gas,gas (CC CCS),gas (CC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstE,gas,gas (CC CCS),gas (CC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,PennarR,gas,gas (steam/CT),gas (steam/CT) (once through),1975,-10,relative.cost.logit
+India,electricity,PennarR,gas,gas (steam/CT),gas (steam/CT) (seawater),1975,-10,relative.cost.logit
+India,electricity,PennarR,gas,gas (steam/CT),gas (steam/CT) (recirculating),1975,-10,relative.cost.logit
+India,electricity,PennarR,gas,gas (steam/CT),gas (steam/CT) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,PennarR,gas,gas (steam/CT),gas (steam/CT) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,PennarR,gas,gas (CC),gas (CC) (once through),1975,-10,relative.cost.logit
+India,electricity,PennarR,gas,gas (CC),gas (CC) (seawater),1975,-10,relative.cost.logit
+India,electricity,PennarR,gas,gas (CC),gas (CC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,PennarR,gas,gas (CC),gas (CC) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,PennarR,gas,gas (CC),gas (CC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,PennarR,gas,gas (CC CCS),gas (CC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,PennarR,gas,gas (CC CCS),gas (CC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,PennarR,gas,gas (CC CCS),gas (CC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,PennarR,gas,gas (CC CCS),gas (CC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,CauveryR,gas,gas (steam/CT),gas (steam/CT) (once through),1975,-10,relative.cost.logit
+India,electricity,CauveryR,gas,gas (steam/CT),gas (steam/CT) (seawater),1975,-10,relative.cost.logit
+India,electricity,CauveryR,gas,gas (steam/CT),gas (steam/CT) (recirculating),1975,-10,relative.cost.logit
+India,electricity,CauveryR,gas,gas (steam/CT),gas (steam/CT) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,CauveryR,gas,gas (steam/CT),gas (steam/CT) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,CauveryR,gas,gas (CC),gas (CC) (once through),1975,-10,relative.cost.logit
+India,electricity,CauveryR,gas,gas (CC),gas (CC) (seawater),1975,-10,relative.cost.logit
+India,electricity,CauveryR,gas,gas (CC),gas (CC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,CauveryR,gas,gas (CC),gas (CC) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,CauveryR,gas,gas (CC),gas (CC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,CauveryR,gas,gas (CC CCS),gas (CC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,CauveryR,gas,gas (CC CCS),gas (CC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,CauveryR,gas,gas (CC CCS),gas (CC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,CauveryR,gas,gas (CC CCS),gas (CC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstS,gas,gas (steam/CT),gas (steam/CT) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstS,gas,gas (steam/CT),gas (steam/CT) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstS,gas,gas (steam/CT),gas (steam/CT) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstS,gas,gas (steam/CT),gas (steam/CT) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,IndCstS,gas,gas (steam/CT),gas (steam/CT) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstS,gas,gas (CC),gas (CC) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstS,gas,gas (CC),gas (CC) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstS,gas,gas (CC),gas (CC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstS,gas,gas (CC),gas (CC) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,IndCstS,gas,gas (CC),gas (CC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstS,gas,gas (CC CCS),gas (CC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstS,gas,gas (CC CCS),gas (CC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstS,gas,gas (CC CCS),gas (CC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstS,gas,gas (CC CCS),gas (CC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,gas,gas (steam/CT),gas (steam/CT) (once through),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,gas,gas (steam/CT),gas (steam/CT) (seawater),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,gas,gas (steam/CT),gas (steam/CT) (recirculating),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,gas,gas (steam/CT),gas (steam/CT) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,gas,gas (steam/CT),gas (steam/CT) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,gas,gas (CC),gas (CC) (once through),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,gas,gas (CC),gas (CC) (seawater),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,gas,gas (CC),gas (CC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,gas,gas (CC),gas (CC) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,gas,gas (CC),gas (CC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,gas,gas (CC CCS),gas (CC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,gas,gas (CC CCS),gas (CC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,gas,gas (CC CCS),gas (CC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,gas,gas (CC CCS),gas (CC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (once through),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (seawater),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (recirculating),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,refined liquids,refined liquids (CC),refined liquids (CC) (once through),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,refined liquids,refined liquids (CC),refined liquids (CC) (seawater),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,refined liquids,refined liquids (CC),refined liquids (CC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,refined liquids,refined liquids (CC),refined liquids (CC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,GangesR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (once through),1975,-10,relative.cost.logit
+India,electricity,GangesR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (seawater),1975,-10,relative.cost.logit
+India,electricity,GangesR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (recirculating),1975,-10,relative.cost.logit
+India,electricity,GangesR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,GangesR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,GangesR,refined liquids,refined liquids (CC),refined liquids (CC) (once through),1975,-10,relative.cost.logit
+India,electricity,GangesR,refined liquids,refined liquids (CC),refined liquids (CC) (seawater),1975,-10,relative.cost.logit
+India,electricity,GangesR,refined liquids,refined liquids (CC),refined liquids (CC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,GangesR,refined liquids,refined liquids (CC),refined liquids (CC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,GangesR,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,GangesR,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,GangesR,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,GangesR,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,MahiR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (once through),1975,-10,relative.cost.logit
+India,electricity,MahiR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (seawater),1975,-10,relative.cost.logit
+India,electricity,MahiR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (recirculating),1975,-10,relative.cost.logit
+India,electricity,MahiR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,MahiR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,MahiR,refined liquids,refined liquids (CC),refined liquids (CC) (once through),1975,-10,relative.cost.logit
+India,electricity,MahiR,refined liquids,refined liquids (CC),refined liquids (CC) (seawater),1975,-10,relative.cost.logit
+India,electricity,MahiR,refined liquids,refined liquids (CC),refined liquids (CC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,MahiR,refined liquids,refined liquids (CC),refined liquids (CC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,MahiR,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,MahiR,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,MahiR,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,MahiR,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,TaptiR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (once through),1975,-10,relative.cost.logit
+India,electricity,TaptiR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (seawater),1975,-10,relative.cost.logit
+India,electricity,TaptiR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (recirculating),1975,-10,relative.cost.logit
+India,electricity,TaptiR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,TaptiR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,TaptiR,refined liquids,refined liquids (CC),refined liquids (CC) (once through),1975,-10,relative.cost.logit
+India,electricity,TaptiR,refined liquids,refined liquids (CC),refined liquids (CC) (seawater),1975,-10,relative.cost.logit
+India,electricity,TaptiR,refined liquids,refined liquids (CC),refined liquids (CC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,TaptiR,refined liquids,refined liquids (CC),refined liquids (CC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,TaptiR,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,TaptiR,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,TaptiR,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,TaptiR,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,BengalW,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (once through),1975,-10,relative.cost.logit
+India,electricity,BengalW,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (seawater),1975,-10,relative.cost.logit
+India,electricity,BengalW,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (recirculating),1975,-10,relative.cost.logit
+India,electricity,BengalW,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,BengalW,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,BengalW,refined liquids,refined liquids (CC),refined liquids (CC) (once through),1975,-10,relative.cost.logit
+India,electricity,BengalW,refined liquids,refined liquids (CC),refined liquids (CC) (seawater),1975,-10,relative.cost.logit
+India,electricity,BengalW,refined liquids,refined liquids (CC),refined liquids (CC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,BengalW,refined liquids,refined liquids (CC),refined liquids (CC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,BengalW,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,BengalW,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,BengalW,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,BengalW,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (once through),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (seawater),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (recirculating),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,refined liquids,refined liquids (CC),refined liquids (CC) (once through),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,refined liquids,refined liquids (CC),refined liquids (CC) (seawater),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,refined liquids,refined liquids (CC),refined liquids (CC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,refined liquids,refined liquids (CC),refined liquids (CC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (once through),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (seawater),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (recirculating),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,refined liquids,refined liquids (CC),refined liquids (CC) (once through),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,refined liquids,refined liquids (CC),refined liquids (CC) (seawater),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,refined liquids,refined liquids (CC),refined liquids (CC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,refined liquids,refined liquids (CC),refined liquids (CC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,GodavariR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (once through),1975,-10,relative.cost.logit
+India,electricity,GodavariR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (seawater),1975,-10,relative.cost.logit
+India,electricity,GodavariR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (recirculating),1975,-10,relative.cost.logit
+India,electricity,GodavariR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,GodavariR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,GodavariR,refined liquids,refined liquids (CC),refined liquids (CC) (once through),1975,-10,relative.cost.logit
+India,electricity,GodavariR,refined liquids,refined liquids (CC),refined liquids (CC) (seawater),1975,-10,relative.cost.logit
+India,electricity,GodavariR,refined liquids,refined liquids (CC),refined liquids (CC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,GodavariR,refined liquids,refined liquids (CC),refined liquids (CC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,GodavariR,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,GodavariR,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,GodavariR,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,GodavariR,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,refined liquids,refined liquids (CC),refined liquids (CC) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,refined liquids,refined liquids (CC),refined liquids (CC) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,refined liquids,refined liquids (CC),refined liquids (CC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,refined liquids,refined liquids (CC),refined liquids (CC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstW,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstW,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstW,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstW,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,IndCstW,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstW,refined liquids,refined liquids (CC),refined liquids (CC) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstW,refined liquids,refined liquids (CC),refined liquids (CC) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstW,refined liquids,refined liquids (CC),refined liquids (CC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstW,refined liquids,refined liquids (CC),refined liquids (CC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstW,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstW,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstW,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstW,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (once through),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (seawater),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (recirculating),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,refined liquids,refined liquids (CC),refined liquids (CC) (once through),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,refined liquids,refined liquids (CC),refined liquids (CC) (seawater),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,refined liquids,refined liquids (CC),refined liquids (CC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,refined liquids,refined liquids (CC),refined liquids (CC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstE,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstE,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstE,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstE,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,IndCstE,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstE,refined liquids,refined liquids (CC),refined liquids (CC) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstE,refined liquids,refined liquids (CC),refined liquids (CC) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstE,refined liquids,refined liquids (CC),refined liquids (CC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstE,refined liquids,refined liquids (CC),refined liquids (CC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstE,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstE,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstE,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstE,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,PennarR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (once through),1975,-10,relative.cost.logit
+India,electricity,PennarR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (seawater),1975,-10,relative.cost.logit
+India,electricity,PennarR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (recirculating),1975,-10,relative.cost.logit
+India,electricity,PennarR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,PennarR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,PennarR,refined liquids,refined liquids (CC),refined liquids (CC) (once through),1975,-10,relative.cost.logit
+India,electricity,PennarR,refined liquids,refined liquids (CC),refined liquids (CC) (seawater),1975,-10,relative.cost.logit
+India,electricity,PennarR,refined liquids,refined liquids (CC),refined liquids (CC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,PennarR,refined liquids,refined liquids (CC),refined liquids (CC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,PennarR,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,PennarR,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,PennarR,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,PennarR,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,CauveryR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (once through),1975,-10,relative.cost.logit
+India,electricity,CauveryR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (seawater),1975,-10,relative.cost.logit
+India,electricity,CauveryR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (recirculating),1975,-10,relative.cost.logit
+India,electricity,CauveryR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,CauveryR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,CauveryR,refined liquids,refined liquids (CC),refined liquids (CC) (once through),1975,-10,relative.cost.logit
+India,electricity,CauveryR,refined liquids,refined liquids (CC),refined liquids (CC) (seawater),1975,-10,relative.cost.logit
+India,electricity,CauveryR,refined liquids,refined liquids (CC),refined liquids (CC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,CauveryR,refined liquids,refined liquids (CC),refined liquids (CC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,CauveryR,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,CauveryR,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,CauveryR,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,CauveryR,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstS,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstS,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstS,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstS,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,IndCstS,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstS,refined liquids,refined liquids (CC),refined liquids (CC) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstS,refined liquids,refined liquids (CC),refined liquids (CC) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstS,refined liquids,refined liquids (CC),refined liquids (CC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstS,refined liquids,refined liquids (CC),refined liquids (CC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstS,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstS,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstS,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstS,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (once through),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (seawater),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (recirculating),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,refined liquids,refined liquids (CC),refined liquids (CC) (once through),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,refined liquids,refined liquids (CC),refined liquids (CC) (seawater),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,refined liquids,refined liquids (CC),refined liquids (CC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,refined liquids,refined liquids (CC),refined liquids (CC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,refined liquids,refined liquids (CC CCS),refined liquids (CC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,biomass,biomass (conv),biomass (conv) (once through),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,biomass,biomass (conv),biomass (conv) (seawater),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,biomass,biomass (conv),biomass (conv) (recirculating),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,biomass,biomass (conv),biomass (conv) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,biomass,biomass (conv),biomass (conv) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,biomass,biomass (IGCC),biomass (IGCC) (once through),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,biomass,biomass (IGCC),biomass (IGCC) (seawater),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,biomass,biomass (IGCC),biomass (IGCC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,biomass,biomass (IGCC),biomass (IGCC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,biomass,biomass (conv CCS),biomass (conv CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,biomass,biomass (conv CCS),biomass (conv CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,biomass,biomass (conv CCS),biomass (conv CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,biomass,biomass (conv CCS),biomass (conv CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,GangesR,biomass,biomass (conv),biomass (conv) (once through),1975,-10,relative.cost.logit
+India,electricity,GangesR,biomass,biomass (conv),biomass (conv) (seawater),1975,-10,relative.cost.logit
+India,electricity,GangesR,biomass,biomass (conv),biomass (conv) (recirculating),1975,-10,relative.cost.logit
+India,electricity,GangesR,biomass,biomass (conv),biomass (conv) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,GangesR,biomass,biomass (conv),biomass (conv) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,GangesR,biomass,biomass (IGCC),biomass (IGCC) (once through),1975,-10,relative.cost.logit
+India,electricity,GangesR,biomass,biomass (IGCC),biomass (IGCC) (seawater),1975,-10,relative.cost.logit
+India,electricity,GangesR,biomass,biomass (IGCC),biomass (IGCC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,GangesR,biomass,biomass (IGCC),biomass (IGCC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,GangesR,biomass,biomass (conv CCS),biomass (conv CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,GangesR,biomass,biomass (conv CCS),biomass (conv CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,GangesR,biomass,biomass (conv CCS),biomass (conv CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,GangesR,biomass,biomass (conv CCS),biomass (conv CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,GangesR,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,GangesR,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,GangesR,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,GangesR,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,MahiR,biomass,biomass (conv),biomass (conv) (once through),1975,-10,relative.cost.logit
+India,electricity,MahiR,biomass,biomass (conv),biomass (conv) (seawater),1975,-10,relative.cost.logit
+India,electricity,MahiR,biomass,biomass (conv),biomass (conv) (recirculating),1975,-10,relative.cost.logit
+India,electricity,MahiR,biomass,biomass (conv),biomass (conv) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,MahiR,biomass,biomass (conv),biomass (conv) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,MahiR,biomass,biomass (IGCC),biomass (IGCC) (once through),1975,-10,relative.cost.logit
+India,electricity,MahiR,biomass,biomass (IGCC),biomass (IGCC) (seawater),1975,-10,relative.cost.logit
+India,electricity,MahiR,biomass,biomass (IGCC),biomass (IGCC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,MahiR,biomass,biomass (IGCC),biomass (IGCC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,MahiR,biomass,biomass (conv CCS),biomass (conv CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,MahiR,biomass,biomass (conv CCS),biomass (conv CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,MahiR,biomass,biomass (conv CCS),biomass (conv CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,MahiR,biomass,biomass (conv CCS),biomass (conv CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,MahiR,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,MahiR,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,MahiR,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,MahiR,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,TaptiR,biomass,biomass (conv),biomass (conv) (once through),1975,-10,relative.cost.logit
+India,electricity,TaptiR,biomass,biomass (conv),biomass (conv) (seawater),1975,-10,relative.cost.logit
+India,electricity,TaptiR,biomass,biomass (conv),biomass (conv) (recirculating),1975,-10,relative.cost.logit
+India,electricity,TaptiR,biomass,biomass (conv),biomass (conv) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,TaptiR,biomass,biomass (conv),biomass (conv) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,TaptiR,biomass,biomass (IGCC),biomass (IGCC) (once through),1975,-10,relative.cost.logit
+India,electricity,TaptiR,biomass,biomass (IGCC),biomass (IGCC) (seawater),1975,-10,relative.cost.logit
+India,electricity,TaptiR,biomass,biomass (IGCC),biomass (IGCC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,TaptiR,biomass,biomass (IGCC),biomass (IGCC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,TaptiR,biomass,biomass (conv CCS),biomass (conv CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,TaptiR,biomass,biomass (conv CCS),biomass (conv CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,TaptiR,biomass,biomass (conv CCS),biomass (conv CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,TaptiR,biomass,biomass (conv CCS),biomass (conv CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,TaptiR,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,TaptiR,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,TaptiR,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,TaptiR,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,BengalW,biomass,biomass (conv),biomass (conv) (once through),1975,-10,relative.cost.logit
+India,electricity,BengalW,biomass,biomass (conv),biomass (conv) (seawater),1975,-10,relative.cost.logit
+India,electricity,BengalW,biomass,biomass (conv),biomass (conv) (recirculating),1975,-10,relative.cost.logit
+India,electricity,BengalW,biomass,biomass (conv),biomass (conv) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,BengalW,biomass,biomass (conv),biomass (conv) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,BengalW,biomass,biomass (IGCC),biomass (IGCC) (once through),1975,-10,relative.cost.logit
+India,electricity,BengalW,biomass,biomass (IGCC),biomass (IGCC) (seawater),1975,-10,relative.cost.logit
+India,electricity,BengalW,biomass,biomass (IGCC),biomass (IGCC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,BengalW,biomass,biomass (IGCC),biomass (IGCC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,BengalW,biomass,biomass (conv CCS),biomass (conv CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,BengalW,biomass,biomass (conv CCS),biomass (conv CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,BengalW,biomass,biomass (conv CCS),biomass (conv CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,BengalW,biomass,biomass (conv CCS),biomass (conv CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,BengalW,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,BengalW,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,BengalW,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,BengalW,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,biomass,biomass (conv),biomass (conv) (once through),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,biomass,biomass (conv),biomass (conv) (seawater),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,biomass,biomass (conv),biomass (conv) (recirculating),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,biomass,biomass (conv),biomass (conv) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,biomass,biomass (conv),biomass (conv) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,biomass,biomass (IGCC),biomass (IGCC) (once through),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,biomass,biomass (IGCC),biomass (IGCC) (seawater),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,biomass,biomass (IGCC),biomass (IGCC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,biomass,biomass (IGCC),biomass (IGCC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,biomass,biomass (conv CCS),biomass (conv CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,biomass,biomass (conv CCS),biomass (conv CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,biomass,biomass (conv CCS),biomass (conv CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,biomass,biomass (conv CCS),biomass (conv CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,biomass,biomass (conv),biomass (conv) (once through),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,biomass,biomass (conv),biomass (conv) (seawater),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,biomass,biomass (conv),biomass (conv) (recirculating),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,biomass,biomass (conv),biomass (conv) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,biomass,biomass (conv),biomass (conv) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,biomass,biomass (IGCC),biomass (IGCC) (once through),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,biomass,biomass (IGCC),biomass (IGCC) (seawater),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,biomass,biomass (IGCC),biomass (IGCC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,biomass,biomass (IGCC),biomass (IGCC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,biomass,biomass (conv CCS),biomass (conv CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,biomass,biomass (conv CCS),biomass (conv CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,biomass,biomass (conv CCS),biomass (conv CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,biomass,biomass (conv CCS),biomass (conv CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,MahanadiR,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,GodavariR,biomass,biomass (conv),biomass (conv) (once through),1975,-10,relative.cost.logit
+India,electricity,GodavariR,biomass,biomass (conv),biomass (conv) (seawater),1975,-10,relative.cost.logit
+India,electricity,GodavariR,biomass,biomass (conv),biomass (conv) (recirculating),1975,-10,relative.cost.logit
+India,electricity,GodavariR,biomass,biomass (conv),biomass (conv) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,GodavariR,biomass,biomass (conv),biomass (conv) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,GodavariR,biomass,biomass (IGCC),biomass (IGCC) (once through),1975,-10,relative.cost.logit
+India,electricity,GodavariR,biomass,biomass (IGCC),biomass (IGCC) (seawater),1975,-10,relative.cost.logit
+India,electricity,GodavariR,biomass,biomass (IGCC),biomass (IGCC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,GodavariR,biomass,biomass (IGCC),biomass (IGCC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,GodavariR,biomass,biomass (conv CCS),biomass (conv CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,GodavariR,biomass,biomass (conv CCS),biomass (conv CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,GodavariR,biomass,biomass (conv CCS),biomass (conv CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,GodavariR,biomass,biomass (conv CCS),biomass (conv CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,GodavariR,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,GodavariR,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,GodavariR,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,GodavariR,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,biomass,biomass (conv),biomass (conv) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,biomass,biomass (conv),biomass (conv) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,biomass,biomass (conv),biomass (conv) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,biomass,biomass (conv),biomass (conv) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,biomass,biomass (conv),biomass (conv) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,biomass,biomass (IGCC),biomass (IGCC) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,biomass,biomass (IGCC),biomass (IGCC) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,biomass,biomass (IGCC),biomass (IGCC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,biomass,biomass (IGCC),biomass (IGCC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,biomass,biomass (conv CCS),biomass (conv CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,biomass,biomass (conv CCS),biomass (conv CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,biomass,biomass (conv CCS),biomass (conv CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,biomass,biomass (conv CCS),biomass (conv CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstNE,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstW,biomass,biomass (conv),biomass (conv) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstW,biomass,biomass (conv),biomass (conv) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstW,biomass,biomass (conv),biomass (conv) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstW,biomass,biomass (conv),biomass (conv) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,IndCstW,biomass,biomass (conv),biomass (conv) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstW,biomass,biomass (IGCC),biomass (IGCC) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstW,biomass,biomass (IGCC),biomass (IGCC) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstW,biomass,biomass (IGCC),biomass (IGCC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstW,biomass,biomass (IGCC),biomass (IGCC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstW,biomass,biomass (conv CCS),biomass (conv CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstW,biomass,biomass (conv CCS),biomass (conv CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstW,biomass,biomass (conv CCS),biomass (conv CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstW,biomass,biomass (conv CCS),biomass (conv CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstW,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstW,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstW,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstW,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,biomass,biomass (conv),biomass (conv) (once through),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,biomass,biomass (conv),biomass (conv) (seawater),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,biomass,biomass (conv),biomass (conv) (recirculating),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,biomass,biomass (conv),biomass (conv) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,biomass,biomass (conv),biomass (conv) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,biomass,biomass (IGCC),biomass (IGCC) (once through),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,biomass,biomass (IGCC),biomass (IGCC) (seawater),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,biomass,biomass (IGCC),biomass (IGCC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,biomass,biomass (IGCC),biomass (IGCC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,biomass,biomass (conv CCS),biomass (conv CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,biomass,biomass (conv CCS),biomass (conv CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,biomass,biomass (conv CCS),biomass (conv CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,biomass,biomass (conv CCS),biomass (conv CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,KrishnaR,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstE,biomass,biomass (conv),biomass (conv) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstE,biomass,biomass (conv),biomass (conv) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstE,biomass,biomass (conv),biomass (conv) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstE,biomass,biomass (conv),biomass (conv) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,IndCstE,biomass,biomass (conv),biomass (conv) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstE,biomass,biomass (IGCC),biomass (IGCC) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstE,biomass,biomass (IGCC),biomass (IGCC) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstE,biomass,biomass (IGCC),biomass (IGCC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstE,biomass,biomass (IGCC),biomass (IGCC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstE,biomass,biomass (conv CCS),biomass (conv CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstE,biomass,biomass (conv CCS),biomass (conv CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstE,biomass,biomass (conv CCS),biomass (conv CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstE,biomass,biomass (conv CCS),biomass (conv CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstE,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstE,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstE,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstE,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,PennarR,biomass,biomass (conv),biomass (conv) (once through),1975,-10,relative.cost.logit
+India,electricity,PennarR,biomass,biomass (conv),biomass (conv) (seawater),1975,-10,relative.cost.logit
+India,electricity,PennarR,biomass,biomass (conv),biomass (conv) (recirculating),1975,-10,relative.cost.logit
+India,electricity,PennarR,biomass,biomass (conv),biomass (conv) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,PennarR,biomass,biomass (conv),biomass (conv) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,PennarR,biomass,biomass (IGCC),biomass (IGCC) (once through),1975,-10,relative.cost.logit
+India,electricity,PennarR,biomass,biomass (IGCC),biomass (IGCC) (seawater),1975,-10,relative.cost.logit
+India,electricity,PennarR,biomass,biomass (IGCC),biomass (IGCC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,PennarR,biomass,biomass (IGCC),biomass (IGCC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,PennarR,biomass,biomass (conv CCS),biomass (conv CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,PennarR,biomass,biomass (conv CCS),biomass (conv CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,PennarR,biomass,biomass (conv CCS),biomass (conv CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,PennarR,biomass,biomass (conv CCS),biomass (conv CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,PennarR,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,PennarR,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,PennarR,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,PennarR,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,CauveryR,biomass,biomass (conv),biomass (conv) (once through),1975,-10,relative.cost.logit
+India,electricity,CauveryR,biomass,biomass (conv),biomass (conv) (seawater),1975,-10,relative.cost.logit
+India,electricity,CauveryR,biomass,biomass (conv),biomass (conv) (recirculating),1975,-10,relative.cost.logit
+India,electricity,CauveryR,biomass,biomass (conv),biomass (conv) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,CauveryR,biomass,biomass (conv),biomass (conv) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,CauveryR,biomass,biomass (IGCC),biomass (IGCC) (once through),1975,-10,relative.cost.logit
+India,electricity,CauveryR,biomass,biomass (IGCC),biomass (IGCC) (seawater),1975,-10,relative.cost.logit
+India,electricity,CauveryR,biomass,biomass (IGCC),biomass (IGCC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,CauveryR,biomass,biomass (IGCC),biomass (IGCC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,CauveryR,biomass,biomass (conv CCS),biomass (conv CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,CauveryR,biomass,biomass (conv CCS),biomass (conv CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,CauveryR,biomass,biomass (conv CCS),biomass (conv CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,CauveryR,biomass,biomass (conv CCS),biomass (conv CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,CauveryR,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,CauveryR,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,CauveryR,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,CauveryR,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstS,biomass,biomass (conv),biomass (conv) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstS,biomass,biomass (conv),biomass (conv) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstS,biomass,biomass (conv),biomass (conv) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstS,biomass,biomass (conv),biomass (conv) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,IndCstS,biomass,biomass (conv),biomass (conv) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstS,biomass,biomass (IGCC),biomass (IGCC) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstS,biomass,biomass (IGCC),biomass (IGCC) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstS,biomass,biomass (IGCC),biomass (IGCC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstS,biomass,biomass (IGCC),biomass (IGCC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstS,biomass,biomass (conv CCS),biomass (conv CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstS,biomass,biomass (conv CCS),biomass (conv CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstS,biomass,biomass (conv CCS),biomass (conv CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstS,biomass,biomass (conv CCS),biomass (conv CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,IndCstS,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,IndCstS,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,IndCstS,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,IndCstS,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,biomass,biomass (conv),biomass (conv) (once through),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,biomass,biomass (conv),biomass (conv) (seawater),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,biomass,biomass (conv),biomass (conv) (recirculating),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,biomass,biomass (conv),biomass (conv) (cooling pond),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,biomass,biomass (conv),biomass (conv) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,biomass,biomass (IGCC),biomass (IGCC) (once through),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,biomass,biomass (IGCC),biomass (IGCC) (seawater),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,biomass,biomass (IGCC),biomass (IGCC) (recirculating),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,biomass,biomass (IGCC),biomass (IGCC) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,biomass,biomass (conv CCS),biomass (conv CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,biomass,biomass (conv CCS),biomass (conv CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,biomass,biomass (conv CCS),biomass (conv CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,biomass,biomass (conv CCS),biomass (conv CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (once through),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (seawater),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (recirculating),1975,-10,relative.cost.logit
+India,electricity,NarmadaR,biomass,biomass (IGCC CCS),biomass (IGCC CCS) (dry cooling),1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,nuclear,Gen_II_LWR,Gen_II_LWR (once through),1975,-6,relative.cost.logit
+India,electricity,SabarmatiR,nuclear,Gen_II_LWR,Gen_II_LWR (seawater),1975,-6,relative.cost.logit
+India,electricity,SabarmatiR,nuclear,Gen_II_LWR,Gen_II_LWR (recirculating),1975,-6,relative.cost.logit
+India,electricity,SabarmatiR,nuclear,Gen_II_LWR,Gen_II_LWR (cooling pond),1975,-6,relative.cost.logit
+India,electricity,SabarmatiR,nuclear,Gen_III,Gen_III (once through),1975,-6,relative.cost.logit
+India,electricity,SabarmatiR,nuclear,Gen_III,Gen_III (seawater),1975,-6,relative.cost.logit
+India,electricity,SabarmatiR,nuclear,Gen_III,Gen_III (recirculating),1975,-6,relative.cost.logit
+India,electricity,SabarmatiR,nuclear,Gen_III,Gen_III (cooling pond),1975,-6,relative.cost.logit
+India,electricity,GangesR,nuclear,Gen_II_LWR,Gen_II_LWR (once through),1975,-6,relative.cost.logit
+India,electricity,GangesR,nuclear,Gen_II_LWR,Gen_II_LWR (seawater),1975,-6,relative.cost.logit
+India,electricity,GangesR,nuclear,Gen_II_LWR,Gen_II_LWR (recirculating),1975,-6,relative.cost.logit
+India,electricity,GangesR,nuclear,Gen_II_LWR,Gen_II_LWR (cooling pond),1975,-6,relative.cost.logit
+India,electricity,GangesR,nuclear,Gen_III,Gen_III (once through),1975,-6,relative.cost.logit
+India,electricity,GangesR,nuclear,Gen_III,Gen_III (seawater),1975,-6,relative.cost.logit
+India,electricity,GangesR,nuclear,Gen_III,Gen_III (recirculating),1975,-6,relative.cost.logit
+India,electricity,GangesR,nuclear,Gen_III,Gen_III (cooling pond),1975,-6,relative.cost.logit
+India,electricity,MahiR,nuclear,Gen_II_LWR,Gen_II_LWR (once through),1975,-6,relative.cost.logit
+India,electricity,MahiR,nuclear,Gen_II_LWR,Gen_II_LWR (seawater),1975,-6,relative.cost.logit
+India,electricity,MahiR,nuclear,Gen_II_LWR,Gen_II_LWR (recirculating),1975,-6,relative.cost.logit
+India,electricity,MahiR,nuclear,Gen_II_LWR,Gen_II_LWR (cooling pond),1975,-6,relative.cost.logit
+India,electricity,MahiR,nuclear,Gen_III,Gen_III (once through),1975,-6,relative.cost.logit
+India,electricity,MahiR,nuclear,Gen_III,Gen_III (seawater),1975,-6,relative.cost.logit
+India,electricity,MahiR,nuclear,Gen_III,Gen_III (recirculating),1975,-6,relative.cost.logit
+India,electricity,MahiR,nuclear,Gen_III,Gen_III (cooling pond),1975,-6,relative.cost.logit
+India,electricity,TaptiR,nuclear,Gen_II_LWR,Gen_II_LWR (once through),1975,-6,relative.cost.logit
+India,electricity,TaptiR,nuclear,Gen_II_LWR,Gen_II_LWR (seawater),1975,-6,relative.cost.logit
+India,electricity,TaptiR,nuclear,Gen_II_LWR,Gen_II_LWR (recirculating),1975,-6,relative.cost.logit
+India,electricity,TaptiR,nuclear,Gen_II_LWR,Gen_II_LWR (cooling pond),1975,-6,relative.cost.logit
+India,electricity,TaptiR,nuclear,Gen_III,Gen_III (once through),1975,-6,relative.cost.logit
+India,electricity,TaptiR,nuclear,Gen_III,Gen_III (seawater),1975,-6,relative.cost.logit
+India,electricity,TaptiR,nuclear,Gen_III,Gen_III (recirculating),1975,-6,relative.cost.logit
+India,electricity,TaptiR,nuclear,Gen_III,Gen_III (cooling pond),1975,-6,relative.cost.logit
+India,electricity,BengalW,nuclear,Gen_II_LWR,Gen_II_LWR (once through),1975,-6,relative.cost.logit
+India,electricity,BengalW,nuclear,Gen_II_LWR,Gen_II_LWR (seawater),1975,-6,relative.cost.logit
+India,electricity,BengalW,nuclear,Gen_II_LWR,Gen_II_LWR (recirculating),1975,-6,relative.cost.logit
+India,electricity,BengalW,nuclear,Gen_II_LWR,Gen_II_LWR (cooling pond),1975,-6,relative.cost.logit
+India,electricity,BengalW,nuclear,Gen_III,Gen_III (once through),1975,-6,relative.cost.logit
+India,electricity,BengalW,nuclear,Gen_III,Gen_III (seawater),1975,-6,relative.cost.logit
+India,electricity,BengalW,nuclear,Gen_III,Gen_III (recirculating),1975,-6,relative.cost.logit
+India,electricity,BengalW,nuclear,Gen_III,Gen_III (cooling pond),1975,-6,relative.cost.logit
+India,electricity,BrahmaniR,nuclear,Gen_II_LWR,Gen_II_LWR (once through),1975,-6,relative.cost.logit
+India,electricity,BrahmaniR,nuclear,Gen_II_LWR,Gen_II_LWR (seawater),1975,-6,relative.cost.logit
+India,electricity,BrahmaniR,nuclear,Gen_II_LWR,Gen_II_LWR (recirculating),1975,-6,relative.cost.logit
+India,electricity,BrahmaniR,nuclear,Gen_II_LWR,Gen_II_LWR (cooling pond),1975,-6,relative.cost.logit
+India,electricity,BrahmaniR,nuclear,Gen_III,Gen_III (once through),1975,-6,relative.cost.logit
+India,electricity,BrahmaniR,nuclear,Gen_III,Gen_III (seawater),1975,-6,relative.cost.logit
+India,electricity,BrahmaniR,nuclear,Gen_III,Gen_III (recirculating),1975,-6,relative.cost.logit
+India,electricity,BrahmaniR,nuclear,Gen_III,Gen_III (cooling pond),1975,-6,relative.cost.logit
+India,electricity,MahanadiR,nuclear,Gen_II_LWR,Gen_II_LWR (once through),1975,-6,relative.cost.logit
+India,electricity,MahanadiR,nuclear,Gen_II_LWR,Gen_II_LWR (seawater),1975,-6,relative.cost.logit
+India,electricity,MahanadiR,nuclear,Gen_II_LWR,Gen_II_LWR (recirculating),1975,-6,relative.cost.logit
+India,electricity,MahanadiR,nuclear,Gen_II_LWR,Gen_II_LWR (cooling pond),1975,-6,relative.cost.logit
+India,electricity,MahanadiR,nuclear,Gen_III,Gen_III (once through),1975,-6,relative.cost.logit
+India,electricity,MahanadiR,nuclear,Gen_III,Gen_III (seawater),1975,-6,relative.cost.logit
+India,electricity,MahanadiR,nuclear,Gen_III,Gen_III (recirculating),1975,-6,relative.cost.logit
+India,electricity,MahanadiR,nuclear,Gen_III,Gen_III (cooling pond),1975,-6,relative.cost.logit
+India,electricity,GodavariR,nuclear,Gen_II_LWR,Gen_II_LWR (once through),1975,-6,relative.cost.logit
+India,electricity,GodavariR,nuclear,Gen_II_LWR,Gen_II_LWR (seawater),1975,-6,relative.cost.logit
+India,electricity,GodavariR,nuclear,Gen_II_LWR,Gen_II_LWR (recirculating),1975,-6,relative.cost.logit
+India,electricity,GodavariR,nuclear,Gen_II_LWR,Gen_II_LWR (cooling pond),1975,-6,relative.cost.logit
+India,electricity,GodavariR,nuclear,Gen_III,Gen_III (once through),1975,-6,relative.cost.logit
+India,electricity,GodavariR,nuclear,Gen_III,Gen_III (seawater),1975,-6,relative.cost.logit
+India,electricity,GodavariR,nuclear,Gen_III,Gen_III (recirculating),1975,-6,relative.cost.logit
+India,electricity,GodavariR,nuclear,Gen_III,Gen_III (cooling pond),1975,-6,relative.cost.logit
+India,electricity,IndCstNE,nuclear,Gen_II_LWR,Gen_II_LWR (once through),1975,-6,relative.cost.logit
+India,electricity,IndCstNE,nuclear,Gen_II_LWR,Gen_II_LWR (seawater),1975,-6,relative.cost.logit
+India,electricity,IndCstNE,nuclear,Gen_II_LWR,Gen_II_LWR (recirculating),1975,-6,relative.cost.logit
+India,electricity,IndCstNE,nuclear,Gen_II_LWR,Gen_II_LWR (cooling pond),1975,-6,relative.cost.logit
+India,electricity,IndCstNE,nuclear,Gen_III,Gen_III (once through),1975,-6,relative.cost.logit
+India,electricity,IndCstNE,nuclear,Gen_III,Gen_III (seawater),1975,-6,relative.cost.logit
+India,electricity,IndCstNE,nuclear,Gen_III,Gen_III (recirculating),1975,-6,relative.cost.logit
+India,electricity,IndCstNE,nuclear,Gen_III,Gen_III (cooling pond),1975,-6,relative.cost.logit
+India,electricity,IndCstW,nuclear,Gen_II_LWR,Gen_II_LWR (once through),1975,-6,relative.cost.logit
+India,electricity,IndCstW,nuclear,Gen_II_LWR,Gen_II_LWR (seawater),1975,-6,relative.cost.logit
+India,electricity,IndCstW,nuclear,Gen_II_LWR,Gen_II_LWR (recirculating),1975,-6,relative.cost.logit
+India,electricity,IndCstW,nuclear,Gen_II_LWR,Gen_II_LWR (cooling pond),1975,-6,relative.cost.logit
+India,electricity,IndCstW,nuclear,Gen_III,Gen_III (once through),1975,-6,relative.cost.logit
+India,electricity,IndCstW,nuclear,Gen_III,Gen_III (seawater),1975,-6,relative.cost.logit
+India,electricity,IndCstW,nuclear,Gen_III,Gen_III (recirculating),1975,-6,relative.cost.logit
+India,electricity,IndCstW,nuclear,Gen_III,Gen_III (cooling pond),1975,-6,relative.cost.logit
+India,electricity,KrishnaR,nuclear,Gen_II_LWR,Gen_II_LWR (once through),1975,-6,relative.cost.logit
+India,electricity,KrishnaR,nuclear,Gen_II_LWR,Gen_II_LWR (seawater),1975,-6,relative.cost.logit
+India,electricity,KrishnaR,nuclear,Gen_II_LWR,Gen_II_LWR (recirculating),1975,-6,relative.cost.logit
+India,electricity,KrishnaR,nuclear,Gen_II_LWR,Gen_II_LWR (cooling pond),1975,-6,relative.cost.logit
+India,electricity,KrishnaR,nuclear,Gen_III,Gen_III (once through),1975,-6,relative.cost.logit
+India,electricity,KrishnaR,nuclear,Gen_III,Gen_III (seawater),1975,-6,relative.cost.logit
+India,electricity,KrishnaR,nuclear,Gen_III,Gen_III (recirculating),1975,-6,relative.cost.logit
+India,electricity,KrishnaR,nuclear,Gen_III,Gen_III (cooling pond),1975,-6,relative.cost.logit
+India,electricity,IndCstE,nuclear,Gen_II_LWR,Gen_II_LWR (once through),1975,-6,relative.cost.logit
+India,electricity,IndCstE,nuclear,Gen_II_LWR,Gen_II_LWR (seawater),1975,-6,relative.cost.logit
+India,electricity,IndCstE,nuclear,Gen_II_LWR,Gen_II_LWR (recirculating),1975,-6,relative.cost.logit
+India,electricity,IndCstE,nuclear,Gen_II_LWR,Gen_II_LWR (cooling pond),1975,-6,relative.cost.logit
+India,electricity,IndCstE,nuclear,Gen_III,Gen_III (once through),1975,-6,relative.cost.logit
+India,electricity,IndCstE,nuclear,Gen_III,Gen_III (seawater),1975,-6,relative.cost.logit
+India,electricity,IndCstE,nuclear,Gen_III,Gen_III (recirculating),1975,-6,relative.cost.logit
+India,electricity,IndCstE,nuclear,Gen_III,Gen_III (cooling pond),1975,-6,relative.cost.logit
+India,electricity,PennarR,nuclear,Gen_II_LWR,Gen_II_LWR (once through),1975,-6,relative.cost.logit
+India,electricity,PennarR,nuclear,Gen_II_LWR,Gen_II_LWR (seawater),1975,-6,relative.cost.logit
+India,electricity,PennarR,nuclear,Gen_II_LWR,Gen_II_LWR (recirculating),1975,-6,relative.cost.logit
+India,electricity,PennarR,nuclear,Gen_II_LWR,Gen_II_LWR (cooling pond),1975,-6,relative.cost.logit
+India,electricity,PennarR,nuclear,Gen_III,Gen_III (once through),1975,-6,relative.cost.logit
+India,electricity,PennarR,nuclear,Gen_III,Gen_III (seawater),1975,-6,relative.cost.logit
+India,electricity,PennarR,nuclear,Gen_III,Gen_III (recirculating),1975,-6,relative.cost.logit
+India,electricity,PennarR,nuclear,Gen_III,Gen_III (cooling pond),1975,-6,relative.cost.logit
+India,electricity,CauveryR,nuclear,Gen_II_LWR,Gen_II_LWR (once through),1975,-6,relative.cost.logit
+India,electricity,CauveryR,nuclear,Gen_II_LWR,Gen_II_LWR (seawater),1975,-6,relative.cost.logit
+India,electricity,CauveryR,nuclear,Gen_II_LWR,Gen_II_LWR (recirculating),1975,-6,relative.cost.logit
+India,electricity,CauveryR,nuclear,Gen_II_LWR,Gen_II_LWR (cooling pond),1975,-6,relative.cost.logit
+India,electricity,CauveryR,nuclear,Gen_III,Gen_III (once through),1975,-6,relative.cost.logit
+India,electricity,CauveryR,nuclear,Gen_III,Gen_III (seawater),1975,-6,relative.cost.logit
+India,electricity,CauveryR,nuclear,Gen_III,Gen_III (recirculating),1975,-6,relative.cost.logit
+India,electricity,CauveryR,nuclear,Gen_III,Gen_III (cooling pond),1975,-6,relative.cost.logit
+India,electricity,IndCstS,nuclear,Gen_II_LWR,Gen_II_LWR (once through),1975,-6,relative.cost.logit
+India,electricity,IndCstS,nuclear,Gen_II_LWR,Gen_II_LWR (seawater),1975,-6,relative.cost.logit
+India,electricity,IndCstS,nuclear,Gen_II_LWR,Gen_II_LWR (recirculating),1975,-6,relative.cost.logit
+India,electricity,IndCstS,nuclear,Gen_II_LWR,Gen_II_LWR (cooling pond),1975,-6,relative.cost.logit
+India,electricity,IndCstS,nuclear,Gen_III,Gen_III (once through),1975,-6,relative.cost.logit
+India,electricity,IndCstS,nuclear,Gen_III,Gen_III (seawater),1975,-6,relative.cost.logit
+India,electricity,IndCstS,nuclear,Gen_III,Gen_III (recirculating),1975,-6,relative.cost.logit
+India,electricity,IndCstS,nuclear,Gen_III,Gen_III (cooling pond),1975,-6,relative.cost.logit
+India,electricity,NarmadaR,nuclear,Gen_II_LWR,Gen_II_LWR (once through),1975,-6,relative.cost.logit
+India,electricity,NarmadaR,nuclear,Gen_II_LWR,Gen_II_LWR (seawater),1975,-6,relative.cost.logit
+India,electricity,NarmadaR,nuclear,Gen_II_LWR,Gen_II_LWR (recirculating),1975,-6,relative.cost.logit
+India,electricity,NarmadaR,nuclear,Gen_II_LWR,Gen_II_LWR (cooling pond),1975,-6,relative.cost.logit
+India,electricity,NarmadaR,nuclear,Gen_III,Gen_III (once through),1975,-6,relative.cost.logit
+India,electricity,NarmadaR,nuclear,Gen_III,Gen_III (seawater),1975,-6,relative.cost.logit
+India,electricity,NarmadaR,nuclear,Gen_III,Gen_III (recirculating),1975,-6,relative.cost.logit
+India,electricity,NarmadaR,nuclear,Gen_III,Gen_III (cooling pond),1975,-6,relative.cost.logit
+India,electricity,SabarmatiR,hydro,hydro,hydro,1975,-6,relative.cost.logit
+India,electricity,GangesR,hydro,hydro,hydro,1975,-6,relative.cost.logit
+India,electricity,MahiR,hydro,hydro,hydro,1975,-6,relative.cost.logit
+India,electricity,TaptiR,hydro,hydro,hydro,1975,-6,relative.cost.logit
+India,electricity,BengalW,hydro,hydro,hydro,1975,-6,relative.cost.logit
+India,electricity,BrahmaniR,hydro,hydro,hydro,1975,-6,relative.cost.logit
+India,electricity,MahanadiR,hydro,hydro,hydro,1975,-6,relative.cost.logit
+India,electricity,GodavariR,hydro,hydro,hydro,1975,-6,relative.cost.logit
+India,electricity,IndCstNE,hydro,hydro,hydro,1975,-6,relative.cost.logit
+India,electricity,IndCstW,hydro,hydro,hydro,1975,-6,relative.cost.logit
+India,electricity,KrishnaR,hydro,hydro,hydro,1975,-6,relative.cost.logit
+India,electricity,IndCstE,hydro,hydro,hydro,1975,-6,relative.cost.logit
+India,electricity,PennarR,hydro,hydro,hydro,1975,-6,relative.cost.logit
+India,electricity,CauveryR,hydro,hydro,hydro,1975,-6,relative.cost.logit
+India,electricity,IndCstS,hydro,hydro,hydro,1975,-6,relative.cost.logit
+India,electricity,NarmadaR,hydro,hydro,hydro,1975,-6,relative.cost.logit
+India,electricity,SabarmatiR,geothermal,geothermal,geothermal (recirculating),1975,-6,relative.cost.logit
+India,electricity,SabarmatiR,geothermal,geothermal,geothermal (dry_hybrid),1975,-6,relative.cost.logit
+India,electricity,GangesR,geothermal,geothermal,geothermal (recirculating),1975,-6,relative.cost.logit
+India,electricity,GangesR,geothermal,geothermal,geothermal (dry_hybrid),1975,-6,relative.cost.logit
+India,electricity,MahiR,geothermal,geothermal,geothermal (recirculating),1975,-6,relative.cost.logit
+India,electricity,MahiR,geothermal,geothermal,geothermal (dry_hybrid),1975,-6,relative.cost.logit
+India,electricity,TaptiR,geothermal,geothermal,geothermal (recirculating),1975,-6,relative.cost.logit
+India,electricity,TaptiR,geothermal,geothermal,geothermal (dry_hybrid),1975,-6,relative.cost.logit
+India,electricity,BengalW,geothermal,geothermal,geothermal (recirculating),1975,-6,relative.cost.logit
+India,electricity,BengalW,geothermal,geothermal,geothermal (dry_hybrid),1975,-6,relative.cost.logit
+India,electricity,BrahmaniR,geothermal,geothermal,geothermal (recirculating),1975,-6,relative.cost.logit
+India,electricity,BrahmaniR,geothermal,geothermal,geothermal (dry_hybrid),1975,-6,relative.cost.logit
+India,electricity,MahanadiR,geothermal,geothermal,geothermal (recirculating),1975,-6,relative.cost.logit
+India,electricity,MahanadiR,geothermal,geothermal,geothermal (dry_hybrid),1975,-6,relative.cost.logit
+India,electricity,GodavariR,geothermal,geothermal,geothermal (recirculating),1975,-6,relative.cost.logit
+India,electricity,GodavariR,geothermal,geothermal,geothermal (dry_hybrid),1975,-6,relative.cost.logit
+India,electricity,IndCstNE,geothermal,geothermal,geothermal (recirculating),1975,-6,relative.cost.logit
+India,electricity,IndCstNE,geothermal,geothermal,geothermal (dry_hybrid),1975,-6,relative.cost.logit
+India,electricity,IndCstW,geothermal,geothermal,geothermal (recirculating),1975,-6,relative.cost.logit
+India,electricity,IndCstW,geothermal,geothermal,geothermal (dry_hybrid),1975,-6,relative.cost.logit
+India,electricity,KrishnaR,geothermal,geothermal,geothermal (recirculating),1975,-6,relative.cost.logit
+India,electricity,KrishnaR,geothermal,geothermal,geothermal (dry_hybrid),1975,-6,relative.cost.logit
+India,electricity,IndCstE,geothermal,geothermal,geothermal (recirculating),1975,-6,relative.cost.logit
+India,electricity,IndCstE,geothermal,geothermal,geothermal (dry_hybrid),1975,-6,relative.cost.logit
+India,electricity,PennarR,geothermal,geothermal,geothermal (recirculating),1975,-6,relative.cost.logit
+India,electricity,PennarR,geothermal,geothermal,geothermal (dry_hybrid),1975,-6,relative.cost.logit
+India,electricity,CauveryR,geothermal,geothermal,geothermal (recirculating),1975,-6,relative.cost.logit
+India,electricity,CauveryR,geothermal,geothermal,geothermal (dry_hybrid),1975,-6,relative.cost.logit
+India,electricity,IndCstS,geothermal,geothermal,geothermal (recirculating),1975,-6,relative.cost.logit
+India,electricity,IndCstS,geothermal,geothermal,geothermal (dry_hybrid),1975,-6,relative.cost.logit
+India,electricity,NarmadaR,geothermal,geothermal,geothermal (recirculating),1975,-6,relative.cost.logit
+India,electricity,NarmadaR,geothermal,geothermal,geothermal (dry_hybrid),1975,-6,relative.cost.logit
+India,elect_td_bld,SabarmatiR,rooftop_pv,rooftop_pv,rooftop_pv,1975,-6,relative.cost.logit
+India,elect_td_bld,GangesR,rooftop_pv,rooftop_pv,rooftop_pv,1975,-6,relative.cost.logit
+India,elect_td_bld,MahiR,rooftop_pv,rooftop_pv,rooftop_pv,1975,-6,relative.cost.logit
+India,elect_td_bld,TaptiR,rooftop_pv,rooftop_pv,rooftop_pv,1975,-6,relative.cost.logit
+India,elect_td_bld,BengalW,rooftop_pv,rooftop_pv,rooftop_pv,1975,-6,relative.cost.logit
+India,elect_td_bld,BrahmaniR,rooftop_pv,rooftop_pv,rooftop_pv,1975,-6,relative.cost.logit
+India,elect_td_bld,MahanadiR,rooftop_pv,rooftop_pv,rooftop_pv,1975,-6,relative.cost.logit
+India,elect_td_bld,GodavariR,rooftop_pv,rooftop_pv,rooftop_pv,1975,-6,relative.cost.logit
+India,elect_td_bld,IndCstNE,rooftop_pv,rooftop_pv,rooftop_pv,1975,-6,relative.cost.logit
+India,elect_td_bld,IndCstW,rooftop_pv,rooftop_pv,rooftop_pv,1975,-6,relative.cost.logit
+India,elect_td_bld,KrishnaR,rooftop_pv,rooftop_pv,rooftop_pv,1975,-6,relative.cost.logit
+India,elect_td_bld,IndCstE,rooftop_pv,rooftop_pv,rooftop_pv,1975,-6,relative.cost.logit
+India,elect_td_bld,PennarR,rooftop_pv,rooftop_pv,rooftop_pv,1975,-6,relative.cost.logit
+India,elect_td_bld,CauveryR,rooftop_pv,rooftop_pv,rooftop_pv,1975,-6,relative.cost.logit
+India,elect_td_bld,IndCstS,rooftop_pv,rooftop_pv,rooftop_pv,1975,-6,relative.cost.logit
+India,elect_td_bld,NarmadaR,rooftop_pv,rooftop_pv,rooftop_pv,1975,-6,relative.cost.logit

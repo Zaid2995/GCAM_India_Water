@@ -1,0 +1,7 @@
+INPUT_TABLE,,,,,,,
+Variable ID,,,,,,,
+IndiaSupplysectorelec_logit,,,,,,,
+,,,,,,,
+region,supplysector,output.unit,input.unit,price.unit,logit.year.fillout,logit.exponent,logit.type
+India,electricity,EJ,EJ,1975$/GJ,1975,-3,relative-cost-logit
+India,elect_td_bld,EJ,EJ,1975$/GJ,1975,-3,relative-cost-logit

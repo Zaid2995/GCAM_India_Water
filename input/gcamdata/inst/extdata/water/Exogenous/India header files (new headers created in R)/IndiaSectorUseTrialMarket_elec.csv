@@ -1,0 +1,7 @@
+INPUT_TABLE
+Variable ID
+IndiaSectorUseTrialMarket_elec
+
+region,supplysector,use.trial.market
+India,electricity,1
+India,elect_td_bld,1

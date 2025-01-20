@@ -1,0 +1,24 @@
+INPUT_TABLE
+Variable ID
+IndiaBasinsElecMarket
+
+region,supplysector,nesting-subsector,marginal.revenue.sector,marginal.revenue.market
+India,electricity,IndusR,electricity,India
+India,electricity,SabarmatiR,electricity,India
+India,electricity,GangesR,electricity,India
+India,electricity,MahiR,electricity,India
+India,electricity,BengalBay,electricity,India
+India,electricity,TaptiR,electricity,India
+India,electricity,BengalW,electricity,India
+India,electricity,BrahmaniR,electricity,India
+India,electricity,MahanadiR,electricity,India
+India,electricity,GodavariR,electricity,India
+India,electricity,IndCstNE,electricity,India
+India,electricity,IndCstW,electricity,India
+India,electricity,IrrawaddyR,electricity,India
+India,electricity,KrishnaR,electricity,India
+India,electricity,IndCstE,electricity,India
+India,electricity,PennarR,electricity,India
+India,electricity,CauveryR,electricity,India
+India,electricity,IndCstS,electricity,India
+India,electricity,NarmadaR,electricity,India

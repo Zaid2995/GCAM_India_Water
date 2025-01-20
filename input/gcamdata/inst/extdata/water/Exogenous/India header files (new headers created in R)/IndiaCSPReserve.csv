@@ -1,0 +1,24 @@
+INPUT_TABLE
+Variable ID
+IndiaCSPReserve
+
+region,supplysector,nesting-subsector,nesting-subsector1,nesting-subsector2,electricity.reserve.margin,average.grid.capacity.factor
+India,electricity,IndusR,solar,CSP,0.15,0.6
+India,electricity,SabarmatiR,solar,CSP,0.15,0.6
+India,electricity,GangesR,solar,CSP,0.15,0.6
+India,electricity,MahiR,solar,CSP,0.15,0.6
+India,electricity,BengalBay,solar,CSP,0.15,0.6
+India,electricity,TaptiR,solar,CSP,0.15,0.6
+India,electricity,BengalW,solar,CSP,0.15,0.6
+India,electricity,BrahmaniR,solar,CSP,0.15,0.6
+India,electricity,MahanadiR,solar,CSP,0.15,0.6
+India,electricity,GodavariR,solar,CSP,0.15,0.6
+India,electricity,IndCstNE,solar,CSP,0.15,0.6
+India,electricity,IndCstW,solar,CSP,0.15,0.6
+India,electricity,IrrawaddyR,solar,CSP,0.15,0.6
+India,electricity,KrishnaR,solar,CSP,0.15,0.6
+India,electricity,IndCstE,solar,CSP,0.15,0.6
+India,electricity,PennarR,solar,CSP,0.15,0.6
+India,electricity,CauveryR,solar,CSP,0.15,0.6
+India,electricity,IndCstS,solar,CSP,0.15,0.6
+India,electricity,NarmadaR,solar,CSP,0.15,0.6

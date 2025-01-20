@@ -1,0 +1,176 @@
+INPUT_TABLE
+Variable ID
+zwater_IndiaBasinsfueltechShrwt
+
+region,supplysector,nesting.subsector1,nesting.subsector2,apply.to,from.year,to.year,to.value,interpolation.function
+India,electricity,BengalBay,biomass,share-weight,2015,2100,191.2637,fixed
+India,electricity,BengalW,biomass,share-weight,2015,2100,191.2637,fixed
+India,electricity,BrahmaniR,biomass,share-weight,2015,2100,191.2637,fixed
+India,electricity,CauveryR,biomass,share-weight,2015,2100,191.2637,fixed
+India,electricity,GangesR,biomass,share-weight,2015,2100,191.2637,fixed
+India,electricity,GodavariR,biomass,share-weight,2015,2100,191.2637,fixed
+India,electricity,IndCstE,biomass,share-weight,2015,2100,191.2637,fixed
+India,electricity,IndCstNE,biomass,share-weight,2015,2100,191.2637,fixed
+India,electricity,IndCstS,biomass,share-weight,2015,2100,191.2637,fixed
+India,electricity,IndCstW,biomass,share-weight,2015,2100,191.2637,fixed
+India,electricity,IndusR,biomass,share-weight,2015,2100,191.2637,fixed
+India,electricity,IrrawaddyR,biomass,share-weight,2015,2100,191.2637,fixed
+India,electricity,KrishnaR,biomass,share-weight,2015,2100,191.2637,fixed
+India,electricity,MahanadiR,biomass,share-weight,2015,2100,191.2637,fixed
+India,electricity,MahiR,biomass,share-weight,2015,2100,191.2637,fixed
+India,electricity,NarmadaR,biomass,share-weight,2015,2100,191.2637,fixed
+India,electricity,PennarR,biomass,share-weight,2015,2100,191.2637,fixed
+India,electricity,SabarmatiR,biomass,share-weight,2015,2100,191.2637,fixed
+India,electricity,TaptiR,biomass,share-weight,2015,2100,191.2637,fixed
+India,electricity,BengalBay,coal,share-weight,2015,2100,19,fixed
+India,electricity,BengalW,coal,share-weight,2015,2100,19,fixed
+India,electricity,BrahmaniR,coal,share-weight,2015,2100,19,fixed
+India,electricity,CauveryR,coal,share-weight,2015,2100,19,fixed
+India,electricity,GangesR,coal,share-weight,2015,2100,19,fixed
+India,electricity,GodavariR,coal,share-weight,2015,2100,19,fixed
+India,electricity,IndCstE,coal,share-weight,2015,2100,19,fixed
+India,electricity,IndCstNE,coal,share-weight,2015,2100,19,fixed
+India,electricity,IndCstS,coal,share-weight,2015,2100,19,fixed
+India,electricity,IndCstW,coal,share-weight,2015,2100,19,fixed
+India,electricity,IndusR,coal,share-weight,2015,2100,19,fixed
+India,electricity,IrrawaddyR,coal,share-weight,2015,2100,19,fixed
+India,electricity,KrishnaR,coal,share-weight,2015,2100,19,fixed
+India,electricity,MahanadiR,coal,share-weight,2015,2100,19,fixed
+India,electricity,MahiR,coal,share-weight,2015,2100,19,fixed
+India,electricity,NarmadaR,coal,share-weight,2015,2100,19,fixed
+India,electricity,PennarR,coal,share-weight,2015,2100,19,fixed
+India,electricity,SabarmatiR,coal,share-weight,2015,2100,19,fixed
+India,electricity,TaptiR,coal,share-weight,2015,2100,19,fixed
+India,electricity,BengalBay,gas,share-weight,2015,2100,37.51344,fixed
+India,electricity,BengalW,gas,share-weight,2015,2100,37.51344,fixed
+India,electricity,BrahmaniR,gas,share-weight,2015,2100,37.51344,fixed
+India,electricity,CauveryR,gas,share-weight,2015,2100,37.51344,fixed
+India,electricity,GangesR,gas,share-weight,2015,2100,37.51344,fixed
+India,electricity,GodavariR,gas,share-weight,2015,2100,37.51344,fixed
+India,electricity,IndCstE,gas,share-weight,2015,2100,37.51344,fixed
+India,electricity,IndCstNE,gas,share-weight,2015,2100,37.51344,fixed
+India,electricity,IndCstS,gas,share-weight,2015,2100,37.51344,fixed
+India,electricity,IndCstW,gas,share-weight,2015,2100,37.51344,fixed
+India,electricity,IndusR,gas,share-weight,2015,2100,37.51344,fixed
+India,electricity,IrrawaddyR,gas,share-weight,2015,2100,37.51344,fixed
+India,electricity,KrishnaR,gas,share-weight,2015,2100,37.51344,fixed
+India,electricity,MahanadiR,gas,share-weight,2015,2100,37.51344,fixed
+India,electricity,MahiR,gas,share-weight,2015,2100,37.51344,fixed
+India,electricity,NarmadaR,gas,share-weight,2015,2100,37.51344,fixed
+India,electricity,PennarR,gas,share-weight,2015,2100,37.51344,fixed
+India,electricity,SabarmatiR,gas,share-weight,2015,2100,37.51344,fixed
+India,electricity,TaptiR,gas,share-weight,2015,2100,37.51344,fixed
+India,electricity,BengalBay,geothermal,share-weight,2015,2100,0,fixed
+India,electricity,BengalW,geothermal,share-weight,2015,2100,0,fixed
+India,electricity,BrahmaniR,geothermal,share-weight,2015,2100,0,fixed
+India,electricity,CauveryR,geothermal,share-weight,2015,2100,0,fixed
+India,electricity,GangesR,geothermal,share-weight,2015,2100,0,fixed
+India,electricity,GodavariR,geothermal,share-weight,2015,2100,0,fixed
+India,electricity,IndCstE,geothermal,share-weight,2015,2100,0,fixed
+India,electricity,IndCstNE,geothermal,share-weight,2015,2100,0,fixed
+India,electricity,IndCstS,geothermal,share-weight,2015,2100,0,fixed
+India,electricity,IndCstW,geothermal,share-weight,2015,2100,0,fixed
+India,electricity,IndusR,geothermal,share-weight,2015,2100,0,fixed
+India,electricity,IrrawaddyR,geothermal,share-weight,2015,2100,0,fixed
+India,electricity,KrishnaR,geothermal,share-weight,2015,2100,0,fixed
+India,electricity,MahanadiR,geothermal,share-weight,2015,2100,0,fixed
+India,electricity,MahiR,geothermal,share-weight,2015,2100,0,fixed
+India,electricity,NarmadaR,geothermal,share-weight,2015,2100,0,fixed
+India,electricity,PennarR,geothermal,share-weight,2015,2100,0,fixed
+India,electricity,SabarmatiR,geothermal,share-weight,2015,2100,0,fixed
+India,electricity,TaptiR,geothermal,share-weight,2015,2100,0,fixed
+India,electricity,BengalBay,hydro,share-weight,2015,2100,19,fixed
+India,electricity,BengalW,hydro,share-weight,2015,2100,19,fixed
+India,electricity,BrahmaniR,hydro,share-weight,2015,2100,19,fixed
+India,electricity,CauveryR,hydro,share-weight,2015,2100,19,fixed
+India,electricity,GangesR,hydro,share-weight,2015,2100,19,fixed
+India,electricity,GodavariR,hydro,share-weight,2015,2100,19,fixed
+India,electricity,IndCstE,hydro,share-weight,2015,2100,19,fixed
+India,electricity,IndCstNE,hydro,share-weight,2015,2100,19,fixed
+India,electricity,IndCstS,hydro,share-weight,2015,2100,19,fixed
+India,electricity,IndCstW,hydro,share-weight,2015,2100,19,fixed
+India,electricity,IndusR,hydro,share-weight,2015,2100,19,fixed
+India,electricity,IrrawaddyR,hydro,share-weight,2015,2100,19,fixed
+India,electricity,KrishnaR,hydro,share-weight,2015,2100,19,fixed
+India,electricity,MahanadiR,hydro,share-weight,2015,2100,19,fixed
+India,electricity,MahiR,hydro,share-weight,2015,2100,19,fixed
+India,electricity,NarmadaR,hydro,share-weight,2015,2100,19,fixed
+India,electricity,PennarR,hydro,share-weight,2015,2100,19,fixed
+India,electricity,SabarmatiR,hydro,share-weight,2015,2100,19,fixed
+India,electricity,TaptiR,hydro,share-weight,2015,2100,19,fixed
+India,electricity,BengalBay,nuclear,share-weight,2015,2100,0.018931396,fixed
+India,electricity,BengalW,nuclear,share-weight,2015,2100,0.018931396,fixed
+India,electricity,BrahmaniR,nuclear,share-weight,2015,2100,0.018931396,fixed
+India,electricity,CauveryR,nuclear,share-weight,2015,2100,0.018931396,fixed
+India,electricity,GangesR,nuclear,share-weight,2015,2100,0.018931396,fixed
+India,electricity,GodavariR,nuclear,share-weight,2015,2100,0.018931396,fixed
+India,electricity,IndCstE,nuclear,share-weight,2015,2100,0.018931396,fixed
+India,electricity,IndCstNE,nuclear,share-weight,2015,2100,0.018931396,fixed
+India,electricity,IndCstS,nuclear,share-weight,2015,2100,0.018931396,fixed
+India,electricity,IndCstW,nuclear,share-weight,2015,2100,0.018931396,fixed
+India,electricity,IndusR,nuclear,share-weight,2015,2100,0.018931396,fixed
+India,electricity,IrrawaddyR,nuclear,share-weight,2015,2100,0.018931396,fixed
+India,electricity,KrishnaR,nuclear,share-weight,2015,2100,0.018931396,fixed
+India,electricity,MahanadiR,nuclear,share-weight,2015,2100,0.018931396,fixed
+India,electricity,MahiR,nuclear,share-weight,2015,2100,0.018931396,fixed
+India,electricity,NarmadaR,nuclear,share-weight,2015,2100,0.018931396,fixed
+India,electricity,PennarR,nuclear,share-weight,2015,2100,0.018931396,fixed
+India,electricity,SabarmatiR,nuclear,share-weight,2015,2100,0.018931396,fixed
+India,electricity,TaptiR,nuclear,share-weight,2015,2100,0.018931396,fixed
+India,electricity,BengalBay,refined liquids,share-weight,2015,2100,945.9527,fixed
+India,electricity,BengalW,refined liquids,share-weight,2015,2100,945.9527,fixed
+India,electricity,BrahmaniR,refined liquids,share-weight,2015,2100,945.9527,fixed
+India,electricity,CauveryR,refined liquids,share-weight,2015,2100,945.9527,fixed
+India,electricity,GangesR,refined liquids,share-weight,2015,2100,945.9527,fixed
+India,electricity,GodavariR,refined liquids,share-weight,2015,2100,945.9527,fixed
+India,electricity,IndCstE,refined liquids,share-weight,2015,2100,945.9527,fixed
+India,electricity,IndCstNE,refined liquids,share-weight,2015,2100,945.9527,fixed
+India,electricity,IndCstS,refined liquids,share-weight,2015,2100,945.9527,fixed
+India,electricity,IndCstW,refined liquids,share-weight,2015,2100,945.9527,fixed
+India,electricity,IndusR,refined liquids,share-weight,2015,2100,945.9527,fixed
+India,electricity,IrrawaddyR,refined liquids,share-weight,2015,2100,945.9527,fixed
+India,electricity,KrishnaR,refined liquids,share-weight,2015,2100,945.9527,fixed
+India,electricity,MahanadiR,refined liquids,share-weight,2015,2100,945.9527,fixed
+India,electricity,MahiR,refined liquids,share-weight,2015,2100,945.9527,fixed
+India,electricity,NarmadaR,refined liquids,share-weight,2015,2100,945.9527,fixed
+India,electricity,PennarR,refined liquids,share-weight,2015,2100,945.9527,fixed
+India,electricity,SabarmatiR,refined liquids,share-weight,2015,2100,945.9527,fixed
+India,electricity,TaptiR,refined liquids,share-weight,2015,2100,945.9527,fixed
+India,electricity,BengalBay,solar,share-weight,2015,2100,41.07429,fixed
+India,electricity,BengalW,solar,share-weight,2015,2100,41.07429,fixed
+India,electricity,BrahmaniR,solar,share-weight,2015,2100,41.07429,fixed
+India,electricity,CauveryR,solar,share-weight,2015,2100,41.07429,fixed
+India,electricity,GangesR,solar,share-weight,2015,2100,41.07429,fixed
+India,electricity,GodavariR,solar,share-weight,2015,2100,41.07429,fixed
+India,electricity,IndCstE,solar,share-weight,2015,2100,41.07429,fixed
+India,electricity,IndCstNE,solar,share-weight,2015,2100,41.07429,fixed
+India,electricity,IndCstS,solar,share-weight,2015,2100,41.07429,fixed
+India,electricity,IndCstW,solar,share-weight,2015,2100,41.07429,fixed
+India,electricity,IndusR,solar,share-weight,2015,2100,41.07429,fixed
+India,electricity,IrrawaddyR,solar,share-weight,2015,2100,41.07429,fixed
+India,electricity,KrishnaR,solar,share-weight,2015,2100,41.07429,fixed
+India,electricity,MahanadiR,solar,share-weight,2015,2100,41.07429,fixed
+India,electricity,MahiR,solar,share-weight,2015,2100,41.07429,fixed
+India,electricity,NarmadaR,solar,share-weight,2015,2100,41.07429,fixed
+India,electricity,PennarR,solar,share-weight,2015,2100,41.07429,fixed
+India,electricity,SabarmatiR,solar,share-weight,2015,2100,41.07429,fixed
+India,electricity,TaptiR,solar,share-weight,2015,2100,41.07429,fixed
+India,electricity,BengalBay,wind,share-weight,2015,2100,27.953788,fixed
+India,electricity,BengalW,wind,share-weight,2015,2100,27.953788,fixed
+India,electricity,BrahmaniR,wind,share-weight,2015,2100,27.953788,fixed
+India,electricity,CauveryR,wind,share-weight,2015,2100,27.953788,fixed
+India,electricity,GangesR,wind,share-weight,2015,2100,27.953788,fixed
+India,electricity,GodavariR,wind,share-weight,2015,2100,27.953788,fixed
+India,electricity,IndCstE,wind,share-weight,2015,2100,27.953788,fixed
+India,electricity,IndCstNE,wind,share-weight,2015,2100,27.953788,fixed
+India,electricity,IndCstS,wind,share-weight,2015,2100,27.953788,fixed
+India,electricity,IndCstW,wind,share-weight,2015,2100,27.953788,fixed
+India,electricity,IndusR,wind,share-weight,2015,2100,27.953788,fixed
+India,electricity,IrrawaddyR,wind,share-weight,2015,2100,27.953788,fixed
+India,electricity,KrishnaR,wind,share-weight,2015,2100,27.953788,fixed
+India,electricity,MahanadiR,wind,share-weight,2015,2100,27.953788,fixed
+India,electricity,MahiR,wind,share-weight,2015,2100,27.953788,fixed
+India,electricity,NarmadaR,wind,share-weight,2015,2100,27.953788,fixed
+India,electricity,PennarR,wind,share-weight,2015,2100,27.953788,fixed
+India,electricity,SabarmatiR,wind,share-weight,2015,2100,27.953788,fixed
+India,electricity,TaptiR,wind,share-weight,2015,2100,27.953788,fixed

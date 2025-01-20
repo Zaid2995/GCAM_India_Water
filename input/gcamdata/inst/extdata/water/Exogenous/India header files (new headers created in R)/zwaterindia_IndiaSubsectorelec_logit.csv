@@ -1,0 +1,165 @@
+INPUT_TABLE
+Variable ID
+IndiaSubsectorelec_logit
+
+region,supplysector,subsector0,subsector,logit.year.fillout,logit.exponent,logit.type
+India,electricity,SabarmatiR,wind,1975,-6,relative.cost.logit
+India,electricity,GangesR,wind,1975,-6,relative.cost.logit
+India,electricity,MahiR,wind,1975,-6,relative.cost.logit
+India,electricity,TaptiR,wind,1975,-6,relative.cost.logit
+India,electricity,BengalW,wind,1975,-6,relative.cost.logit
+India,electricity,BrahmaniR,wind,1975,-6,relative.cost.logit
+India,electricity,MahanadiR,wind,1975,-6,relative.cost.logit
+India,electricity,GodavariR,wind,1975,-6,relative.cost.logit
+India,electricity,IndCstNE,wind,1975,-6,relative.cost.logit
+India,electricity,IndCstW,wind,1975,-6,relative.cost.logit
+India,electricity,KrishnaR,wind,1975,-6,relative.cost.logit
+India,electricity,IndCstE,wind,1975,-6,relative.cost.logit
+India,electricity,PennarR,wind,1975,-6,relative.cost.logit
+India,electricity,CauveryR,wind,1975,-6,relative.cost.logit
+India,electricity,IndCstS,wind,1975,-6,relative.cost.logit
+India,electricity,NarmadaR,wind,1975,-6,relative.cost.logit
+India,electricity,SabarmatiR,solar,1975,-6,relative.cost.logit
+India,electricity,GangesR,solar,1975,-6,relative.cost.logit
+India,electricity,MahiR,solar,1975,-6,relative.cost.logit
+India,electricity,TaptiR,solar,1975,-6,relative.cost.logit
+India,electricity,BengalW,solar,1975,-6,relative.cost.logit
+India,electricity,BrahmaniR,solar,1975,-6,relative.cost.logit
+India,electricity,MahanadiR,solar,1975,-6,relative.cost.logit
+India,electricity,GodavariR,solar,1975,-6,relative.cost.logit
+India,electricity,IndCstNE,solar,1975,-6,relative.cost.logit
+India,electricity,IndCstW,solar,1975,-6,relative.cost.logit
+India,electricity,KrishnaR,solar,1975,-6,relative.cost.logit
+India,electricity,IndCstE,solar,1975,-6,relative.cost.logit
+India,electricity,PennarR,solar,1975,-6,relative.cost.logit
+India,electricity,CauveryR,solar,1975,-6,relative.cost.logit
+India,electricity,IndCstS,solar,1975,-6,relative.cost.logit
+India,electricity,NarmadaR,solar,1975,-6,relative.cost.logit
+India,electricity,SabarmatiR,coal,1975,-10,relative.cost.logit
+India,electricity,GangesR,coal,1975,-10,relative.cost.logit
+India,electricity,MahiR,coal,1975,-10,relative.cost.logit
+India,electricity,TaptiR,coal,1975,-10,relative.cost.logit
+India,electricity,BengalW,coal,1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,coal,1975,-10,relative.cost.logit
+India,electricity,MahanadiR,coal,1975,-10,relative.cost.logit
+India,electricity,GodavariR,coal,1975,-10,relative.cost.logit
+India,electricity,IndCstNE,coal,1975,-10,relative.cost.logit
+India,electricity,IndCstW,coal,1975,-10,relative.cost.logit
+India,electricity,KrishnaR,coal,1975,-10,relative.cost.logit
+India,electricity,IndCstE,coal,1975,-10,relative.cost.logit
+India,electricity,PennarR,coal,1975,-10,relative.cost.logit
+India,electricity,CauveryR,coal,1975,-10,relative.cost.logit
+India,electricity,IndCstS,coal,1975,-10,relative.cost.logit
+India,electricity,NarmadaR,coal,1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,gas,1975,-10,relative.cost.logit
+India,electricity,GangesR,gas,1975,-10,relative.cost.logit
+India,electricity,MahiR,gas,1975,-10,relative.cost.logit
+India,electricity,TaptiR,gas,1975,-10,relative.cost.logit
+India,electricity,BengalW,gas,1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,gas,1975,-10,relative.cost.logit
+India,electricity,MahanadiR,gas,1975,-10,relative.cost.logit
+India,electricity,GodavariR,gas,1975,-10,relative.cost.logit
+India,electricity,IndCstNE,gas,1975,-10,relative.cost.logit
+India,electricity,IndCstW,gas,1975,-10,relative.cost.logit
+India,electricity,KrishnaR,gas,1975,-10,relative.cost.logit
+India,electricity,IndCstE,gas,1975,-10,relative.cost.logit
+India,electricity,PennarR,gas,1975,-10,relative.cost.logit
+India,electricity,CauveryR,gas,1975,-10,relative.cost.logit
+India,electricity,IndCstS,gas,1975,-10,relative.cost.logit
+India,electricity,NarmadaR,gas,1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,refined liquids,1975,-10,relative.cost.logit
+India,electricity,GangesR,refined liquids,1975,-10,relative.cost.logit
+India,electricity,MahiR,refined liquids,1975,-10,relative.cost.logit
+India,electricity,TaptiR,refined liquids,1975,-10,relative.cost.logit
+India,electricity,BengalW,refined liquids,1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,refined liquids,1975,-10,relative.cost.logit
+India,electricity,MahanadiR,refined liquids,1975,-10,relative.cost.logit
+India,electricity,GodavariR,refined liquids,1975,-10,relative.cost.logit
+India,electricity,IndCstNE,refined liquids,1975,-10,relative.cost.logit
+India,electricity,IndCstW,refined liquids,1975,-10,relative.cost.logit
+India,electricity,KrishnaR,refined liquids,1975,-10,relative.cost.logit
+India,electricity,IndCstE,refined liquids,1975,-10,relative.cost.logit
+India,electricity,PennarR,refined liquids,1975,-10,relative.cost.logit
+India,electricity,CauveryR,refined liquids,1975,-10,relative.cost.logit
+India,electricity,IndCstS,refined liquids,1975,-10,relative.cost.logit
+India,electricity,NarmadaR,refined liquids,1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,biomass,1975,-10,relative.cost.logit
+India,electricity,GangesR,biomass,1975,-10,relative.cost.logit
+India,electricity,MahiR,biomass,1975,-10,relative.cost.logit
+India,electricity,TaptiR,biomass,1975,-10,relative.cost.logit
+India,electricity,BengalW,biomass,1975,-10,relative.cost.logit
+India,electricity,BrahmaniR,biomass,1975,-10,relative.cost.logit
+India,electricity,MahanadiR,biomass,1975,-10,relative.cost.logit
+India,electricity,GodavariR,biomass,1975,-10,relative.cost.logit
+India,electricity,IndCstNE,biomass,1975,-10,relative.cost.logit
+India,electricity,IndCstW,biomass,1975,-10,relative.cost.logit
+India,electricity,KrishnaR,biomass,1975,-10,relative.cost.logit
+India,electricity,IndCstE,biomass,1975,-10,relative.cost.logit
+India,electricity,PennarR,biomass,1975,-10,relative.cost.logit
+India,electricity,CauveryR,biomass,1975,-10,relative.cost.logit
+India,electricity,IndCstS,biomass,1975,-10,relative.cost.logit
+India,electricity,NarmadaR,biomass,1975,-10,relative.cost.logit
+India,electricity,SabarmatiR,nuclear,1975,-6,relative.cost.logit
+India,electricity,GangesR,nuclear,1975,-6,relative.cost.logit
+India,electricity,MahiR,nuclear,1975,-6,relative.cost.logit
+India,electricity,TaptiR,nuclear,1975,-6,relative.cost.logit
+India,electricity,BengalW,nuclear,1975,-6,relative.cost.logit
+India,electricity,BrahmaniR,nuclear,1975,-6,relative.cost.logit
+India,electricity,MahanadiR,nuclear,1975,-6,relative.cost.logit
+India,electricity,GodavariR,nuclear,1975,-6,relative.cost.logit
+India,electricity,IndCstNE,nuclear,1975,-6,relative.cost.logit
+India,electricity,IndCstW,nuclear,1975,-6,relative.cost.logit
+India,electricity,KrishnaR,nuclear,1975,-6,relative.cost.logit
+India,electricity,IndCstE,nuclear,1975,-6,relative.cost.logit
+India,electricity,PennarR,nuclear,1975,-6,relative.cost.logit
+India,electricity,CauveryR,nuclear,1975,-6,relative.cost.logit
+India,electricity,IndCstS,nuclear,1975,-6,relative.cost.logit
+India,electricity,NarmadaR,nuclear,1975,-6,relative.cost.logit
+India,electricity,SabarmatiR,hydro,1975,-6,relative.cost.logit
+India,electricity,GangesR,hydro,1975,-6,relative.cost.logit
+India,electricity,MahiR,hydro,1975,-6,relative.cost.logit
+India,electricity,TaptiR,hydro,1975,-6,relative.cost.logit
+India,electricity,BengalW,hydro,1975,-6,relative.cost.logit
+India,electricity,BrahmaniR,hydro,1975,-6,relative.cost.logit
+India,electricity,MahanadiR,hydro,1975,-6,relative.cost.logit
+India,electricity,GodavariR,hydro,1975,-6,relative.cost.logit
+India,electricity,IndCstNE,hydro,1975,-6,relative.cost.logit
+India,electricity,IndCstW,hydro,1975,-6,relative.cost.logit
+India,electricity,KrishnaR,hydro,1975,-6,relative.cost.logit
+India,electricity,IndCstE,hydro,1975,-6,relative.cost.logit
+India,electricity,PennarR,hydro,1975,-6,relative.cost.logit
+India,electricity,CauveryR,hydro,1975,-6,relative.cost.logit
+India,electricity,IndCstS,hydro,1975,-6,relative.cost.logit
+India,electricity,NarmadaR,hydro,1975,-6,relative.cost.logit
+India,electricity,SabarmatiR,geothermal,1975,-6,relative.cost.logit
+India,electricity,GangesR,geothermal,1975,-6,relative.cost.logit
+India,electricity,MahiR,geothermal,1975,-6,relative.cost.logit
+India,electricity,TaptiR,geothermal,1975,-6,relative.cost.logit
+India,electricity,BengalW,geothermal,1975,-6,relative.cost.logit
+India,electricity,BrahmaniR,geothermal,1975,-6,relative.cost.logit
+India,electricity,MahanadiR,geothermal,1975,-6,relative.cost.logit
+India,electricity,GodavariR,geothermal,1975,-6,relative.cost.logit
+India,electricity,IndCstNE,geothermal,1975,-6,relative.cost.logit
+India,electricity,IndCstW,geothermal,1975,-6,relative.cost.logit
+India,electricity,KrishnaR,geothermal,1975,-6,relative.cost.logit
+India,electricity,IndCstE,geothermal,1975,-6,relative.cost.logit
+India,electricity,PennarR,geothermal,1975,-6,relative.cost.logit
+India,electricity,CauveryR,geothermal,1975,-6,relative.cost.logit
+India,electricity,IndCstS,geothermal,1975,-6,relative.cost.logit
+India,electricity,NarmadaR,geothermal,1975,-6,relative.cost.logit
+India,elect_td_bld,SabarmatiR,rooftop_pv,1975,-6,relative.cost.logit
+India,elect_td_bld,GangesR,rooftop_pv,1975,-6,relative.cost.logit
+India,elect_td_bld,MahiR,rooftop_pv,1975,-6,relative.cost.logit
+India,elect_td_bld,TaptiR,rooftop_pv,1975,-6,relative.cost.logit
+India,elect_td_bld,BengalW,rooftop_pv,1975,-6,relative.cost.logit
+India,elect_td_bld,BrahmaniR,rooftop_pv,1975,-6,relative.cost.logit
+India,elect_td_bld,MahanadiR,rooftop_pv,1975,-6,relative.cost.logit
+India,elect_td_bld,GodavariR,rooftop_pv,1975,-6,relative.cost.logit
+India,elect_td_bld,IndCstNE,rooftop_pv,1975,-6,relative.cost.logit
+India,elect_td_bld,IndCstW,rooftop_pv,1975,-6,relative.cost.logit
+India,elect_td_bld,KrishnaR,rooftop_pv,1975,-6,relative.cost.logit
+India,elect_td_bld,IndCstE,rooftop_pv,1975,-6,relative.cost.logit
+India,elect_td_bld,PennarR,rooftop_pv,1975,-6,relative.cost.logit
+India,elect_td_bld,CauveryR,rooftop_pv,1975,-6,relative.cost.logit
+India,elect_td_bld,IndCstS,rooftop_pv,1975,-6,relative.cost.logit
+India,elect_td_bld,NarmadaR,rooftop_pv,1975,-6,relative.cost.logit
