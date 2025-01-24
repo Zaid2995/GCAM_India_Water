@@ -924,6 +924,10 @@ module_water_L2233.electricity_water_india <- function(command, ...) {
 
       L2233.IndiaGlobalIntTechBackup_elec_cool <- L2233.GlobalIntTechBackup_elec_cool
 
+      #Removing backup costs for wind and solar for future years (2015 onwards)
+
+      L2233.IndiaGlobalIntTechBackup_elec_cool$backup.capital.cost[L2233.IndiaGlobalIntTechBackup_elec_cool$year >= 2020 & L2233.IndiaGlobalIntTechBackup_elec_cool$year <= 2100] <- 0
+
 
       #CAPACITY FACTOR INFORMATION INTERMITTENT COOLING TECHS
 

@@ -95,10 +95,10 @@
         <Value name = "elec_water_India_Coolingtechlevel_logit">../input/gcamdata/xml/India/Water/zwater_Indiacoolingelec_logit.xml</Value>
         <Value name = "elec_water_India_tech_coef">../input/gcamdata/xml/India/Water/zwater_IndiaGlobalTechCoef_elec_cool.xml</Value>
         <Value name = "elec_water_Indiainttech_coef">../input/gcamdata/xml/India/Water/zwater_IndiaGlobalIntTechCoef_elec_cool.xml</Value>
-        <Value name = "elec_water_India_basinfueltechshrwts">../input/gcamdata/xml/India/Water/zwater_IndiaBasinsfueltechShrwt.xml</Value>
         <Value name = "elec_water_India_basincoolingtechshrwts">../input/gcamdata/xml/India/Water/zwater_Indiacoolingtechshrwtinterp.xml</Value>
     
-
+        <!-- Others(maybe not important) -->
+		<!--Value name = "elec_water_India_basinfueltechshrwts">../input/gcamdata/xml/India/Water/zwater_IndiaBasinsfueltechShrwt.xml</Value-->
 
 		<!--India specific parameters (Don't change!!) -->
 		<!-- Socioeconomics -->
@@ -109,26 +109,34 @@
 
 		<!--Capital costs and capacity factors-->
 
-		 <!--Value name = "India capital cost">../input/gcamdata/xml/India/Electricity/India_state_tech_CC_now.xml</Value> 
-		 <Value name = "India capital cost">../input/gcamdata/xml/India/Electricity/India_state_inttech_CC_RT_now.xml</Value>
-		<Value name = "India capacity factor">../input/gcamdata/xml/India/Electricity/India_state_tech_CF_now.xml</Value>
-        <Value name = "India capacity factor">../input/gcamdata/xml/India/Electricity/India_state_inttech_CF_RT_now.xml</Value-->
+		 <Value name = "India capital cost_PVstorageonly">../input/gcamdata/xml/India/Electricity/new/India_state_tech_CC_India_water_PVstorageonly.xml</Value> 
+		 <Value name = "India capital cost_windstorageonly">../input/gcamdata/xml/India/Electricity/new/India_state_tech_CC_India_water_windstorageonly.xml</Value>
+		 <Value name = "India capital cost">../input/gcamdata/xml/India/Electricity/new/India_state_tech_CC_India_water.xml</Value>
+		 <Value name = "India capital cost_inttech_PVonly">../input/gcamdata/xml/India/Electricity/new/India_state_inttech_CC_India_water_PVonly.xml</Value>
+		 <Value name = "India capital cost_inttech">../input/gcamdata/xml/India/Electricity/new/India_state_inttech_CC_India_water.xml</Value>
+		 <Value name = "India capacity factor inttech_PVonly">../input/gcamdata/xml/India/Electricity/new/India_state_inttech_CF_India_water_PVonly.xml</Value>
+		 <Value name = "India capacity factor inttech">../input/gcamdata/xml/India/Electricity/new/India_state_inttech_CF_India_water.xml</Value>
+		 <Value name = "India capacity factor tech">../input/gcamdata/xml/India/Electricity/new/India_state_tech_CF_India_water.xml</Value>
+		 <Value name = "India capacity factor tech_PVstorageonly">../input/gcamdata/xml/India/Electricity/new/India_state_tech_CF_India_water_PVstorageonly.xml</Value>
+
 		<!--Value name = "India wind cc correction">../input/gcamdata/xml/India/Electricity/India_wind_reg_prc_adjust.xml</Value--> 
 		
-		<!--Resource potential for wind onshore-->
-		<!--Value name = "India wind res curve">../input/gcamdata/xml/India/Electricity/agg_elect_onshore_wind_resource_india.xml</Value-->
+		<!--Resource potential for wind onshore and solar-->
+		<Value name = "India resources for basins">../input/gcamdata/xml/India/Electricity/new/zenergy_resources_basins.xml</Value>
 		
 		<!-- India-specific OM fixed and var costs: -->
-		<!--Value name = "India other parameters">../input/gcamdata/xml/India/Electricity/India_state_inttech_OMfixedvar.xml</Value-->
-		
-		<!-- Backup costs: note removed csp backup costs  -->
-		<!--Value name = "India intermittency cost">../input/gcamdata/xml/India/Electricity/India_IntTechBackup_elec.xml</Value-->
+		<Value name = "India inttech OM var">../input/gcamdata/xml/India/Electricity/new/India_state_inttech_OMvar_India_water.xml</Value>
+		<Value name = "India inttech OM var_PVonly">../input/gcamdata/xml/India/Electricity/new/India_state_inttech_OMvar_India_water_PVonly.xml</Value>
+		<Value name = "India tech OM fixed">../input/gcamdata/xml/India/Electricity/new/India_state_tech_OMfixed_India_water.xml</Value>
+		<Value name = "India tech OM fixed_PVstorage">../input/gcamdata/xml/India/Electricity/new/India_state_tech_OMfixed_India_water_PVstorageonly.xml</Value>
+		<Value name = "India inttech OM fixed">../input/gcamdata/xml/India/Electricity/new/India_state_inttech_OMfixed_India_water.xml</Value>
+		<Value name = "India inttech OM fixed_PVonly">../input/gcamdata/xml/India/Electricity/new/India_state_inttech_OMfixed_India_water_PVonly.xml</Value>
 		
 		<!-- Tech efficiencies  -->
-		<!--Value name = "India other parameters">../input/gcamdata/xml/India/Electricity/India_TechEff_elec_update.xml</Value-->
+		<Value name = "India other parameters">../input/gcamdata/xml/India/Electricity/new/India_TechEff_elec_update_basins.xml</Value>
 			
 		<!-- Share weight -->
-		<!--Value name = "India other parameters">../input/gcamdata/xml/India/Electricity/India_elec_shrwt_1.xml</Value-->
+		<Value name = "India electricity shareweights">../input/gcamdata/xml/India/Electricity/India_elec_shrwt.xml</Value>
 		
 		<!-- To match the Final Energy Demand with GCAM 5.2 -->
 		
