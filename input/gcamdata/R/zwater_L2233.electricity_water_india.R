@@ -68,6 +68,12 @@ module_water_L2233.electricity_water_india <- function(command, ...) {
              FILE = "water/Exogenous/elecwatergcamfiles/L2233.StubTechTrackCapital_elec",
              FILE = "water/Exogenous/elecwatergcamfiles/L2233.StubTechCapFactor_elec_cool",
              FILE = "water/Exogenous/elecwatergcamfiles/L2233.StubTechFixOut_hydro",
+             FILE = "water/Exogenous/ForsecondlevelRchunk/L223.IndiaGlobalTechCapital_elec",
+             FILE = "water/Exogenous/ForsecondlevelRchunk/L223.IndiaGlobalIntTechCapital_elec",
+             FILE = "water/Exogenous/ForsecondlevelRchunk/L223.IndiaGlobalTechOMvar_elec",
+             FILE = "water/Exogenous/ForsecondlevelRchunk/L223.IndiaGlobalIntTechOMvar_elec",
+             FILE = "water/Exogenous/ForsecondlevelRchunk/L223.IndiaGlobalTechOMfixed_elec",
+             FILE = "water/Exogenous/ForsecondlevelRchunk/L223.IndiaGlobalIntTechOMfixed_elec",
              "L103.water_mapping_R_B_W_Ws_share",
              "L1233.out_EJ_R_elec_F_tech_Yh_cool",
              "L223.GlobalTechCapital_elec",
@@ -200,6 +206,12 @@ module_water_L2233.electricity_water_india <- function(command, ...) {
     L2233.StubTechTrackCapital_elec <- get_data(all_data, "water/Exogenous/elecwatergcamfiles/L2233.StubTechTrackCapital_elec", strip_attributes = TRUE)
     L2233.StubTechCapFactor_elec_cool <- get_data(all_data, "water/Exogenous/elecwatergcamfiles/L2233.StubTechCapFactor_elec_cool", strip_attributes = TRUE)
     L2233.StubTechFixOut_hydro <- get_data(all_data, "water/Exogenous/elecwatergcamfiles/L2233.StubTechFixOut_hydro", strip_attributes = TRUE)
+    L223.IndiaGlobalTechCapital_elec <- get_data(all_data, "water/Exogenous/ForsecondlevelRchunk/L223.IndiaGlobalTechCapital_elec", strip_attributes = TRUE)
+    L223.IndiaGlobalIntTechCapital_elec <- get_data(all_data, "water/Exogenous/ForsecondlevelRchunk/L223.IndiaGlobalIntTechCapital_elec", strip_attributes = TRUE)
+    L223.IndiaGlobalTechOMvar_elec <- get_data(all_data, "water/Exogenous/ForsecondlevelRchunk/L223.IndiaGlobalTechOMvar_elec", strip_attributes = TRUE)
+    L223.IndiaGlobalIntTechOMvar_elec <- get_data(all_data, "water/Exogenous/ForsecondlevelRchunk/L223.IndiaGlobalIntTechOMvar_elec", strip_attributes = TRUE)
+    L223.IndiaGlobalTechOMfixed_elec <- get_data(all_data, "water/Exogenous/ForsecondlevelRchunk/L223.IndiaGlobalTechOMfixed_elec", strip_attributes = TRUE)
+    L223.IndiaGlobalIntTechOMfixed_elec <- get_data(all_data, "water/Exogenous/ForsecondlevelRchunk/L223.IndiaGlobalIntTechOMfixed_elec", strip_attributes = TRUE)
 
     #====================================================================================================================================================#
 
@@ -484,11 +496,11 @@ module_water_L2233.electricity_water_india <- function(command, ...) {
 
       #Standard technologies
 
-      L223.IndiaGlobalTechCapital_elec <- L223.GlobalTechCapital_elec   #OUTPUT
+      L223.IndiaGlobalTechCapital_elec <- L223.IndiaGlobalTechCapital_elec  #OUTPUT
 
       #Intermittent technologies
 
-      L223.IndiaGlobalIntTechCapital_elec <- L223.GlobalIntTechCapital_elec
+      L223.IndiaGlobalIntTechCapital_elec <- L223.IndiaGlobalIntTechCapital_elec  #OUTPUT
       # now remove rooftop_pv from the global tech to avoid double accounting
       L223.IndiaGlobalIntTechCapital_elec <- slice(L223.IndiaGlobalIntTechCapital_elec, c(23:n()))
 
@@ -496,21 +508,21 @@ module_water_L2233.electricity_water_india <- function(command, ...) {
 
       #Standard technologies
 
-      L223.IndiaGlobalTechOMfixed_elec <- L223.GlobalTechOMfixed_elec    #OUTPUT
+      L223.IndiaGlobalTechOMfixed_elec <- L223.IndiaGlobalTechOMfixed_elec    #OUTPUT
 
       #Intermittent technologies
 
-      L223.IndiaGlobalIntTechOMfixed_elec <- L223.GlobalIntTechOMfixed_elec   #OUTPUT
+      L223.IndiaGlobalIntTechOMfixed_elec <- L223.IndiaGlobalIntTechOMfixed_elec   #OUTPUT
 
       #Costs - O&M Variable
 
       #Standard technologies
 
-      L223.IndiaGlobalTechOMvar_elec <- L223.GlobalTechOMvar_elec   #OUTPUT
+      L223.IndiaGlobalTechOMvar_elec <- L223.IndiaGlobalTechOMvar_elec   #OUTPUT
 
       #Intermittent technologies
 
-      L223.IndiaGlobalIntTechOMvar_elec <- L223.GlobalIntTechOMvar_elec   #OUTPUT
+      L223.IndiaGlobalIntTechOMvar_elec <- L223.IndiaGlobalIntTechOMvar_elec   #OUTPUT
 
 
       #Defining historical and future Shareweights at the powerplant level (Subsector0)
