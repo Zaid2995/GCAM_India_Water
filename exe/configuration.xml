@@ -136,7 +136,7 @@
 
 
 		<!-- Tech efficiencies  -->
-		<Value name = "India tech efficiencies">../input/gcamdata/xml/India/Electricity/new/India_TechEff_elec_update_basins.xml</Value>
+		<!--Value name = "India tech efficiencies">../input/gcamdata/xml/India/Electricity/new/India_TechEff_elec_update_basins.xml</Value-->
 			
 		<!-- Share weight -->
 		<!--Value name = "India electricity shareweights">../input/gcamdata/xml/India/Electricity/new/India_elec_shrwt.xml</Value-->

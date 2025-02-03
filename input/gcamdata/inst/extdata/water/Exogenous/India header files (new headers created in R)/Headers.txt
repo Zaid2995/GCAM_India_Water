@@ -90,7 +90,7 @@ IndiaBasinselecgen, world/+{name}region, region/+{name}supplysector, supplysecto
 
 zwater_Indiacoolingtech_shrwt, world/+{name}region, region/+{name}supplysector, supplysector/+{name}nesting-subsector1, nesting-subsector1/+{name}nesting-subsector2,  nesting-subsector2/+{name}subsector, subsector/+{name}stub-technology, stub-technology/+{apply-to}interpolation-rule, stub-technology/+{from-year}interpolation-rule, stub-technology/+{to-year}interpolation-rule, interpolation-rule/+from-value, interpolation-rule/+to-value, interpolation-rule/+{name}interpolation-function, scenario/world, scenario
 
-zwater_IndiaBasinsfueltechShrwt, world/+{name}region, region/+{name}supplysector, supplysector/+{name}nesting-subsector1, nesting-subsector1/+{name}nesting-subsector2,  nesting-subsector2/+{apply-to}interpolation-rule, nesting-subsector2/+{from-year}interpolation-rule, nesting-subsector2/+{to-year}interpolation-rule, interpolation-rule/+to-value, interpolation-rule/+{name}interpolation-function, scenario/world, scenario
+zwater_IndiaBasinsfueltechShrwt, world/+{name}region, region/+{name}supplysector, supplysector/+{name}nesting-subsector1, nesting-subsector1/+{name}nesting-subsector2,  nesting-subsector2/+{apply-to}interpolation-rule, nesting-subsector2/+{from-year}interpolation-rule, nesting-subsector2/+{to-year}interpolation-rule, interpolation-rule/+from-value, interpolation-rule/+to-value, interpolation-rule/+{name}interpolation-function, scenario/world, scenario
 
 
 
