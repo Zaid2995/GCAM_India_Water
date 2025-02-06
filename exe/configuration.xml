@@ -19,7 +19,7 @@
 	<ScenarioComponents>
         <Value name = "climate">../input/gcamdata/xml/All/hector.xml</Value>
 		<Value name = "socioeconomics">../input/gcamdata/xml/All/socioeconomics_gSSP2.xml</Value>
-		<Value name = "resources">../input/gcamdata/xml/All/resources.xml</Value>
+		<Value name = "resources">../input/gcamdata/xml/All/resources_India_wind_altered.xml</Value>
 		<Value name = "energy_supply">../input/gcamdata/xml/All/en_supply.xml</Value>
 		<Value name = "energy_transformation">../input/gcamdata/xml/All/en_transformation.xml</Value>
 		<!-- <Value name = "electricity">../input/gcamdata/xml/electricity.xml</Value> -->
@@ -95,6 +95,7 @@
         <Value name = "elec_water_India_Coolingtechlevel_logit">../input/gcamdata/xml/India/Water/zwater_Indiacoolingelec_logit.xml</Value>
         <Value name = "elec_water_India_tech_coef">../input/gcamdata/xml/India/Water/zwater_IndiaGlobalTechCoef_elec_cool.xml</Value>
         <Value name = "elec_water_Indiainttech_coef">../input/gcamdata/xml/India/Water/zwater_IndiaGlobalIntTechCoef_elec_cool.xml</Value>
+		<Value name = "elec_water_India_basinfueltechshrwts">../input/gcamdata/xml/India/Water/zwater_IndiaBasinspowerplantShrwt.xml</Value>
         <Value name = "elec_water_India_basincoolingtechshrwts">../input/gcamdata/xml/India/Water/zwater_Indiacoolingtechshrwtinterp.xml</Value>
     
         <!-- Others(maybe not important) -->
@@ -122,7 +123,7 @@
 		<!--Value name = "India wind cc correction">../input/gcamdata/xml/India/Electricity/India_wind_reg_prc_adjust.xml</Value--> 
 		
 		<!--Resource potential for wind onshore and solar-->
-		<!--Value name = "India resources for basins">../input/gcamdata/xml/India/Electricity/new/zenergy_resources_basins.xml</Value-->
+		<Value name = "India solar resource changed">../input/gcamdata/xml/India/Electricity/new/zenergy_solarresource_India_BAU.xml</Value>
 		
 		<!-- India-specific OM fixed and var costs: -->
 		<!--Value name = "India inttech OM var">../input/gcamdata/xml/India/Electricity/new/India_state_inttech_OMvar_India_water.xml</Value>
@@ -136,10 +137,10 @@
 
 
 		<!-- Tech efficiencies  -->
-		<!--Value name = "India tech efficiencies">../input/gcamdata/xml/India/Electricity/new/India_TechEff_elec_update_basins.xml</Value-->
+		<Value name = "India tech efficiencies">../input/gcamdata/xml/India/Electricity/new/India_TechEff_elec_update_basins.xml</Value>
 			
 		<!-- Share weight -->
-		<!--Value name = "India electricity shareweights">../input/gcamdata/xml/India/Electricity/new/India_elec_shrwt.xml</Value-->
+		<Value name = "India electricity shareweights">../input/gcamdata/xml/India/Electricity/new/India_elec_shrwt.xml</Value>
 		
 		<!-- To match the Final Energy Demand with GCAM 5.2 -->
 		
