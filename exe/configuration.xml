@@ -19,7 +19,7 @@
 	<ScenarioComponents>
         <Value name = "climate">../input/gcamdata/xml/All/hector.xml</Value>
 		<Value name = "socioeconomics">../input/gcamdata/xml/All/socioeconomics_gSSP2.xml</Value>
-		<Value name = "resources">../input/gcamdata/xml/All/resources_India_wind_altered.xml</Value>
+		<Value name = "resources">../input/gcamdata/xml/All/resources.xml</Value>
 		<Value name = "energy_supply">../input/gcamdata/xml/All/en_supply.xml</Value>
 		<Value name = "energy_transformation">../input/gcamdata/xml/All/en_transformation.xml</Value>
 		<!-- <Value name = "electricity">../input/gcamdata/xml/electricity.xml</Value> -->
@@ -80,7 +80,6 @@
 		<Value name = "an_water">../input/gcamdata/xml/All/water_demand_livestock.xml</Value>
 		<Value name = "municipal_water">../input/gcamdata/xml/All/water_demand_municipal.xml</Value>
 		<Value name = "primary_ene_water">../input/gcamdata/xml/All/water_demand_primary.xml</Value>
-		<!--Value name = "Basin_level_Shrwt_India">../input/gcamdata/xml/India/Water/IndiaBasinWaterelectdshrwt.xml</Value-->
 
         <!--Electricity_Water_India-->
         <Value name = "elec_water_India_DeletePassthrough">../input/gcamdata/xml/India/Water/zwater_DeletePassthroughsector_Indiaelec.xml</Value>
@@ -97,7 +96,10 @@
         <Value name = "elec_water_Indiainttech_coef">../input/gcamdata/xml/India/Water/zwater_IndiaGlobalIntTechCoef_elec_cool.xml</Value>
 		<Value name = "elec_water_India_basinfueltechshrwts">../input/gcamdata/xml/India/Water/zwater_IndiaBasinspowerplantShrwt.xml</Value>
         <Value name = "elec_water_India_basincoolingtechshrwts">../input/gcamdata/xml/India/Water/zwater_Indiacoolingtechshrwtinterp.xml</Value>
-    
+        <Value name = "elec_water_India_basincoolingtechshrwts">../input/gcamdata/xml/India/Water/zwater_Indiacoolingtechshrwtinterp_Pennartrial.xml</Value>
+        <Value name = "elec_water_India_basincoolingtechshrwts">../input/gcamdata/xml/India/Water/zwater_Indiafueltechshrwtinterp_Pennartrial.xml</Value>
+		<!--Value name = "Basin_level_Shrwt_India">../input/gcamdata/xml/India/Water/zwater_IndiaBasinWaterelectdshrwt.xml</Value-->
+    	<Value name = "Basin_level_Shrwt_India">../input/gcamdata/xml/India/Water/IndiaBasinWaterelectdshrwt_trial.xml</Value>
         <!-- Others(maybe not important) -->
 		<!--Value name = "elec_water_India_basinfueltechshrwts">../input/gcamdata/xml/India/Water/zwater_IndiaBasinsfueltechShrwt.xml</Value-->
 
@@ -197,7 +199,7 @@
 
 	</ScenarioComponents>
 	<Strings>
-		<Value name="scenarioName">BAU_elec_water_India</Value>
+		<Value name="scenarioName">BAU_elec_water_India_Pennartrial</Value>
 		<Value name="debug-region">India</Value>
 		<Value name="MAGICC-input-dir">../input/magicc/inputs</Value>
 		<Value name="MAGICC-output-dir">../output</Value>
