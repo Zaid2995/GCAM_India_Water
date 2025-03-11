@@ -285,14 +285,18 @@ module_water_L2233.electricity_water_india <- function(command, ...) {
       select(- water_sector, - share, - value, -plant_type) ->
       L2233.out_EJ_elec_B_F_tech_Yh_cool_India
 
+    #filtering out hydro since it is present in a separate file under "fixedOutput"
+    L2233.out_EJ_elec_B_F_tech_Yh_cool_India <- L2233.out_EJ_elec_B_F_tech_Yh_cool_India %>%
+      filter(fuel != "hydro")
+
     #To resolve the calibration error: Multiplying the calOutputValues by 0.704
-    L2233.out_EJ_elec_B_F_tech_Yh_cool_India$calOutputValue[L2233.out_EJ_elec_B_F_tech_Yh_cool_India$year == 1990] <- L2233.out_EJ_elec_B_F_tech_Yh_cool_India$calOutputValue[L2233.out_EJ_elec_B_F_tech_Yh_cool_India$year == 1990]*0.704
+    #L2233.out_EJ_elec_B_F_tech_Yh_cool_India$calOutputValue[L2233.out_EJ_elec_B_F_tech_Yh_cool_India$year == 1990] <- L2233.out_EJ_elec_B_F_tech_Yh_cool_India$calOutputValue[L2233.out_EJ_elec_B_F_tech_Yh_cool_India$year == 1990]*0.704
     #To resolve the calibration error: Multiplying the calOutputValues by 0.6188
-    L2233.out_EJ_elec_B_F_tech_Yh_cool_India$calOutputValue[L2233.out_EJ_elec_B_F_tech_Yh_cool_India$year == 2005] <- L2233.out_EJ_elec_B_F_tech_Yh_cool_India$calOutputValue[L2233.out_EJ_elec_B_F_tech_Yh_cool_India$year == 2005]*0.6188
+    #L2233.out_EJ_elec_B_F_tech_Yh_cool_India$calOutputValue[L2233.out_EJ_elec_B_F_tech_Yh_cool_India$year == 2005] <- L2233.out_EJ_elec_B_F_tech_Yh_cool_India$calOutputValue[L2233.out_EJ_elec_B_F_tech_Yh_cool_India$year == 2005]*0.6188
     #To resolve the calibration error: Multiplying the calOutputValues by 0.6188
-    L2233.out_EJ_elec_B_F_tech_Yh_cool_India$calOutputValue[L2233.out_EJ_elec_B_F_tech_Yh_cool_India$year == 2010] <- L2233.out_EJ_elec_B_F_tech_Yh_cool_India$calOutputValue[L2233.out_EJ_elec_B_F_tech_Yh_cool_India$year == 2010]*0.6304
+    #L2233.out_EJ_elec_B_F_tech_Yh_cool_India$calOutputValue[L2233.out_EJ_elec_B_F_tech_Yh_cool_India$year == 2010] <- L2233.out_EJ_elec_B_F_tech_Yh_cool_India$calOutputValue[L2233.out_EJ_elec_B_F_tech_Yh_cool_India$year == 2010]*0.6304
     #To resolve the calibration error: Multiplying the calOutputValues by 0.6188
-    L2233.out_EJ_elec_B_F_tech_Yh_cool_India$calOutputValue[L2233.out_EJ_elec_B_F_tech_Yh_cool_India$year == 2015] <- L2233.out_EJ_elec_B_F_tech_Yh_cool_India$calOutputValue[L2233.out_EJ_elec_B_F_tech_Yh_cool_India$year == 2015]*0.591
+    #L2233.out_EJ_elec_B_F_tech_Yh_cool_India$calOutputValue[L2233.out_EJ_elec_B_F_tech_Yh_cool_India$year == 2015] <- L2233.out_EJ_elec_B_F_tech_Yh_cool_India$calOutputValue[L2233.out_EJ_elec_B_F_tech_Yh_cool_India$year == 2015]*0.591
 
     #Joining with the original elec-water map to get the desired columns and associated cooling technologies
 
@@ -497,6 +501,17 @@ module_water_L2233.electricity_water_india <- function(command, ...) {
       #Standard technologies
 
       L223.IndiaGlobalTechCapital_elec <- L223.IndiaGlobalTechCapital_elec  #OUTPUT
+
+      #L223.IndiaGlobalTechCapital_elec$capital.overnight[L223.IndiaGlobalTechCapital_elec$technology == "CSP_storage"] <- L223.IndiaGlobalTechCapital_elec$capital.overnight[L223.IndiaGlobalTechCapital_elec$technology == "CSP_storage"]*10
+      #L223.IndiaGlobalTechCapital_elec$capital.overnight[L223.IndiaGlobalTechCapital_elec$technology == "PV_storage"] <- L223.IndiaGlobalTechCapital_elec$capital.overnight[L223.IndiaGlobalTechCapital_elec$technology == "PV_storage"]*10
+      #L223.IndiaGlobalTechCapital_elec$capital.overnight[L223.IndiaGlobalTechCapital_elec$technology == "wind_storage"] <- L223.IndiaGlobalTechCapital_elec$capital.overnight[L223.IndiaGlobalTechCapital_elec$technology == "wind_storage"]*10
+
+      #CSP_cost <- L223.IndiaGlobalTechCapital_elec %>%
+       # filter(technology == "CSP_storage") %>%
+       # mutate(capital.overnight = capital.overnight/2, technology = "CSP")
+
+      #L223.IndiaGlobalTechCapital_elec <- bind_rows(L223.IndiaGlobalTechCapital_elec, CSP_cost)
+
 
       #Intermittent technologies
 
@@ -858,13 +873,13 @@ module_water_L2233.electricity_water_india <- function(command, ...) {
     L2233.IndiaStubTechEffeleccool <- L2233.IndiaStubTechEffeleccool %>% distinct()
 
     #To resolve the calibration error: Multiplying the efficiency by 0.704
-    L2233.IndiaStubTechEffeleccool$efficiency[L2233.IndiaStubTechEffeleccool$year == 1990] <- L2233.IndiaStubTechEffeleccool$efficiency[L2233.IndiaStubTechEffeleccool$year == 1990]*0.704
+    #L2233.IndiaStubTechEffeleccool$efficiency[L2233.IndiaStubTechEffeleccool$year == 1990] <- L2233.IndiaStubTechEffeleccool$efficiency[L2233.IndiaStubTechEffeleccool$year == 1990]*0.704
     #To resolve the calibration error: Multiplying the efficiency by 0.704
-    L2233.IndiaStubTechEffeleccool$efficiency[L2233.IndiaStubTechEffeleccool$year == 2005] <- L2233.IndiaStubTechEffeleccool$efficiency[L2233.IndiaStubTechEffeleccool$year == 2005]*0.6188
+    #L2233.IndiaStubTechEffeleccool$efficiency[L2233.IndiaStubTechEffeleccool$year == 2005] <- L2233.IndiaStubTechEffeleccool$efficiency[L2233.IndiaStubTechEffeleccool$year == 2005]*0.6188
     #To resolve the calibration error: Multiplying the efficiency by 0.704
-    L2233.IndiaStubTechEffeleccool$efficiency[L2233.IndiaStubTechEffeleccool$year == 2010] <- L2233.IndiaStubTechEffeleccool$efficiency[L2233.IndiaStubTechEffeleccool$year == 2010]*0.6304
+    #L2233.IndiaStubTechEffeleccool$efficiency[L2233.IndiaStubTechEffeleccool$year == 2010] <- L2233.IndiaStubTechEffeleccool$efficiency[L2233.IndiaStubTechEffeleccool$year == 2010]*0.6304
     #To resolve the calibration error: Multiplying the efficiency by 0.704
-    L2233.IndiaStubTechEffeleccool$efficiency[L2233.IndiaStubTechEffeleccool$year == 2015] <- L2233.IndiaStubTechEffeleccool$efficiency[L2233.IndiaStubTechEffeleccool$year == 2015]*0.591
+    #L2233.IndiaStubTechEffeleccool$efficiency[L2233.IndiaStubTechEffeleccool$year == 2015] <- L2233.IndiaStubTechEffeleccool$efficiency[L2233.IndiaStubTechEffeleccool$year == 2015]*0.591
 
 
     L2233.IndiaStubTechEffeleccool <- L2233.IndiaStubTechEffeleccool[c
@@ -1031,10 +1046,10 @@ module_water_L2233.electricity_water_india <- function(command, ...) {
       L2233.IndiaGlobalTechCoef_elec_cool2 <- L2233.IndiaGlobalTechCoef_elec_cool2 %>%  distinct()
 
       #Alter water withdrawal and consumption coefficients to solve calibration error
-      L2233.IndiaGlobalTechCoef_elec_cool2$coefficient[L2233.IndiaGlobalTechCoef_elec_cool2$year == 1990] <- L2233.IndiaGlobalTechCoef_elec_cool2$coefficient[L2233.IndiaGlobalTechCoef_elec_cool2$year == 1990]*1.406
-      L2233.IndiaGlobalTechCoef_elec_cool2$coefficient[L2233.IndiaGlobalTechCoef_elec_cool2$year == 2005] <- L2233.IndiaGlobalTechCoef_elec_cool2$coefficient[L2233.IndiaGlobalTechCoef_elec_cool2$year == 2005]*1.615974328
-      L2233.IndiaGlobalTechCoef_elec_cool2$coefficient[L2233.IndiaGlobalTechCoef_elec_cool2$year == 2010] <- L2233.IndiaGlobalTechCoef_elec_cool2$coefficient[L2233.IndiaGlobalTechCoef_elec_cool2$year == 2010]*1.586037886
-      L2233.IndiaGlobalTechCoef_elec_cool2$coefficient[L2233.IndiaGlobalTechCoef_elec_cool2$year == 2015] <- L2233.IndiaGlobalTechCoef_elec_cool2$coefficient[L2233.IndiaGlobalTechCoef_elec_cool2$year == 2015]*1.691805621
+      #L2233.IndiaGlobalTechCoef_elec_cool2$coefficient[L2233.IndiaGlobalTechCoef_elec_cool2$year == 1990] <- L2233.IndiaGlobalTechCoef_elec_cool2$coefficient[L2233.IndiaGlobalTechCoef_elec_cool2$year == 1990]*1.406
+      #L2233.IndiaGlobalTechCoef_elec_cool2$coefficient[L2233.IndiaGlobalTechCoef_elec_cool2$year == 2005] <- L2233.IndiaGlobalTechCoef_elec_cool2$coefficient[L2233.IndiaGlobalTechCoef_elec_cool2$year == 2005]*1.615974328
+      #L2233.IndiaGlobalTechCoef_elec_cool2$coefficient[L2233.IndiaGlobalTechCoef_elec_cool2$year == 2010] <- L2233.IndiaGlobalTechCoef_elec_cool2$coefficient[L2233.IndiaGlobalTechCoef_elec_cool2$year == 2010]*1.586037886
+      #L2233.IndiaGlobalTechCoef_elec_cool2$coefficient[L2233.IndiaGlobalTechCoef_elec_cool2$year == 2015] <- L2233.IndiaGlobalTechCoef_elec_cool2$coefficient[L2233.IndiaGlobalTechCoef_elec_cool2$year == 2015]*1.691805621
 
 
       #Intermittent techs
@@ -1059,10 +1074,10 @@ module_water_L2233.electricity_water_india <- function(command, ...) {
       L2233.IndiaGlobalIntTechCoef_elec_cool2 <- L2233.IndiaGlobalIntTechCoef_elec_cool2 %>%  distinct()
 
       #Alter water withdrawal and consumption coefficients to solve calibration error
-      L2233.IndiaGlobalIntTechCoef_elec_cool2$coefficient[L2233.IndiaGlobalIntTechCoef_elec_cool2$year == 1990] <- L2233.IndiaGlobalIntTechCoef_elec_cool2$coefficient[L2233.IndiaGlobalIntTechCoef_elec_cool2$year == 1990]*1.406
-      L2233.IndiaGlobalIntTechCoef_elec_cool2$coefficient[L2233.IndiaGlobalIntTechCoef_elec_cool2$year == 2005] <- L2233.IndiaGlobalIntTechCoef_elec_cool2$coefficient[L2233.IndiaGlobalIntTechCoef_elec_cool2$year == 2005]*1.615974328
-      L2233.IndiaGlobalIntTechCoef_elec_cool2$coefficient[L2233.IndiaGlobalIntTechCoef_elec_cool2$year == 2010] <- L2233.IndiaGlobalIntTechCoef_elec_cool2$coefficient[L2233.IndiaGlobalIntTechCoef_elec_cool2$year == 2010]*1.586037886
-      L2233.IndiaGlobalIntTechCoef_elec_cool2$coefficient[L2233.IndiaGlobalIntTechCoef_elec_cool2$year == 2015] <- L2233.IndiaGlobalIntTechCoef_elec_cool2$coefficient[L2233.IndiaGlobalIntTechCoef_elec_cool2$year == 2015]*1.691805621
+      #L2233.IndiaGlobalIntTechCoef_elec_cool2$coefficient[L2233.IndiaGlobalIntTechCoef_elec_cool2$year == 1990] <- L2233.IndiaGlobalIntTechCoef_elec_cool2$coefficient[L2233.IndiaGlobalIntTechCoef_elec_cool2$year == 1990]*1.406
+      #L2233.IndiaGlobalIntTechCoef_elec_cool2$coefficient[L2233.IndiaGlobalIntTechCoef_elec_cool2$year == 2005] <- L2233.IndiaGlobalIntTechCoef_elec_cool2$coefficient[L2233.IndiaGlobalIntTechCoef_elec_cool2$year == 2005]*1.615974328
+      #L2233.IndiaGlobalIntTechCoef_elec_cool2$coefficient[L2233.IndiaGlobalIntTechCoef_elec_cool2$year == 2010] <- L2233.IndiaGlobalIntTechCoef_elec_cool2$coefficient[L2233.IndiaGlobalIntTechCoef_elec_cool2$year == 2010]*1.586037886
+      #L2233.IndiaGlobalIntTechCoef_elec_cool2$coefficient[L2233.IndiaGlobalIntTechCoef_elec_cool2$year == 2015] <- L2233.IndiaGlobalIntTechCoef_elec_cool2$coefficient[L2233.IndiaGlobalIntTechCoef_elec_cool2$year == 2015]*1.691805621
 
 
       #KEYWORD INFO
@@ -1111,8 +1126,7 @@ module_water_L2233.electricity_water_india <- function(command, ...) {
         mutate(subsector1 = "hydro")  %>%
         select(region, supplysector, GLU_name, subsector1, subsector, stub.technology, year, fixedOutput,
                share.weight.year, subs.share.weight, tech.share.weight) %>%
-        rename(subsector0 = GLU_name) %>%
-        filter(year > 2015) ->
+        rename(subsector0 = GLU_name) ->
         L2233.IndiaBasinsStubTechFixOut_hydro  #OUTPUT
 
 #=======================================================================================================================================#
