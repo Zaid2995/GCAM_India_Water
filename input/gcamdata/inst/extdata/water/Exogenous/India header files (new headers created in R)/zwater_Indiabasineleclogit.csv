@@ -2,7 +2,7 @@ INPUT_TABLE
 Variable ID
 IndiaBasinelecLogit
 
-region,supplysector,nesting.subsector,logit.year.fillout,logit.exponent,logit.type
+region,supplysector,subsector0,logit.year.fillout,logit.exponent,logit.type
 India,electricity,IndusR,1975,-3,relative-cost-logit
 India,electricity,SabarmatiR,1975,-3,relative-cost-logit
 India,electricity,GangesR,1975,-3,relative-cost-logit

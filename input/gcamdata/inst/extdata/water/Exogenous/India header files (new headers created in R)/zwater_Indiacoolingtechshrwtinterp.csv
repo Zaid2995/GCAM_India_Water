@@ -79,6 +79,25 @@ India,electricity,NarmadaR,solar,solar,PV,share-weight,2015,2100,1,1,fixed
 India,electricity,PennarR,solar,solar,PV,share-weight,2015,2100,1,1,fixed
 India,electricity,SabarmatiR,solar,solar,PV,share-weight,2015,2100,1,1,fixed
 India,electricity,TaptiR,solar,solar,PV,share-weight,2015,2100,1,1,fixed
+India,electricity,BengalBay,solar,solar,PV_storage,share-weight,2015,2100,0,0.1,fixed
+India,electricity,BengalW,solar,solar,PV_storage,share-weight,2015,2100,0,0.1,fixed
+India,electricity,BrahmaniR,solar,solar,PV_storage,share-weight,2015,2100,0,0.1,fixed
+India,electricity,CauveryR,solar,solar,PV_storage,share-weight,2015,2100,0,0.1,fixed
+India,electricity,GangesR,solar,solar,PV_storage,share-weight,2015,2100,0,0.1,fixed
+India,electricity,GodavariR,solar,solar,PV_storage,share-weight,2015,2100,0,0.1,fixed
+India,electricity,IndCstE,solar,solar,PV_storage,share-weight,2015,2100,0,0.1,fixed
+India,electricity,IndCstNE,solar,solar,PV_storage,share-weight,2015,2100,0,0.1,fixed
+India,electricity,IndCstS,solar,solar,PV_storage,share-weight,2015,2100,0,0.1,fixed
+India,electricity,IndCstW,solar,solar,PV_storage,share-weight,2015,2100,0,0.1,fixed
+India,electricity,IndusR,solar,solar,PV_storage,share-weight,2015,2100,0,0.1,fixed
+India,electricity,IrrawaddyR,solar,solar,PV_storage,share-weight,2015,2100,0,0.1,fixed
+India,electricity,KrishnaR,solar,solar,PV_storage,share-weight,2015,2100,0,0.1,fixed
+India,electricity,MahanadiR,solar,solar,PV_storage,share-weight,2015,2100,0,0.1,fixed
+India,electricity,MahiR,solar,solar,PV_storage,share-weight,2015,2100,0,0.1,fixed
+India,electricity,NarmadaR,solar,solar,PV_storage,share-weight,2015,2100,0,0.1,fixed
+India,electricity,PennarR,solar,solar,PV_storage,share-weight,2015,2100,0,0.1,fixed
+India,electricity,SabarmatiR,solar,solar,PV_storage,share-weight,2015,2100,0,0.1,fixed
+India,electricity,TaptiR,solar,solar,PV_storage,share-weight,2015,2100,0,0.1,fixed
 India,electricity,BengalBay,biomass,biomass (conv),biomass (conv) (dry cooling),share-weight,2015,2100,0.8,0.8,fixed
 India,electricity,BengalW,biomass,biomass (conv),biomass (conv) (dry cooling),share-weight,2015,2100,0.8,0.8,fixed
 India,electricity,BrahmaniR,biomass,biomass (conv),biomass (conv) (dry cooling),share-weight,2015,2100,0.8,0.8,fixed
@@ -516,6 +535,44 @@ India,electricity,NarmadaR,wind,wind,wind,share-weight,2015,2100,1,1,fixed
 India,electricity,PennarR,wind,wind,wind,share-weight,2015,2100,1,1,fixed
 India,electricity,SabarmatiR,wind,wind,wind,share-weight,2015,2100,1,1,fixed
 India,electricity,TaptiR,wind,wind,wind,share-weight,2015,2100,1,1,fixed
+India,electricity,BengalBay,wind,wind,wind_offshore,share-weight,2015,2100,0,0.1,linear
+India,electricity,BengalW,wind,wind,wind_offshore,share-weight,2015,2100,0,0.1,linear
+India,electricity,BrahmaniR,wind,wind,wind_offshore,share-weight,2015,2100,0,0.1,linear
+India,electricity,CauveryR,wind,wind,wind_offshore,share-weight,2015,2100,0,0.1,linear
+India,electricity,GangesR,wind,wind,wind_offshore,share-weight,2015,2100,0,0.1,linear
+India,electricity,GodavariR,wind,wind,wind_offshore,share-weight,2015,2100,0,0.1,linear
+India,electricity,IndCstE,wind,wind,wind_offshore,share-weight,2015,2100,0,0.1,linear
+India,electricity,IndCstNE,wind,wind,wind_offshore,share-weight,2015,2100,0,0.1,linear
+India,electricity,IndCstS,wind,wind,wind_offshore,share-weight,2015,2100,0,0.1,linear
+India,electricity,IndCstW,wind,wind,wind_offshore,share-weight,2015,2100,0,0.1,linear
+India,electricity,IndusR,wind,wind,wind_offshore,share-weight,2015,2100,0,0.1,linear
+India,electricity,IrrawaddyR,wind,wind,wind_offshore,share-weight,2015,2100,0,0.1,linear
+India,electricity,KrishnaR,wind,wind,wind_offshore,share-weight,2015,2100,0,0.1,linear
+India,electricity,MahanadiR,wind,wind,wind_offshore,share-weight,2015,2100,0,0.1,linear
+India,electricity,MahiR,wind,wind,wind_offshore,share-weight,2015,2100,0,0.1,linear
+India,electricity,NarmadaR,wind,wind,wind_offshore,share-weight,2015,2100,0,0.1,linear
+India,electricity,PennarR,wind,wind,wind_offshore,share-weight,2015,2100,0,0.1,linear
+India,electricity,SabarmatiR,wind,wind,wind_offshore,share-weight,2015,2100,0,0.1,linear
+India,electricity,TaptiR,wind,wind,wind_offshore,share-weight,2015,2100,0,0.1,linear
+India,electricity,BengalBay,wind,wind,wind_storage,share-weight,2015,2100,0,0.1,linear
+India,electricity,BengalW,wind,wind,wind_storage,share-weight,2015,2100,0,0.1,linear
+India,electricity,BrahmaniR,wind,wind,wind_storage,share-weight,2015,2100,0,0.1,linear
+India,electricity,CauveryR,wind,wind,wind_storage,share-weight,2015,2100,0,0.1,linear
+India,electricity,GangesR,wind,wind,wind_storage,share-weight,2015,2100,0,0.1,linear
+India,electricity,GodavariR,wind,wind,wind_storage,share-weight,2015,2100,0,0.1,linear
+India,electricity,IndCstE,wind,wind,wind_storage,share-weight,2015,2100,0,0.1,linear
+India,electricity,IndCstNE,wind,wind,wind_storage,share-weight,2015,2100,0,0.1,linear
+India,electricity,IndCstS,wind,wind,wind_storage,share-weight,2015,2100,0,0.1,linear
+India,electricity,IndCstW,wind,wind,wind_storage,share-weight,2015,2100,0,0.1,linear
+India,electricity,IndusR,wind,wind,wind_storage,share-weight,2015,2100,0,0.1,linear
+India,electricity,IrrawaddyR,wind,wind,wind_storage,share-weight,2015,2100,0,0.1,linear
+India,electricity,KrishnaR,wind,wind,wind_storage,share-weight,2015,2100,0,0.1,linear
+India,electricity,MahanadiR,wind,wind,wind_storage,share-weight,2015,2100,0,0.1,linear
+India,electricity,MahiR,wind,wind,wind_storage,share-weight,2015,2100,0,0.1,linear
+India,electricity,NarmadaR,wind,wind,wind_storage,share-weight,2015,2100,0,0.1,linear
+India,electricity,PennarR,wind,wind,wind_storage,share-weight,2015,2100,0,0.1,linear
+India,electricity,SabarmatiR,wind,wind,wind_storage,share-weight,2015,2100,0,0.1,linear
+India,electricity,TaptiR,wind,wind,wind_storage,share-weight,2015,2100,0,0.1,linear
 India,electricity,BengalBay,nuclear,Gen_II_LWR,Gen_II_LWR (once through),share-weight,2095,2100,0.529499,0.529499,fixed
 India,electricity,BengalW,nuclear,Gen_II_LWR,Gen_II_LWR (once through),share-weight,2095,2100,0.530019,0.530019,fixed
 India,electricity,BrahmaniR,nuclear,Gen_II_LWR,Gen_II_LWR (once through),share-weight,2095,2100,0.530019,0.530019,fixed
@@ -592,25 +649,44 @@ India,electricity,NarmadaR,solar,solar,PV,share-weight,2095,2100,1,1,fixed
 India,electricity,PennarR,solar,solar,PV,share-weight,2095,2100,1,1,fixed
 India,electricity,SabarmatiR,solar,solar,PV,share-weight,2095,2100,1,1,fixed
 India,electricity,TaptiR,solar,solar,PV,share-weight,2095,2100,1,1,fixed
-India,electricity,BengalBay,biomass,biomass (conv),biomass (conv) (dry cooling),share-weight,2095,2100,0.0815546,0.0815546,fixed
-India,electricity,BengalW,biomass,biomass (conv),biomass (conv) (dry cooling),share-weight,2095,2100,0.0816504,0.0816504,fixed
-India,electricity,BrahmaniR,biomass,biomass (conv),biomass (conv) (dry cooling),share-weight,2095,2100,0.0816352,0.0816352,fixed
-India,electricity,CauveryR,biomass,biomass (conv),biomass (conv) (dry cooling),share-weight,2095,2100,0.0817054,0.0817054,fixed
-India,electricity,GangesR,biomass,biomass (conv),biomass (conv) (dry cooling),share-weight,2095,2100,0.081689,0.081689,fixed
-India,electricity,GodavariR,biomass,biomass (conv),biomass (conv) (dry cooling),share-weight,2095,2100,0.0816889,0.0816889,fixed
-India,electricity,IndCstE,biomass,biomass (conv),biomass (conv) (dry cooling),share-weight,2095,2100,0.0816351,0.0816351,fixed
-India,electricity,IndCstNE,biomass,biomass (conv),biomass (conv) (dry cooling),share-weight,2095,2100,0.0815852,0.0815852,fixed
-India,electricity,IndCstS,biomass,biomass (conv),biomass (conv) (dry cooling),share-weight,2095,2100,0.0815929,0.0815929,fixed
-India,electricity,IndCstW,biomass,biomass (conv),biomass (conv) (dry cooling),share-weight,2095,2100,0.0816814,0.0816814,fixed
-India,electricity,IndusR,biomass,biomass (conv),biomass (conv) (dry cooling),share-weight,2095,2100,0.0816891,0.0816891,fixed
-India,electricity,IrrawaddyR,biomass,biomass (conv),biomass (conv) (dry cooling),share-weight,2095,2100,0.0817415,0.0817415,fixed
-India,electricity,KrishnaR,biomass,biomass (conv),biomass (conv) (dry cooling),share-weight,2095,2100,0.0816889,0.0816889,fixed
-India,electricity,MahanadiR,biomass,biomass (conv),biomass (conv) (dry cooling),share-weight,2095,2100,0.0816886,0.0816886,fixed
-India,electricity,MahiR,biomass,biomass (conv),biomass (conv) (dry cooling),share-weight,2095,2100,0.0817618,0.0817618,fixed
-India,electricity,NarmadaR,biomass,biomass (conv),biomass (conv) (dry cooling),share-weight,2095,2100,0.0817524,0.0817524,fixed
-India,electricity,PennarR,biomass,biomass (conv),biomass (conv) (dry cooling),share-weight,2095,2100,0.0817411,0.0817411,fixed
-India,electricity,SabarmatiR,biomass,biomass (conv),biomass (conv) (dry cooling),share-weight,2095,2100,0.081689,0.081689,fixed
-India,electricity,TaptiR,biomass,biomass (conv),biomass (conv) (dry cooling),share-weight,2095,2100,0.0817829,0.0817829,fixed
+India,electricity,BengalBay,solar,solar,PV_storage,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,BengalW,solar,solar,PV_storage,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,BrahmaniR,solar,solar,PV_storage,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,CauveryR,solar,solar,PV_storage,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,GangesR,solar,solar,PV_storage,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,GodavariR,solar,solar,PV_storage,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,IndCstE,solar,solar,PV_storage,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,IndCstNE,solar,solar,PV_storage,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,IndCstS,solar,solar,PV_storage,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,IndCstW,solar,solar,PV_storage,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,IndusR,solar,solar,PV_storage,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,IrrawaddyR,solar,solar,PV_storage,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,KrishnaR,solar,solar,PV_storage,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,MahanadiR,solar,solar,PV_storage,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,MahiR,solar,solar,PV_storage,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,NarmadaR,solar,solar,PV_storage,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,PennarR,solar,solar,PV_storage,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,SabarmatiR,solar,solar,PV_storage,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,TaptiR,solar,solar,PV_storage,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,BengalBay,biomass,biomass (conv),biomass (conv) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,BengalW,biomass,biomass (conv),biomass (conv) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,BrahmaniR,biomass,biomass (conv),biomass (conv) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,CauveryR,biomass,biomass (conv),biomass (conv) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,GangesR,biomass,biomass (conv),biomass (conv) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,GodavariR,biomass,biomass (conv),biomass (conv) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,IndCstE,biomass,biomass (conv),biomass (conv) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,IndCstNE,biomass,biomass (conv),biomass (conv) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,IndCstS,biomass,biomass (conv),biomass (conv) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,IndCstW,biomass,biomass (conv),biomass (conv) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,IndusR,biomass,biomass (conv),biomass (conv) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,IrrawaddyR,biomass,biomass (conv),biomass (conv) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,KrishnaR,biomass,biomass (conv),biomass (conv) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,MahanadiR,biomass,biomass (conv),biomass (conv) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,MahiR,biomass,biomass (conv),biomass (conv) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,NarmadaR,biomass,biomass (conv),biomass (conv) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,PennarR,biomass,biomass (conv),biomass (conv) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,SabarmatiR,biomass,biomass (conv),biomass (conv) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,TaptiR,biomass,biomass (conv),biomass (conv) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
 India,electricity,BengalBay,biomass,biomass (conv),biomass (conv) (once through),share-weight,2095,2100,0.657622,0.657622,fixed
 India,electricity,BengalW,biomass,biomass (conv),biomass (conv) (once through),share-weight,2095,2100,0.658617,0.658617,fixed
 India,electricity,BrahmaniR,biomass,biomass (conv),biomass (conv) (once through),share-weight,2095,2100,0.658617,0.658617,fixed
@@ -668,25 +744,25 @@ India,electricity,NarmadaR,biomass,biomass (conv),biomass (conv) (seawater),shar
 India,electricity,PennarR,biomass,biomass (conv),biomass (conv) (seawater),share-weight,2095,2100,0.282173,0.282173,fixed
 India,electricity,SabarmatiR,biomass,biomass (conv),biomass (conv) (seawater),share-weight,2095,2100,0.282172,0.282172,fixed
 India,electricity,TaptiR,biomass,biomass (conv),biomass (conv) (seawater),share-weight,2095,2100,0.282172,0.282172,fixed
-India,electricity,BengalBay,coal,coal (conv pul),coal (conv pul) (dry cooling),share-weight,2095,2100,0.185698,0.185698,fixed
-India,electricity,BengalW,coal,coal (conv pul),coal (conv pul) (dry cooling),share-weight,2095,2100,0.185698,0.185698,fixed
-India,electricity,BrahmaniR,coal,coal (conv pul),coal (conv pul) (dry cooling),share-weight,2095,2100,0.185698,0.185698,fixed
-India,electricity,CauveryR,coal,coal (conv pul),coal (conv pul) (dry cooling),share-weight,2095,2100,0.185698,0.185698,fixed
-India,electricity,GangesR,coal,coal (conv pul),coal (conv pul) (dry cooling),share-weight,2095,2100,0.185698,0.185698,fixed
-India,electricity,GodavariR,coal,coal (conv pul),coal (conv pul) (dry cooling),share-weight,2095,2100,0.185698,0.185698,fixed
-India,electricity,IndCstE,coal,coal (conv pul),coal (conv pul) (dry cooling),share-weight,2095,2100,0.185698,0.185698,fixed
-India,electricity,IndCstNE,coal,coal (conv pul),coal (conv pul) (dry cooling),share-weight,2095,2100,0.185698,0.185698,fixed
-India,electricity,IndCstS,coal,coal (conv pul),coal (conv pul) (dry cooling),share-weight,2095,2100,0.185698,0.185698,fixed
-India,electricity,IndCstW,coal,coal (conv pul),coal (conv pul) (dry cooling),share-weight,2095,2100,0.185698,0.185698,fixed
-India,electricity,IndusR,coal,coal (conv pul),coal (conv pul) (dry cooling),share-weight,2095,2100,0.185698,0.185698,fixed
-India,electricity,IrrawaddyR,coal,coal (conv pul),coal (conv pul) (dry cooling),share-weight,2095,2100,0.185698,0.185698,fixed
-India,electricity,KrishnaR,coal,coal (conv pul),coal (conv pul) (dry cooling),share-weight,2095,2100,0.185698,0.185698,fixed
-India,electricity,MahanadiR,coal,coal (conv pul),coal (conv pul) (dry cooling),share-weight,2095,2100,0.185698,0.185698,fixed
-India,electricity,MahiR,coal,coal (conv pul),coal (conv pul) (dry cooling),share-weight,2095,2100,0.185697,0.185697,fixed
-India,electricity,NarmadaR,coal,coal (conv pul),coal (conv pul) (dry cooling),share-weight,2095,2100,0.185698,0.185698,fixed
-India,electricity,PennarR,coal,coal (conv pul),coal (conv pul) (dry cooling),share-weight,2095,2100,0.185698,0.185698,fixed
-India,electricity,SabarmatiR,coal,coal (conv pul),coal (conv pul) (dry cooling),share-weight,2095,2100,0.185698,0.185698,fixed
-India,electricity,TaptiR,coal,coal (conv pul),coal (conv pul) (dry cooling),share-weight,2095,2100,0.185698,0.185698,fixed
+India,electricity,BengalBay,coal,coal (conv pul),coal (conv pul) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,BengalW,coal,coal (conv pul),coal (conv pul) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,BrahmaniR,coal,coal (conv pul),coal (conv pul) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,CauveryR,coal,coal (conv pul),coal (conv pul) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,GangesR,coal,coal (conv pul),coal (conv pul) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,GodavariR,coal,coal (conv pul),coal (conv pul) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,IndCstE,coal,coal (conv pul),coal (conv pul) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,IndCstNE,coal,coal (conv pul),coal (conv pul) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,IndCstS,coal,coal (conv pul),coal (conv pul) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,IndCstW,coal,coal (conv pul),coal (conv pul) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,IndusR,coal,coal (conv pul),coal (conv pul) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,IrrawaddyR,coal,coal (conv pul),coal (conv pul) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,KrishnaR,coal,coal (conv pul),coal (conv pul) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,MahanadiR,coal,coal (conv pul),coal (conv pul) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,MahiR,coal,coal (conv pul),coal (conv pul) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,NarmadaR,coal,coal (conv pul),coal (conv pul) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,PennarR,coal,coal (conv pul),coal (conv pul) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,SabarmatiR,coal,coal (conv pul),coal (conv pul) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,TaptiR,coal,coal (conv pul),coal (conv pul) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
 India,electricity,BengalBay,coal,coal (conv pul),coal (conv pul) (once through),share-weight,2095,2100,0,0,fixed
 India,electricity,BengalW,coal,coal (conv pul),coal (conv pul) (once through),share-weight,2095,2100,0,0,fixed
 India,electricity,BrahmaniR,coal,coal (conv pul),coal (conv pul) (once through),share-weight,2095,2100,0,0,fixed
@@ -763,25 +839,25 @@ India,electricity,NarmadaR,coal,coal (conv pul),coal (conv pul) (seawater),share
 India,electricity,PennarR,coal,coal (conv pul),coal (conv pul) (seawater),share-weight,2095,2100,0.45101,0.45101,fixed
 India,electricity,SabarmatiR,coal,coal (conv pul),coal (conv pul) (seawater),share-weight,2095,2100,0.45101,0.45101,fixed
 India,electricity,TaptiR,coal,coal (conv pul),coal (conv pul) (seawater),share-weight,2095,2100,0.45101,0.45101,fixed
-India,electricity,BengalBay,gas,gas (CC),gas (CC) (dry cooling),share-weight,2095,2100,0.108368,0.108368,fixed
-India,electricity,BengalW,gas,gas (CC),gas (CC) (dry cooling),share-weight,2095,2100,0.108216,0.108216,fixed
-India,electricity,BrahmaniR,gas,gas (CC),gas (CC) (dry cooling),share-weight,2095,2100,0.108457,0.108457,fixed
-India,electricity,CauveryR,gas,gas (CC),gas (CC) (dry cooling),share-weight,2095,2100,0.108206,0.108206,fixed
-India,electricity,GangesR,gas,gas (CC),gas (CC) (dry cooling),share-weight,2095,2100,0.10828,0.10828,fixed
-India,electricity,GodavariR,gas,gas (CC),gas (CC) (dry cooling),share-weight,2095,2100,0.10828,0.10828,fixed
-India,electricity,IndCstE,gas,gas (CC),gas (CC) (dry cooling),share-weight,2095,2100,0.108404,0.108404,fixed
-India,electricity,IndCstNE,gas,gas (CC),gas (CC) (dry cooling),share-weight,2095,2100,0.108026,0.108026,fixed
-India,electricity,IndCstS,gas,gas (CC),gas (CC) (dry cooling),share-weight,2095,2100,0.108227,0.108227,fixed
-India,electricity,IndCstW,gas,gas (CC),gas (CC) (dry cooling),share-weight,2095,2100,0.108217,0.108217,fixed
-India,electricity,IndusR,gas,gas (CC),gas (CC) (dry cooling),share-weight,2095,2100,0.108233,0.108233,fixed
-India,electricity,IrrawaddyR,gas,gas (CC),gas (CC) (dry cooling),share-weight,2095,2100,0.108269,0.108269,fixed
-India,electricity,KrishnaR,gas,gas (CC),gas (CC) (dry cooling),share-weight,2095,2100,0.10828,0.10828,fixed
-India,electricity,MahanadiR,gas,gas (CC),gas (CC) (dry cooling),share-weight,2095,2100,0.108228,0.108228,fixed
-India,electricity,MahiR,gas,gas (CC),gas (CC) (dry cooling),share-weight,2095,2100,0.108729,0.108729,fixed
-India,electricity,NarmadaR,gas,gas (CC),gas (CC) (dry cooling),share-weight,2095,2100,0.108262,0.108262,fixed
-India,electricity,PennarR,gas,gas (CC),gas (CC) (dry cooling),share-weight,2095,2100,0.108082,0.108082,fixed
-India,electricity,SabarmatiR,gas,gas (CC),gas (CC) (dry cooling),share-weight,2095,2100,0.108279,0.108279,fixed
-India,electricity,TaptiR,gas,gas (CC),gas (CC) (dry cooling),share-weight,2095,2100,0.108276,0.108276,fixed
+India,electricity,BengalBay,gas,gas (CC),gas (CC) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,BengalW,gas,gas (CC),gas (CC) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,BrahmaniR,gas,gas (CC),gas (CC) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,CauveryR,gas,gas (CC),gas (CC) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,GangesR,gas,gas (CC),gas (CC) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,GodavariR,gas,gas (CC),gas (CC) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,IndCstE,gas,gas (CC),gas (CC) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,IndCstNE,gas,gas (CC),gas (CC) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,IndCstS,gas,gas (CC),gas (CC) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,IndCstW,gas,gas (CC),gas (CC) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,IndusR,gas,gas (CC),gas (CC) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,IrrawaddyR,gas,gas (CC),gas (CC) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,KrishnaR,gas,gas (CC),gas (CC) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,MahanadiR,gas,gas (CC),gas (CC) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,MahiR,gas,gas (CC),gas (CC) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,NarmadaR,gas,gas (CC),gas (CC) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,PennarR,gas,gas (CC),gas (CC) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,SabarmatiR,gas,gas (CC),gas (CC) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,TaptiR,gas,gas (CC),gas (CC) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
 India,electricity,BengalBay,gas,gas (CC),gas (CC) (once through),share-weight,2095,2100,0.64323,0.64323,fixed
 India,electricity,BengalW,gas,gas (CC),gas (CC) (once through),share-weight,2095,2100,0.644083,0.644083,fixed
 India,electricity,BrahmaniR,gas,gas (CC),gas (CC) (once through),share-weight,2095,2100,0.644083,0.644083,fixed
@@ -839,25 +915,25 @@ India,electricity,NarmadaR,gas,gas (CC),gas (CC) (seawater),share-weight,2095,21
 India,electricity,PennarR,gas,gas (CC),gas (CC) (seawater),share-weight,2095,2100,0.275942,0.275942,fixed
 India,electricity,SabarmatiR,gas,gas (CC),gas (CC) (seawater),share-weight,2095,2100,0.275942,0.275942,fixed
 India,electricity,TaptiR,gas,gas (CC),gas (CC) (seawater),share-weight,2095,2100,0.275942,0.275942,fixed
-India,electricity,BengalBay,gas,gas (steam/CT),gas (steam/CT) (dry cooling),share-weight,2095,2100,0.0961295,0.0961295,fixed
-India,electricity,BengalW,gas,gas (steam/CT),gas (steam/CT) (dry cooling),share-weight,2095,2100,0.0962225,0.0962225,fixed
-India,electricity,BrahmaniR,gas,gas (steam/CT),gas (steam/CT) (dry cooling),share-weight,2095,2100,0.0961469,0.0961469,fixed
-India,electricity,CauveryR,gas,gas (steam/CT),gas (steam/CT) (dry cooling),share-weight,2095,2100,0.0962227,0.0962227,fixed
-India,electricity,GangesR,gas,gas (steam/CT),gas (steam/CT) (dry cooling),share-weight,2095,2100,0.0962226,0.0962226,fixed
-India,electricity,GodavariR,gas,gas (steam/CT),gas (steam/CT) (dry cooling),share-weight,2095,2100,0.0962226,0.0962226,fixed
-India,electricity,IndCstE,gas,gas (steam/CT),gas (steam/CT) (dry cooling),share-weight,2095,2100,0.0961713,0.0961713,fixed
-India,electricity,IndCstNE,gas,gas (steam/CT),gas (steam/CT) (dry cooling),share-weight,2095,2100,0.0962574,0.0962574,fixed
-India,electricity,IndCstS,gas,gas (steam/CT),gas (steam/CT) (dry cooling),share-weight,2095,2100,0.0962511,0.0962511,fixed
-India,electricity,IndCstW,gas,gas (steam/CT),gas (steam/CT) (dry cooling),share-weight,2095,2100,0.0962229,0.0962229,fixed
-India,electricity,IndusR,gas,gas (steam/CT),gas (steam/CT) (dry cooling),share-weight,2095,2100,0.0962224,0.0962224,fixed
-India,electricity,IrrawaddyR,gas,gas (steam/CT),gas (steam/CT) (dry cooling),share-weight,2095,2100,0.0961108,0.0961108,fixed
-India,electricity,KrishnaR,gas,gas (steam/CT),gas (steam/CT) (dry cooling),share-weight,2095,2100,0.0962227,0.0962227,fixed
-India,electricity,MahanadiR,gas,gas (steam/CT),gas (steam/CT) (dry cooling),share-weight,2095,2100,0.0962226,0.0962226,fixed
-India,electricity,MahiR,gas,gas (steam/CT),gas (steam/CT) (dry cooling),share-weight,2095,2100,0.0964196,0.0964196,fixed
-India,electricity,NarmadaR,gas,gas (steam/CT),gas (steam/CT) (dry cooling),share-weight,2095,2100,0.096192,0.096192,fixed
-India,electricity,PennarR,gas,gas (steam/CT),gas (steam/CT) (dry cooling),share-weight,2095,2100,0.096196,0.096196,fixed
-India,electricity,SabarmatiR,gas,gas (steam/CT),gas (steam/CT) (dry cooling),share-weight,2095,2100,0.0962227,0.0962227,fixed
-India,electricity,TaptiR,gas,gas (steam/CT),gas (steam/CT) (dry cooling),share-weight,2095,2100,0.0962605,0.0962605,fixed
+India,electricity,BengalBay,gas,gas (steam/CT),gas (steam/CT) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,BengalW,gas,gas (steam/CT),gas (steam/CT) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,BrahmaniR,gas,gas (steam/CT),gas (steam/CT) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,CauveryR,gas,gas (steam/CT),gas (steam/CT) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,GangesR,gas,gas (steam/CT),gas (steam/CT) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,GodavariR,gas,gas (steam/CT),gas (steam/CT) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,IndCstE,gas,gas (steam/CT),gas (steam/CT) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,IndCstNE,gas,gas (steam/CT),gas (steam/CT) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,IndCstS,gas,gas (steam/CT),gas (steam/CT) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,IndCstW,gas,gas (steam/CT),gas (steam/CT) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,IndusR,gas,gas (steam/CT),gas (steam/CT) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,IrrawaddyR,gas,gas (steam/CT),gas (steam/CT) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,KrishnaR,gas,gas (steam/CT),gas (steam/CT) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,MahanadiR,gas,gas (steam/CT),gas (steam/CT) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,MahiR,gas,gas (steam/CT),gas (steam/CT) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,NarmadaR,gas,gas (steam/CT),gas (steam/CT) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,PennarR,gas,gas (steam/CT),gas (steam/CT) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,SabarmatiR,gas,gas (steam/CT),gas (steam/CT) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,TaptiR,gas,gas (steam/CT),gas (steam/CT) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
 India,electricity,BengalBay,gas,gas (steam/CT),gas (steam/CT) (once through),share-weight,2095,2100,0.64981,0.64981,fixed
 India,electricity,BengalW,gas,gas (steam/CT),gas (steam/CT) (once through),share-weight,2095,2100,0.650417,0.650417,fixed
 India,electricity,BrahmaniR,gas,gas (steam/CT),gas (steam/CT) (once through),share-weight,2095,2100,0.650417,0.650417,fixed
@@ -934,25 +1010,25 @@ India,electricity,NarmadaR,hydro,hydro,hydro,share-weight,2095,2100,1,1,fixed
 India,electricity,PennarR,hydro,hydro,hydro,share-weight,2095,2100,1,1,fixed
 India,electricity,SabarmatiR,hydro,hydro,hydro,share-weight,2095,2100,1,1,fixed
 India,electricity,TaptiR,hydro,hydro,hydro,share-weight,2095,2100,1,1,fixed
-India,electricity,BengalBay,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),share-weight,2095,2100,0.0774822,0.0774822,fixed
-India,electricity,BengalW,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),share-weight,2095,2100,0.077492,0.077492,fixed
-India,electricity,BrahmaniR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),share-weight,2095,2100,0.0775293,0.0775293,fixed
-India,electricity,CauveryR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),share-weight,2095,2100,0.0775066,0.0775066,fixed
-India,electricity,GangesR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),share-weight,2095,2100,0.0774758,0.0774758,fixed
-India,electricity,GodavariR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),share-weight,2095,2100,0.0774758,0.0774758,fixed
-India,electricity,IndCstE,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),share-weight,2095,2100,0.0775491,0.0775491,fixed
-India,electricity,IndCstNE,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),share-weight,2095,2100,0.0776186,0.0776186,fixed
-India,electricity,IndCstS,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),share-weight,2095,2100,0.0775018,0.0775018,fixed
-India,electricity,IndCstW,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),share-weight,2095,2100,0.0775077,0.0775077,fixed
-India,electricity,IndusR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),share-weight,2095,2100,0.0774756,0.0774756,fixed
-India,electricity,IrrawaddyR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),share-weight,2095,2100,0.0773526,0.0773526,fixed
-India,electricity,KrishnaR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),share-weight,2095,2100,0.0774756,0.0774756,fixed
-India,electricity,MahanadiR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),share-weight,2095,2100,0.0774417,0.0774417,fixed
-India,electricity,MahiR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),share-weight,2095,2100,0.0774127,0.0774127,fixed
-India,electricity,NarmadaR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),share-weight,2095,2100,0.0774655,0.0774655,fixed
-India,electricity,PennarR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),share-weight,2095,2100,0.077569,0.077569,fixed
-India,electricity,SabarmatiR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),share-weight,2095,2100,0.0774758,0.0774758,fixed
-India,electricity,TaptiR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),share-weight,2095,2100,0.0775097,0.0775097,fixed
+India,electricity,BengalBay,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,BengalW,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,BrahmaniR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,CauveryR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,GangesR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,GodavariR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,IndCstE,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,IndCstNE,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,IndCstS,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,IndCstW,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,IndusR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,IrrawaddyR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,KrishnaR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,MahanadiR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,MahiR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,NarmadaR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,PennarR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,SabarmatiR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
+India,electricity,TaptiR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),share-weight,2095,2100,0.8,0.8,fixed
 India,electricity,BengalBay,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (once through),share-weight,2095,2100,0.661321,0.661321,fixed
 India,electricity,BengalW,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (once through),share-weight,2095,2100,0.661242,0.661242,fixed
 India,electricity,BrahmaniR,refined liquids,refined liquids (steam/CT),refined liquids (steam/CT) (once through),share-weight,2095,2100,0.661242,0.661242,fixed
@@ -1029,3 +1105,41 @@ India,electricity,NarmadaR,wind,wind,wind,share-weight,2095,2100,1,1,fixed
 India,electricity,PennarR,wind,wind,wind,share-weight,2095,2100,1,1,fixed
 India,electricity,SabarmatiR,wind,wind,wind,share-weight,2095,2100,1,1,fixed
 India,electricity,TaptiR,wind,wind,wind,share-weight,2095,2100,1,1,fixed
+India,electricity,BengalBay,wind,wind,wind_offshore,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,BengalW,wind,wind,wind_offshore,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,BrahmaniR,wind,wind,wind_offshore,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,CauveryR,wind,wind,wind_offshore,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,GangesR,wind,wind,wind_offshore,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,GodavariR,wind,wind,wind_offshore,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,IndCstE,wind,wind,wind_offshore,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,IndCstNE,wind,wind,wind_offshore,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,IndCstS,wind,wind,wind_offshore,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,IndCstW,wind,wind,wind_offshore,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,IndusR,wind,wind,wind_offshore,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,IrrawaddyR,wind,wind,wind_offshore,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,KrishnaR,wind,wind,wind_offshore,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,MahanadiR,wind,wind,wind_offshore,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,MahiR,wind,wind,wind_offshore,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,NarmadaR,wind,wind,wind_offshore,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,PennarR,wind,wind,wind_offshore,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,SabarmatiR,wind,wind,wind_offshore,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,TaptiR,wind,wind,wind_offshore,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,BengalBay,wind,wind,wind_storage,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,BengalW,wind,wind,wind_storage,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,BrahmaniR,wind,wind,wind_storage,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,CauveryR,wind,wind,wind_storage,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,GangesR,wind,wind,wind_storage,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,GodavariR,wind,wind,wind_storage,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,IndCstE,wind,wind,wind_storage,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,IndCstNE,wind,wind,wind_storage,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,IndCstS,wind,wind,wind_storage,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,IndCstW,wind,wind,wind_storage,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,IndusR,wind,wind,wind_storage,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,IrrawaddyR,wind,wind,wind_storage,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,KrishnaR,wind,wind,wind_storage,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,MahanadiR,wind,wind,wind_storage,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,MahiR,wind,wind,wind_storage,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,NarmadaR,wind,wind,wind_storage,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,PennarR,wind,wind,wind_storage,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,SabarmatiR,wind,wind,wind_storage,share-weight,2095,2100,0.1,0.1,fixed
+India,electricity,TaptiR,wind,wind,wind_storage,share-weight,2095,2100,0.1,0.1,fixed

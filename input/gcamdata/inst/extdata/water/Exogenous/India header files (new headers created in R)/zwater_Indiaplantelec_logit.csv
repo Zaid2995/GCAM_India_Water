@@ -1,7 +1,7 @@
-INPUT_TABLE
-Variable ID
-Indiaplantelec_logit
-
+INPUT_TABLE,,,,,,,
+Variable ID,,,,,,,
+Indiaplantelec_logit,,,,,,,
+,,,,,,,
 region,supplysector,subsector0,subsector1,subsector,logit.year.fillout,logit.exponent,logit.type
 India,electricity,IndusR,wind,wind,1975,-6,relative.cost.logit
 India,electricity,SabarmatiR,wind,wind,1975,-6,relative.cost.logit
