@@ -67,7 +67,7 @@
 		<Value name = "ag_trade">../input/gcamdata/xml/All/ag_trade.xml</Value>
 
 		<Value name = "unlim_supply_water">../input/gcamdata/xml/All/unlimited_water_supply.xml</Value>
-		<Value name = "water_supply">../input/gcamdata/xml/All/water_supply_constrained.xml</Value>
+		<!--Value name = "water_supply">../input/gcamdata/xml/All/water_supply_constrained.xml</Value-->
 		<Value name = "water_desal">../input/gcamdata/xml/All/desalination.xml</Value>
 		<Value name = "water_td">../input/gcamdata/xml/All/water_td.xml</Value>
 		<Value name = "efw_coefs">../input/gcamdata/xml/All/EFW_input_coefs.xml</Value>
@@ -104,6 +104,7 @@
         <Value name = "elec_water_India_Plantlevel_logit">../input/gcamdata/xml/India/Water/zwater_Indiaplantelec_logit_removedelect_td_bld.xml</Value>
 		<Value name = "elec_water_India_basinfueltechshrwts">../input/gcamdata/xml/India/Water/zwater_IndiaBasinspowerplantShrwt.xml</Value>
         <Value name = "elec_water_India_basincoolingtechshrwts">../input/gcamdata/xml/India/Water/zwater_Indiacoolingtechshrwtinterp.xml</Value>
+        <Value name = "elec_India_coal_fuel_adder_for_basins">../input/gcamdata/xml/India/Electricity/new/India_coal_fuel_adder_for_basins2.xml</Value>
         <!--Value name = "elec_water_India_basincoolingtechshrwts">../input/gcamdata/xml/India/Water/zwater_Indiacoolingtechshrwtinterp_Pennartrial.xml</Value>
         <Value name = "elec_water_India_basincoolingtechshrwts">../input/gcamdata/xml/India/Water/zwater_Indiafueltechshrwtinterp_Pennartrial.xml</Value-->
 		<!--Value name = "Basin_level_Shrwt_India">../input/gcamdata/xml/India/Water/zwater_IndiaBasinWaterelectdshrwt.xml</Value-->
@@ -137,28 +138,22 @@
 		<Value name = "India solar resource changed">../input/gcamdata/xml/India/Electricity/new/zenergy_solarresource_India_BAU.xml</Value>
 		
 		<!-- India-specific OM fixed and var costs: -->
-		<!--Value name = "India inttech OM var_solar">../input/gcamdata/xml/India/Electricity/new/India_state_solar_OMvar_India_water_final.xml</Value>
-		<Value name = "India inttech OM var_wind">../input/gcamdata/xml/India/Electricity/new/India_state_wind_OMvar_India_water_final.xml</Value-->
-		<!--Value name = "India tech OM var_windstorage">../input/gcamdata/xml/India/Electricity/new/India_state_tech_OMvar_India_water_windstorageonly.xml</Value>		
-		<Value name = "India tech OM var">../input/gcamdata/xml/India/Electricity/new/India_state_tech_OMvar_India_water.xml</Value>		
-		<Value name = "India tech OM fixed">../input/gcamdata/xml/India/Electricity/new/India_state_tech_OMfixed_India_water.xml</Value>
-		<Value name = "India tech OM fixed_PVstorage">../input/gcamdata/xml/India/Electricity/new/India_state_tech_OMfixed_India_water_PVstorageonly.xml</Value>
-		<Value name = "India inttech OM fixed">../input/gcamdata/xml/India/Electricity/new/India_state_inttech_OMfixed_India_water.xml</Value>
-		<Value name = "India inttech OM fixed_PVonly">../input/gcamdata/xml/India/Electricity/new/India_state_inttech_OMfixed_India_water_PVonly.xml</Value-->
+		<!--Value name = "India inttech OM var_solar">../input/gcamdata/xml/India/Electricity/new/India_state_solar_OMvar_India_water_NZ.xml</Value>
+		<Value name = "India inttech OM var_wind">../input/gcamdata/xml/India/Electricity/new/India_state_wind_OMvar_India_water_NZ.xml</Value-->
 
 
 		<!-- Tech efficiencies  -->
 		<Value name = "India tech efficiencies">../input/gcamdata/xml/India/Electricity/new/India_TechEff_elec_update_basins.xml</Value>
 			
 		<!-- Share weight -->
-		<Value name = "India electricity shareweights">../input/gcamdata/xml/India/Electricity/new/India_elec_shrwt_coalremoved.xml</Value>
+		<Value name = "India electricity shareweights">../input/gcamdata/xml/India/Electricity/new/India_elec_shrwt_new2.xml</Value>
 		
 		<!-- To match the Final Energy Demand with GCAM 5.2 -->
 		
 		<!-- Industry -->
 		<Value name = "India industry fuel cost adder">../input/gcamdata/xml/India/Industry/IndiaIndustryFuelAdderwH2_delivery.xml</Value>
 		<Value name = "Industry shrwt">../input/gcamdata/xml/India/Industry/India_indus_shrwt.xml</Value>
-		<Value name = "India industry income elasticity">../input/gcamdata/xml/India/Industry/India_indus_incelas.xml</Value>
+		<Value name = "India industry income elasticity">../input/gcamdata/xml/India/Industry/India_indus_incelas_LTS_updated.xml</Value>
 		<Value name = "India Industry tech efficiencies">../input/gcamdata/xml/India/Industry/India_indus_eff2.3.xml</Value>
 		
 		<!-- Others -->
@@ -208,7 +203,7 @@
 
 	</ScenarioComponents>
 	<Strings>
-		<Value name="scenarioName">BAU_elec_water</Value>
+		<Value name="scenarioName">BAU_elec_water_unlimited_water</Value>
 		<Value name="debug-region">India</Value>
 		<Value name="MAGICC-input-dir">../input/magicc/inputs</Value>
 		<Value name="MAGICC-output-dir">../output</Value>
