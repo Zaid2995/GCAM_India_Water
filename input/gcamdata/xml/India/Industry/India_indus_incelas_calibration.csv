@@ -1,0 +1,107 @@
+INPUT_TABLE
+Variable ID
+IncomeElasticity
+
+region,energy.final.demand,year,income.elasticity
+India,aluminum,2020,0.01
+India,aluminum,2025,0.013
+India,aluminum,2030,0.017
+India,aluminum,2035,0.022
+India,aluminum,2040,0.028
+India,aluminum,2045,0.037
+India,aluminum,2050,0.048
+India,aluminum,2055,0.062
+India,aluminum,2060,0.081
+India,aluminum,2065,0.105
+India,aluminum,2070,0.136
+India,aluminum,2075,0.176
+India,aluminum,2080,0.229
+India,aluminum,2085,0.297
+India,aluminum,2090,0.386
+India,aluminum,2095,0.501
+India,aluminum,2100,0.65
+India,iron and steel,2020,0.01
+India,iron and steel,2025,0.013
+India,iron and steel,2030,0.017
+India,iron and steel,2035,0.022
+India,iron and steel,2040,0.028
+India,iron and steel,2045,0.037
+India,iron and steel,2050,0.048
+India,iron and steel,2055,0.062
+India,iron and steel,2060,0.081
+India,iron and steel,2065,0.105
+India,iron and steel,2070,0.136
+India,iron and steel,2075,0.176
+India,iron and steel,2080,0.229
+India,iron and steel,2085,0.297
+India,iron and steel,2090,0.386
+India,iron and steel,2095,0.501
+India,iron and steel,2100,0.65
+India,other industry,2020,0.01
+India,other industry,2025,0.013
+India,other industry,2030,0.017
+India,other industry,2035,0.022
+India,other industry,2040,0.028
+India,other industry,2045,0.037
+India,other industry,2050,0.048
+India,other industry,2055,0.062
+India,other industry,2060,0.081
+India,other industry,2065,0.105
+India,other industry,2070,0.136
+India,other industry,2075,0.176
+India,other industry,2080,0.229
+India,other industry,2085,0.297
+India,other industry,2090,0.386
+India,other industry,2095,0.501
+India,other industry,2100,0.65
+India,cement,2020,0.01
+India,cement,2025,0.013
+India,cement,2030,0.017
+India,cement,2035,0.022
+India,cement,2040,0.028
+India,cement,2045,0.037
+India,cement,2050,0.048
+India,cement,2055,0.062
+India,cement,2060,0.081
+India,cement,2065,0.105
+India,cement,2070,0.136
+India,cement,2075,0.176
+India,cement,2080,0.229
+India,cement,2085,0.297
+India,cement,2090,0.386
+India,cement,2095,0.501
+India,cement,2100,0.65
+India,construction,2020,0.01
+India,construction,2025,0.013
+India,construction,2030,0.017
+India,construction,2035,0.022
+India,construction,2040,0.028
+India,construction,2045,0.037
+India,construction,2050,0.048
+India,construction,2055,0.062
+India,construction,2060,0.081
+India,construction,2065,0.105
+India,construction,2070,0.136
+India,construction,2075,0.176
+India,construction,2080,0.229
+India,construction,2085,0.297
+India,construction,2090,0.386
+India,construction,2095,0.501
+India,construction,2100,0.65
+India,mining energy use,2020,0.01
+India,mining energy use,2025,0.013
+India,mining energy use,2030,0.017
+India,mining energy use,2035,0.022
+India,mining energy use,2040,0.028
+India,mining energy use,2045,0.037
+India,mining energy use,2050,0.048
+India,mining energy use,2055,0.062
+India,mining energy use,2060,0.081
+India,mining energy use,2065,0.105
+India,mining energy use,2070,0.136
+India,mining energy use,2075,0.176
+India,mining energy use,2080,0.229
+India,mining energy use,2085,0.297
+India,mining energy use,2090,0.386
+India,mining energy use,2095,0.501
+India,mining energy use,2100,0.65
