@@ -16,13 +16,13 @@ IndiaBasinsElecMarket, world/+{name}region, region/+{name}supplysector, supplyse
 
 IndiaBasinelecLogit, world/+{name}region, region/+{name}supplysector, supplysector/+{name}subsector0, relative-cost-logit/+{year;fillout=1}logit-exponent, relative-cost-logit/+logit-exponent, subsector0/relative-cost-logit, scenario, scenario/world
 
-IndiaSubsectorelec_shrwt, world/+{name}region, region/+{name}supplysector, supplysector/+{name}nesting-subsector, nesting-subsector/+{name}subsector, subsector/+{year;fillout=1}share-weight, scenario, scenario/world
+IndiaSubsectorelecshrwt, world/+{name}region, region/+{name}supplysector, supplysector/+{name}subsector0, subsector0/+{name}subsector1, subsector1/+{year;fillout=1}share-weight, subsector1/+share-weight, scenario/world, scenario
 
 IndiaTechCapital_elec, world/+{name}region, region/+{name}supplysector, supplysector/+{name}nesting-subsector, nesting-subsector/+{name}subsector, subsector/+{name}subsector0, subsector0/+{year}period, period/+{name}input-capital, input-capital/+capital-overnight, input-capital/+fixed-charge-rate, scenario, scenario/world
 
 IndiaIntTechCapital_elec, world/+{name}region, region/+{name}supplysector, supplysector/+{name}nesting-subsector, nesting-subsector/+{name}subsector, subsector/+{name}subsector0, subsector0/+{year}period, period/+{name}input-capital, input-capital/+capital-overnight, input-capital/+fixed-charge-rate, scenario, scenario/world
 
-IndiaSubsectorelec_logit, world/+{name}region, region/+{name}supplysector, supplysector/+{name}nesting-subsector1, nesting-subsector1/+{name}nesting-subsector2, relative-cost-logit/+{year;fillout=1}logit-exponent, relative-cost-logit/+logit-exponent, nesting-subsector2/relative-cost-logit, scenario, scenario/world 
+IndiaSubsectorelec_logit, world/+{name}region, region/+{name}supplysector, supplysector/+{name}subsector0, subsector0/+{name}subsector1, relative-cost-logit/+{year;fillout=1}logit-exponent, relative-cost-logit/+logit-exponent, subsector1/relative-cost-logit, scenario, scenario/world 
 
 SubsectorLogit, world/+{name}region, region/+{name}supplysector, supplysector/+{name}subsector, dummy-logit-tag/+{year;fillout=1}logit-exponent, dummy-logit-tag/+logit-exponent, subsector/dummy-logit-tag, scenario/world, scenario
 
@@ -82,28 +82,36 @@ AvgFossilEffKeyword, global-technology-database/+{sector-name}location-info, glo
 
 IndiaAvgFossilEffKeyword_elec_cool, world/+{name}region, region/+{name}supplysector, supplysector/+{name}nesting-subsector1, nesting-subsector1/+{name}nesting-subsector2, nesting-subsector2/+{name}subsector, subsector/+{name}stub-technology, stub-technology/+{year}period, period/{average-fossil-efficiency=}keyword, scenario, scenario/world
 
-India_water_techcoef, world/+{name}region, region/+{name}supplysector, supplysector/+{name}subsector0, subsector0/+{name}subsector1, subsector1/+{name}subsector, subsector/+{name}stub-technology, stub-technology/+{year}period, period/+{name}minicam-energy-input, minicam-energy-input/+coefficient, minicam-energy-input/+market-name, scenario, scenario/world,period/{name=CO2}CO2
+India_water_techcoef, world/+{name}region, region/+{name}supplysector, supplysector/+{name}nesting-subsector1, nesting-subsector1/+{name}nesting-subsector2, nesting-subsector2/+{name}subsector, subsector/+{name}stub-technology, stub-technology/+{year}period, period/+{name}minicam-energy-input, minicam-energy-input/+coefficient, minicam-energy-input/+market-name, scenario, scenario/world,period/{name=CO2}CO2
 
 India_water_Inttechcoef, world/+{name}region, region/+{name}supplysector, supplysector/+{name}subsector0, subsector0/+{name}subsector1, subsector1/+{name}subsector, subsector/+{name}stub-technology, stub-technology/+{year}period, period/+{name}minicam-energy-input, minicam-energy-input/+coefficient, minicam-energy-input/+market-name, scenario, scenario/world,period/{name=CO2}CO2
 
 IndiaBasinselecgen, world/+{name}region, region/+{name}supplysector, supplysector/+{name}subsector0, subsector0/+{name}subsector1, subsector1/+{name}subsector, subsector/+{name}stub-technology, stub-technology/+{year}period, CalDataOutput/+calOutputValue, subsector/+{year}share-weight, subsector/+share-weight, period/+share-weight, period/CalDataOutput, scenario, scenario/world
 
+IndiaBasinselecgen2, world/+{name}region, region/+{name}supplysector, supplysector/+{name}subsector0, subsector0/+{name}subsector1, subsector1/+{name}subsector, subsector/+{name}stub-technology, stub-technology/+{year}period, CalDataOutput/+calOutputValue, period/CalDataOutput, scenario, scenario/world
+
+IndiaBasinselecgen3, world/+{name}region, region/+{name}supplysector, supplysector/+{name}subsector0, subsector0/+{name}subsector1, subsector1/+{name}subsector, subsector/+{name}stub-technology, stub-technology/+{year}period, CalDataOutput/+calOutputValue, subsector1/+{year}share-weight, subsector1/+share-weight, subsector/+{year}share-weight, subsector/+share-weight, period/+share-weight, period/CalDataOutput, scenario, scenario/world
+
 zwater_Indiacoolingtech_shrwt, world/+{name}region, region/+{name}supplysector, supplysector/+{name}nesting-subsector1, nesting-subsector1/+{name}nesting-subsector2,  nesting-subsector2/+{name}subsector, subsector/+{name}stub-technology, stub-technology/+{apply-to}interpolation-rule, stub-technology/+{from-year}interpolation-rule, stub-technology/+{to-year}interpolation-rule, interpolation-rule/+from-value, interpolation-rule/+to-value, interpolation-rule/+{name}interpolation-function, scenario/world, scenario
 
 zwater_IndiaBasinsfueltechShrwt, world/+{name}region, region/+{name}supplysector, supplysector/+{name}nesting-subsector1, nesting-subsector1/+{name}nesting-subsector2,  nesting-subsector2/+{apply-to}interpolation-rule, nesting-subsector2/+{from-year}interpolation-rule, nesting-subsector2/+{to-year}interpolation-rule, interpolation-rule/+from-value, interpolation-rule/+to-value, interpolation-rule/+{name}interpolation-function, scenario/world, scenario
 
-
 zwater_IndiaBasinspowerplantShrwt, world/+{name}region, region/+{name}supplysector, supplysector/+{name}nesting-subsector1, nesting-subsector1/+{name}nesting-subsector2,  nesting-subsector2/+{name}subsector, subsector/+{apply-to}interpolation-rule, subsector/+{from-year}interpolation-rule, subsector/+{to-year}interpolation-rule, interpolation-rule/+from-value, interpolation-rule/+to-value, interpolation-rule/+{name}interpolation-function, scenario/world, scenario
-
 
 zwater_Indiafueltech_shrwt, world/+{name}region, region/+{name}supplysector, supplysector/+{name}nesting-subsector1, nesting-subsector1/+{name}nesting-subsector2,  nesting-subsector2/+{apply-to}interpolation-rule, nesting-subsector2/+{from-year}interpolation-rule, nesting-subsector2/+{to-year}interpolation-rule, interpolation-rule/+from-value, interpolation-rule/+to-value, interpolation-rule/+{name}interpolation-function, scenario/world, scenario
 
+IndiaBasinelecshrwts, world/+{name}region, region/+{name}supplysector, supplysector/+{name}nesting-subsector, nesting-subsector/+{apply-to}interpolation-rule, nesting-subsector/+{from-year}interpolation-rule, nesting-subsector/+{to-year}interpolation-rule, interpolation-rule/+from-value, interpolation-rule/+to-value, interpolation-rule/+{name}interpolation-function, scenario/world, scenario
 
+IndiaBasinelecsubsectorshrwts, world/+{name}region, region/+{name}supplysector, supplysector/+{name}nesting-subsector1, nesting-subsector1/+{name}nesting-subsector2,  nesting-subsector2/+{apply-to}interpolation-rule, nesting-subsector2/+{from-year}interpolation-rule, nesting-subsector2/+{to-year}interpolation-rule, interpolation-rule/+from-value, interpolation-rule/+to-value, interpolation-rule/+{name}interpolation-function, scenario/world, scenario
 
+IndiaBasinelecsubsectorshrwts2, world/+{name}region, region/+{name}supplysector, supplysector/+{name}subsector0, subsector0/+{name}subsector1, subsector1/+{year}share-weight, subsector1/+share-weight, scenario/world, scenario
 
+IndiaBasinelecsubsectorshrwts3, world/+{name}region, region/+{name}supplysector, supplysector/+{name}subsector0, subsector0/+{year}share-weight, subsector0/+share-weight, scenario/world, scenario
 
+Indiaplantelec_fllt, world/+{name}region, region/+{name}supplysector, supplysector/+{name}subsector0, subsector0/+{name}subsector1, subsector1/+{name}subsector, subsector/+{year;fillout=1}share-weight, subsector/+share-weight, scenario/world, scenario
 
+IndiaSubsectorCapFac, world/+{name}region, region/+{name}supplysector, supplysector/+{name}nesting-subsector1, nesting-subsector1/+{name}nesting-subsector2, nesting-subsector2/+{name}subsector, subsector/+{year}period, period/+capacity-factor, scenario, scenario/world
 
-
+IndiaWaterPrice, world/+{name}region, region/+{name}supplysector, supplysector/+{name}subsector, subsector/+{name}technology, technology/+{year}period, period/+{name}minicam-non-energy-input, minicam-non-energy-input/+input-cost, scenario, scenario/world
 
 

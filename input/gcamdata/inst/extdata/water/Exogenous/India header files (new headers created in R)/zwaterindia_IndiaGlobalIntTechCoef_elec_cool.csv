@@ -2,7 +2,7 @@ INPUT_TABLE
 Variable ID
 India_water_Inttechcoef
 
-region,supplysector,subsector0,subsector1,subsector,stub.technology,year,minicam.energy.input,coefficient,market.name
+region,supplysector,subsector0,nesting.subsector1,nesting.subsector2,stub.technology,year,minicam.energy.input,coefficient,market.name
 India,electricity,SabarmatiR,solar,solar,PV,1975,water_td_elec_W,0.0055556,India
 India,electricity,GangesR,solar,solar,PV,1975,water_td_elec_W,0.0055556,India
 India,electricity,MahiR,solar,solar,PV,1975,water_td_elec_W,0.0055556,India
