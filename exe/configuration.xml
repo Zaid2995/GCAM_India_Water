@@ -2,7 +2,7 @@
 <Configuration>
 	<Files>
 		<Value name="xmlInputFileName">../input/gcamdata/xml/All/modeltime.xml</Value>
-		<Value name="BatchFileName">batch_ag.xml</Value>
+		<Value name="BatchFileName">batch_water.xml</Value>
 		<Value name="policy-target-file">../input/policy/forcing_target_4p5.xml</Value>
 		<Value name="GHGInputFileName">../input/magicc/inputs/input_gases.emk</Value>
 		<Value write-output="1" append-scenario-name="0" name="xmldb-location">../output/database_basexdb</Value>
@@ -67,7 +67,7 @@
 		<Value name = "ag_trade">../input/gcamdata/xml/All/ag_trade.xml</Value>
 
 		<Value name = "unlim_supply_water">../input/gcamdata/xml/All/unlimited_water_supply.xml</Value>
-		<!--Value name = "water_supply">../input/gcamdata/xml/All/water_supply_constrained.xml</Value-->
+		<Value name = "water_supply">../input/gcamdata/xml/All/water_supply_constrained.xml</Value>
 		<Value name = "water_desal">../input/gcamdata/xml/All/desalination.xml</Value>
 		<Value name = "water_td">../input/gcamdata/xml/All/water_td.xml</Value>
 		<Value name = "efw_coefs">../input/gcamdata/xml/All/EFW_input_coefs.xml</Value>
@@ -105,7 +105,9 @@
 		<Value name = "elec_water_India_basinfueltechshrwts">../input/gcamdata/xml/India/Water/zwater_IndiaBasinspowerplantShrwt.xml</Value>
         <Value name = "elec_water_India_basincoolingtechshrwts">../input/gcamdata/xml/India/Water/zwater_Indiacoolingtechshrwtinterp.xml</Value>
         <Value name = "elec_India_coal_fuel_adder_for_basins">../input/gcamdata/xml/India/Electricity/new/India_coal_fuel_adder_for_basins2.xml</Value>
-        <!--Value name = "elec_water_India_basincoolingtechshrwts">../input/gcamdata/xml/India/Water/zwater_Indiacoolingtechshrwtinterp_Pennartrial.xml</Value>
+
+
+		<!--Value name = "elec_water_India_basincoolingtechshrwts">../input/gcamdata/xml/India/Water/zwater_Indiacoolingtechshrwtinterp_Pennartrial.xml</Value>
         <Value name = "elec_water_India_basincoolingtechshrwts">../input/gcamdata/xml/India/Water/zwater_Indiafueltechshrwtinterp_Pennartrial.xml</Value-->
 		<!--Value name = "Basin_level_Shrwt_India">../input/gcamdata/xml/India/Water/zwater_IndiaBasinWaterelectdshrwt.xml</Value-->
     	<!--Value name = "Basin_level_Shrwt_India">../input/gcamdata/xml/India/Water/IndiaBasinWaterelectdshrwt_trial.xml</Value-->
@@ -153,8 +155,9 @@
 		<!-- Industry -->
 		<Value name = "India industry fuel cost adder">../input/gcamdata/xml/India/Industry/IndiaIndustryFuelAdderwH2_delivery.xml</Value>
 		<Value name = "Industry shrwt">../input/gcamdata/xml/India/Industry/India_indus_shrwt.xml</Value>
-		<Value name = "India industry income elasticity">../input/gcamdata/xml/India/Industry/India_indus_incelas_LTS_updated.xml</Value>
+		<Value name = "India industry income elasticity">../input/gcamdata/xml/India/Industry/India_indus_incelas_LTS_final.xml</Value>
 		<Value name = "India Industry tech efficiencies">../input/gcamdata/xml/India/Industry/India_indus_eff2.3.xml</Value>
+		<Value name = "India_income_elasticity">../input/gcamdata/xml/India/Industry/India_indus_incelas_calibration_-14_6.xml</Value>
 		
 		<!-- Others -->
 		<Value name = "India low hydrogen cost">../input/gcamdata/xml/India/Others/India_hydrogen_cost_change_reference.xml</Value>
@@ -162,7 +165,7 @@
 		<Value name = "Global Ccoef">../input/gcamdata/xml/India/Others/Global Carbon Coeff Revised_noUnconOil.xml</Value>
 		<Value name = "Biomass constraint">../input/gcamdata/xml/India/Others/India_biomassliquids_weights_restrict.xml</Value>
 		
-		<!-- Transport -->
+		<!--Transport -->
 		<Value name = "Transport shrwt">../input/gcamdata/xml/India/Transport/India_transport_share-weights_Ref.xml</Value>	
 		<Value name = "Transport income elasticity">../input/gcamdata/xml/India/Transport/India_transport_incm_elas_BAU.xml</Value>	
 
@@ -170,6 +173,7 @@
 		<Value name = "Building shrwt">../input/gcamdata/xml/India/Building/India_building_share-weights_Ref6.xml</Value>
 		<Value name = "Building heating cooling days">../input/gcamdata/xml/India/Building/CDD_HDD_BAU.xml</Value>
 		<Value name = "Building fuel adder">../input/gcamdata/xml/India/Building/IndiaBuildingFuelAdder.xml</Value>
+		<Value name = "Building_shell_conductance">../input/gcamdata/xml/India/Building/ShellConductance_bld_reduce95percentandincrease40percent.xml</Value>
 
 
 		<Value name = "ind_urb_proc">../input/gcamdata/xml/All/ind_urb_processing_sectors.xml</Value>
@@ -186,7 +190,7 @@
 		<Value name = "nonco2_aglu">../input/gcamdata/xml/All/all_aglu_emissions_IRR_MGMT_MAC.xml</Value> 
 		<Value name = "nonco2_proc">../input/gcamdata/xml/All/ind_urb_processing_sectors_MAC.xml</Value> 
 
-		<Value name = "macro">../input/gcamdata/xml/All/socioeconomics_macro.xml</Value>
+		<!--Value name = "macro">../input/gcamdata/xml/All/socioeconomics_macro.xml</Value-->
 		
 		<Value name = "bio_feedstock_limit">../input/gcamdata/xml/All/liquids_limits.xml</Value>
 		<Value name = "bio_elec_w_feed_limit">../input/gcamdata/xml/All/water_elec_liquids_limits.xml</Value>
@@ -195,15 +199,15 @@
 
         <Value name = "prune_ag">../input/gcamdata/xml/All/prune_empty_ag.xml</Value>
 
-		<!--Value name = "Rest of the world">../input/gcamdata/xml/India/Peaking/GHG_market_constraints_2040_2070_row.xml</Value>
-		<Value name = "India NZ">../input/gcamdata/xml/India/Peaking/GHG_market_constraints_2040_2070_India.xml</Value-->
+		<!--Value name = "Transport_india">../input/gcamdata/xml/India/Transport/transportation_India_new.xml</Value>	
+
+		<Value name = "Building_india">../input/gcamdata/xml/India/Building/building_india.xml</Value-->
 
 		<Value name = "solver">../input/solution/cal_broyden_config.xml</Value>
 
-
 	</ScenarioComponents>
 	<Strings>
-		<Value name="scenarioName">BAU_elec_water_unlimited_water</Value>
+		<Value name="scenarioName">BAU</Value>
 		<Value name="debug-region">India</Value>
 		<Value name="MAGICC-input-dir">../input/magicc/inputs</Value>
 		<Value name="MAGICC-output-dir">../output</Value>
@@ -213,7 +217,7 @@
 		<Value name="CalibrationActive">1</Value>
 		<!-- Fixed GDP will calibrate to exogenous path -->
 		<Value name="FixedGDP-Path">1</Value>
-		<Value name="BatchMode">0</Value>
+		<Value name="BatchMode">1</Value>
 		<Value name="find-path">0</Value>
 		<Value name="createCostCurve">0</Value>
 		<Value name="debugChecking">0</Value>
