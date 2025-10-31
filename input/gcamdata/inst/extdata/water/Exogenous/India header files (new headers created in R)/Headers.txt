@@ -114,4 +114,8 @@ IndiaSubsectorCapFac, world/+{name}region, region/+{name}supplysector, supplysec
 
 IndiaWaterPrice, world/+{name}region, region/+{name}supplysector, supplysector/+{name}subsector, subsector/+{name}technology, technology/+{year}period, period/+{name}minicam-non-energy-input, minicam-non-energy-input/+input-cost, scenario, scenario/world
 
+zwater_IndiaBasinsfuelShrwt, world/+{name}region, region/+{name}supplysector, supplysector/+{name}nesting-subsector1, nesting-subsector1/+{name}nesting-subsector2,  nesting-subsector2/+{apply-to}interpolation-rule, nesting-subsector2/+{from-year}interpolation-rule, nesting-subsector2/+{to-year}interpolation-rule, interpolation-rule/+from-value, interpolation-rule/+to-value, interpolation-rule/+{name}interpolation-function, scenario/world, scenario
+
+
+
 
