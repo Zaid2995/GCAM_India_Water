@@ -356,29 +356,29 @@ Korea,geothermal,recirculating,fresh,0.6,0.6,0.6,0.6,0.6,0.6
 Korea,geothermal,dry_hybrid,fresh,0.4,0.4,0.4,0.4,0.4,0.4
 Korea,CSP,recirculating,fresh,0.5,0.5,0.5,0.5,0.5,0.5
 Korea,CSP,dry_hybrid,fresh,0.5,0.5,0.5,0.5,0.5,0.5
-India,coal,once through,fresh,0.3644,0.3644,0.2644,0.2644,0.07,0.07
+India,coal,once through,fresh,0.329,0.329,0.229,0.229,0.07,0.07
 India,coal,once through,seawater,0.141,0.141,0.241,0.241,0.25,0.25
 India,coal,recirculating,fresh,0.4946,0.4946,0.4946,0.4946,0.645,0.645
 India,coal,cooling pond,fresh,0,0,0,0,0,0
-India,coal,dry cooling,fresh,0,0,0,0,0.035,0.035
-India,fossil non-coal,once through,fresh,0.3644,0.3644,0.2644,0.2644,0.07,0.07
+India,coal,dry cooling,fresh,0.0354,0.0354,0.0354,0.0354,0.035,0.035
+India,fossil non-coal,once through,fresh,0.329,0.329,0.229,0.229,0.07,0.07
 India,fossil non-coal,once through,seawater,0.141,0.141,0.141,0.141,0.03,0.03
 India,fossil non-coal,recirculating,fresh,0.4946,0.4946,0.4946,0.4946,0.865,0.865
 India,fossil non-coal,cooling pond,fresh,0,0,0,0,0,0
-India,fossil non-coal,dry cooling,fresh,0,0,0,0,0.035,0.035
-India,combined cycle,once through,fresh,0.3644,0.3644,0.3644,0.3644,0.07,0.07
+India,fossil non-coal,dry cooling,fresh,0.0354,0.0354,0.0354,0.0354,0.035,0.035
+India,combined cycle,once through,fresh,0.329,0.329,0.329,0.329,0.07,0.07
 India,combined cycle,once through,seawater,0.141,0.141,0.141,0.141,0.03,0.03
 India,combined cycle,recirculating,fresh,0.4946,0.4946,0.4946,0.4946,0.865,0.865
 India,combined cycle,cooling pond,fresh,0,0,0,0,0,0
-India,combined cycle,dry cooling,fresh,0,0,0,0,0.035,0.035
+India,combined cycle,dry cooling,fresh,0.0354,0.0354,0.0354,0.0354,0.035,0.035
 India,nuclear,once through,fresh,0.329,0.329,0.329,0.329,0.07,0.07
 India,nuclear,once through,seawater,0.141,0.141,0.141,0.141,0.03,0.03
 India,nuclear,recirculating,fresh,0.53,0.53,0.53,0.53,0.9,0.9
 India,nuclear,cooling pond,fresh,0,0,0,0,0,0
-India,IGCC,once through,fresh,0.3644,0.3644,0.3644,0.3644,0.07,0.07
+India,IGCC,once through,fresh,0.329,0.329,0.329,0.329,0.07,0.07
 India,IGCC,once through,seawater,0.141,0.141,0.141,0.141,0.03,0.03
 India,IGCC,recirculating,fresh,0.4946,0.4946,0.4946,0.4946,0.865,0.865
-India,IGCC,dry cooling,fresh,0,0,0,0,0.035,0.035
+India,IGCC,dry cooling,fresh,0.0354,0.0354,0.0354,0.0354,0.035,0.035
 India,geothermal,recirculating,fresh,0.6,0.6,0.6,0.6,0.6,0.6
 India,geothermal,dry_hybrid,fresh,0.4,0.4,0.4,0.4,0.4,0.4
 India,CSP,recirculating,fresh,0.5,0.5,0.5,0.5,0.5,0.5
