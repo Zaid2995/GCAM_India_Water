@@ -1,0 +1,1225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+    <world>
+        <region name="India">
+            <supplysector name="electricity">
+                <nesting-subsector name="SabarmatiR">
+                    <nesting-subsector name="biomass">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>0.09</from-value>
+                            <to-value>0.09</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>0.09</from-value>
+                            <to-value>0.09</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2025">
+                            <from-value>19</from-value>
+                            <to-value>21</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2020" to-year="2100">
+                            <from-value>21</from-value>
+                            <to-value>0.05</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>0.05</from-value>
+                            <to-value>0.05</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>21.591283</from-value>
+                            <to-value>250</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>250</from-value>
+                            <to-value>250</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="wind">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>21.591283</from-value>
+                            <to-value>100</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>100</from-value>
+                            <to-value>100</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="GangesR">
+                    <nesting-subsector name="biomass">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>0.09</from-value>
+                            <to-value>0.09</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>0.09</from-value>
+                            <to-value>0.09</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2025">
+                            <from-value>19</from-value>
+                            <to-value>21</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2020" to-year="2100">
+                            <from-value>21</from-value>
+                            <to-value>0.05</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>0.05</from-value>
+                            <to-value>0.05</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>21.591283</from-value>
+                            <to-value>250</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>250</from-value>
+                            <to-value>250</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="wind">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>21.591283</from-value>
+                            <to-value>100</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>100</from-value>
+                            <to-value>100</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="MahiR">
+                    <nesting-subsector name="biomass">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>0.09</from-value>
+                            <to-value>0.09</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>0.09</from-value>
+                            <to-value>0.09</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2025">
+                            <from-value>19</from-value>
+                            <to-value>21</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2020" to-year="2100">
+                            <from-value>21</from-value>
+                            <to-value>0.05</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>0.05</from-value>
+                            <to-value>0.05</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>21.591283</from-value>
+                            <to-value>250</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>250</from-value>
+                            <to-value>250</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="wind">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>21.591283</from-value>
+                            <to-value>100</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>100</from-value>
+                            <to-value>100</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="BengalBay">
+                    <nesting-subsector name="biomass">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>0.09</from-value>
+                            <to-value>0.09</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>0.09</from-value>
+                            <to-value>0.09</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2025">
+                            <from-value>19</from-value>
+                            <to-value>21</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2020" to-year="2100">
+                            <from-value>21</from-value>
+                            <to-value>0.05</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>0.05</from-value>
+                            <to-value>0.05</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>21.591283</from-value>
+                            <to-value>250</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>250</from-value>
+                            <to-value>250</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="wind">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>21.591283</from-value>
+                            <to-value>100</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>100</from-value>
+                            <to-value>100</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="TaptiR">
+                    <nesting-subsector name="biomass">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>0.09</from-value>
+                            <to-value>0.09</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>0.09</from-value>
+                            <to-value>0.09</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2025">
+                            <from-value>19</from-value>
+                            <to-value>21</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2020" to-year="2100">
+                            <from-value>21</from-value>
+                            <to-value>0.05</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>0.05</from-value>
+                            <to-value>0.05</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>21.591283</from-value>
+                            <to-value>250</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>250</from-value>
+                            <to-value>250</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="wind">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>21.591283</from-value>
+                            <to-value>100</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>100</from-value>
+                            <to-value>100</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="BengalW">
+                    <nesting-subsector name="biomass">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>0.09</from-value>
+                            <to-value>0.09</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>0.09</from-value>
+                            <to-value>0.09</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2025">
+                            <from-value>19</from-value>
+                            <to-value>21</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2020" to-year="2100">
+                            <from-value>21</from-value>
+                            <to-value>0.05</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>0.05</from-value>
+                            <to-value>0.05</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>21.591283</from-value>
+                            <to-value>250</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>250</from-value>
+                            <to-value>250</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="wind">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>21.591283</from-value>
+                            <to-value>100</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>100</from-value>
+                            <to-value>100</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="BrahmaniR">
+                    <nesting-subsector name="biomass">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>0.09</from-value>
+                            <to-value>0.09</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>0.09</from-value>
+                            <to-value>0.09</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2025">
+                            <from-value>19</from-value>
+                            <to-value>21</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2020" to-year="2100">
+                            <from-value>21</from-value>
+                            <to-value>0.05</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>0.05</from-value>
+                            <to-value>0.05</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>21.591283</from-value>
+                            <to-value>250</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>250</from-value>
+                            <to-value>250</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="wind">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>21.591283</from-value>
+                            <to-value>100</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>100</from-value>
+                            <to-value>100</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="MahanadiR">
+                    <nesting-subsector name="biomass">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>0.09</from-value>
+                            <to-value>0.09</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>0.09</from-value>
+                            <to-value>0.09</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2025">
+                            <from-value>19</from-value>
+                            <to-value>21</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2020" to-year="2100">
+                            <from-value>21</from-value>
+                            <to-value>0.05</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>0.05</from-value>
+                            <to-value>0.05</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>21.591283</from-value>
+                            <to-value>250</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>250</from-value>
+                            <to-value>250</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="wind">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>21.591283</from-value>
+                            <to-value>100</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>100</from-value>
+                            <to-value>100</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="GodavariR">
+                    <nesting-subsector name="biomass">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>0.09</from-value>
+                            <to-value>0.09</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>0.09</from-value>
+                            <to-value>0.09</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2025">
+                            <from-value>19</from-value>
+                            <to-value>21</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2020" to-year="2100">
+                            <from-value>21</from-value>
+                            <to-value>0.05</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>0.05</from-value>
+                            <to-value>0.05</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>21.591283</from-value>
+                            <to-value>250</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>250</from-value>
+                            <to-value>250</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="wind">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>21.591283</from-value>
+                            <to-value>100</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>100</from-value>
+                            <to-value>100</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="IndCstNE">
+                    <nesting-subsector name="biomass">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>0.09</from-value>
+                            <to-value>0.09</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>0.09</from-value>
+                            <to-value>0.09</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2025">
+                            <from-value>19</from-value>
+                            <to-value>21</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2020" to-year="2100">
+                            <from-value>21</from-value>
+                            <to-value>0.05</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>0.05</from-value>
+                            <to-value>0.05</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>21.591283</from-value>
+                            <to-value>250</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>250</from-value>
+                            <to-value>250</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="wind">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>21.591283</from-value>
+                            <to-value>100</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>100</from-value>
+                            <to-value>100</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="IndCstW">
+                    <nesting-subsector name="biomass">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>0.09</from-value>
+                            <to-value>0.09</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>0.09</from-value>
+                            <to-value>0.09</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2025">
+                            <from-value>19</from-value>
+                            <to-value>21</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2020" to-year="2100">
+                            <from-value>21</from-value>
+                            <to-value>0.05</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>0.05</from-value>
+                            <to-value>0.05</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>21.591283</from-value>
+                            <to-value>250</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>250</from-value>
+                            <to-value>250</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="wind">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>21.591283</from-value>
+                            <to-value>100</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>100</from-value>
+                            <to-value>100</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="IrrawaddyR">
+                    <nesting-subsector name="biomass">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>0.09</from-value>
+                            <to-value>0.09</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>0.09</from-value>
+                            <to-value>0.09</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2025">
+                            <from-value>19</from-value>
+                            <to-value>21</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2020" to-year="2100">
+                            <from-value>21</from-value>
+                            <to-value>0.05</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>0.05</from-value>
+                            <to-value>0.05</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>21.591283</from-value>
+                            <to-value>250</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>250</from-value>
+                            <to-value>250</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="wind">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>21.591283</from-value>
+                            <to-value>100</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>100</from-value>
+                            <to-value>100</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="KrishnaR">
+                    <nesting-subsector name="biomass">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>0.09</from-value>
+                            <to-value>0.09</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>0.09</from-value>
+                            <to-value>0.09</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2025">
+                            <from-value>19</from-value>
+                            <to-value>21</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2020" to-year="2100">
+                            <from-value>21</from-value>
+                            <to-value>0.05</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>0.05</from-value>
+                            <to-value>0.05</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>21.591283</from-value>
+                            <to-value>250</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>250</from-value>
+                            <to-value>250</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="wind">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>21.591283</from-value>
+                            <to-value>100</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>100</from-value>
+                            <to-value>100</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="IndCstE">
+                    <nesting-subsector name="biomass">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>0.09</from-value>
+                            <to-value>0.09</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>0.09</from-value>
+                            <to-value>0.09</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2025">
+                            <from-value>19</from-value>
+                            <to-value>21</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2020" to-year="2100">
+                            <from-value>21</from-value>
+                            <to-value>0.05</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>0.05</from-value>
+                            <to-value>0.05</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>21.591283</from-value>
+                            <to-value>250</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>250</from-value>
+                            <to-value>250</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="wind">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>21.591283</from-value>
+                            <to-value>100</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>100</from-value>
+                            <to-value>100</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="PennarR">
+                    <nesting-subsector name="biomass">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>0.09</from-value>
+                            <to-value>0.09</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>0.09</from-value>
+                            <to-value>0.09</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2025">
+                            <from-value>19</from-value>
+                            <to-value>21</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2020" to-year="2100">
+                            <from-value>21</from-value>
+                            <to-value>0.05</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>0.05</from-value>
+                            <to-value>0.05</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>21.591283</from-value>
+                            <to-value>250</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>250</from-value>
+                            <to-value>250</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="wind">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>21.591283</from-value>
+                            <to-value>100</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>100</from-value>
+                            <to-value>100</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="CauveryR">
+                    <nesting-subsector name="biomass">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>0.09</from-value>
+                            <to-value>0.09</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>0.09</from-value>
+                            <to-value>0.09</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2025">
+                            <from-value>19</from-value>
+                            <to-value>21</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2020" to-year="2100">
+                            <from-value>21</from-value>
+                            <to-value>0.05</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>0.05</from-value>
+                            <to-value>0.05</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>21.591283</from-value>
+                            <to-value>250</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>250</from-value>
+                            <to-value>250</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="wind">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>21.591283</from-value>
+                            <to-value>100</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>100</from-value>
+                            <to-value>100</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="IndCstS">
+                    <nesting-subsector name="biomass">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>0.09</from-value>
+                            <to-value>0.09</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>0.09</from-value>
+                            <to-value>0.09</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2025">
+                            <from-value>19</from-value>
+                            <to-value>21</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2020" to-year="2100">
+                            <from-value>21</from-value>
+                            <to-value>0.05</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>0.05</from-value>
+                            <to-value>0.05</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>21.591283</from-value>
+                            <to-value>250</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>250</from-value>
+                            <to-value>250</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="wind">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>21.591283</from-value>
+                            <to-value>100</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>100</from-value>
+                            <to-value>100</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="NarmadaR">
+                    <nesting-subsector name="biomass">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>0.09</from-value>
+                            <to-value>0.09</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>0.09</from-value>
+                            <to-value>0.09</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2025">
+                            <from-value>19</from-value>
+                            <to-value>21</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2020" to-year="2100">
+                            <from-value>21</from-value>
+                            <to-value>0.05</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>0.05</from-value>
+                            <to-value>0.05</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>21.591283</from-value>
+                            <to-value>250</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>250</from-value>
+                            <to-value>250</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="wind">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>21.591283</from-value>
+                            <to-value>100</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>100</from-value>
+                            <to-value>100</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="IndusR">
+                    <nesting-subsector name="coal">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2025">
+                            <from-value>19</from-value>
+                            <to-value>21</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2020" to-year="2100">
+                            <from-value>21</from-value>
+                            <to-value>0.05</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>0.05</from-value>
+                            <to-value>0.05</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>21.591283</from-value>
+                            <to-value>250</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>250</from-value>
+                            <to-value>250</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="biomass">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>0.09</from-value>
+                            <to-value>0.09</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>0.09</from-value>
+                            <to-value>0.09</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                    <nesting-subsector name="wind">
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2015" to-year="2100">
+                            <from-value>21.591283</from-value>
+                            <to-value>100</to-value>
+                            <interpolation-function name="linear"/>
+                        </interpolation-rule>
+                        <interpolation-rule apply-to="share-weight"
+                            from-year="2095" to-year="2100">
+                            <from-value>100</from-value>
+                            <to-value>100</to-value>
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </nesting-subsector>
+                </nesting-subsector>
+            </supplysector>
+        </region>
+    </world>
+</scenario>
