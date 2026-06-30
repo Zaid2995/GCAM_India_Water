@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+    <world>
+        <region name="India">
+            <energy-final-demand name="aluminum">
+                <income-elasticity year="2020">0.8</income-elasticity>
+                <income-elasticity year="2025">0.745</income-elasticity>
+                <income-elasticity year="2030">0.726</income-elasticity>
+                <income-elasticity year="2035">0.707</income-elasticity>
+                <income-elasticity year="2040">0.688</income-elasticity>
+                <income-elasticity year="2045">0.669</income-elasticity>
+                <income-elasticity year="2050">0.65</income-elasticity>
+                <income-elasticity year="2055">0.631</income-elasticity>
+                <income-elasticity year="2060">0.613</income-elasticity>
+                <income-elasticity year="2065">0.594</income-elasticity>
+                <income-elasticity year="2070">0.575</income-elasticity>
+                <income-elasticity year="2075">0.533</income-elasticity>
+                <income-elasticity year="2080">0.517</income-elasticity>
+                <income-elasticity year="2085">0.5</income-elasticity>
+                <income-elasticity year="2090">0.483</income-elasticity>
+                <income-elasticity year="2095">0.467</income-elasticity>
+                <income-elasticity year="2100">0.45</income-elasticity>
+            </energy-final-demand>
+            <energy-final-demand name="iron and steel">
+                <income-elasticity year="2020">0.8</income-elasticity>
+                <income-elasticity year="2025">0.745</income-elasticity>
+                <income-elasticity year="2030">0.726</income-elasticity>
+                <income-elasticity year="2035">0.707</income-elasticity>
+                <income-elasticity year="2040">0.688</income-elasticity>
+                <income-elasticity year="2045">0.669</income-elasticity>
+                <income-elasticity year="2050">0.65</income-elasticity>
+                <income-elasticity year="2055">0.631</income-elasticity>
+                <income-elasticity year="2060">0.613</income-elasticity>
+                <income-elasticity year="2065">0.594</income-elasticity>
+                <income-elasticity year="2070">0.575</income-elasticity>
+                <income-elasticity year="2075">0.533</income-elasticity>
+                <income-elasticity year="2080">0.517</income-elasticity>
+                <income-elasticity year="2085">0.5</income-elasticity>
+                <income-elasticity year="2090">0.483</income-elasticity>
+                <income-elasticity year="2095">0.467</income-elasticity>
+                <income-elasticity year="2100">0.45</income-elasticity>
+            </energy-final-demand>
+            <energy-final-demand name="other industry">
+                <income-elasticity year="2020">0.8</income-elasticity>
+                <income-elasticity year="2025">0.745</income-elasticity>
+                <income-elasticity year="2030">0.726</income-elasticity>
+                <income-elasticity year="2035">0.707</income-elasticity>
+                <income-elasticity year="2040">0.688</income-elasticity>
+                <income-elasticity year="2045">0.669</income-elasticity>
+                <income-elasticity year="2050">0.65</income-elasticity>
+                <income-elasticity year="2055">0.631</income-elasticity>
+                <income-elasticity year="2060">0.613</income-elasticity>
+                <income-elasticity year="2065">0.594</income-elasticity>
+                <income-elasticity year="2070">0.575</income-elasticity>
+                <income-elasticity year="2075">0.533</income-elasticity>
+                <income-elasticity year="2080">0.517</income-elasticity>
+                <income-elasticity year="2085">0.5</income-elasticity>
+                <income-elasticity year="2090">0.483</income-elasticity>
+                <income-elasticity year="2095">0.467</income-elasticity>
+                <income-elasticity year="2100">0.45</income-elasticity>
+            </energy-final-demand>
+            <energy-final-demand name="cement">
+                <income-elasticity year="2020">0.8</income-elasticity>
+                <income-elasticity year="2025">0.745</income-elasticity>
+                <income-elasticity year="2030">0.726</income-elasticity>
+                <income-elasticity year="2035">0.707</income-elasticity>
+                <income-elasticity year="2040">0.688</income-elasticity>
+                <income-elasticity year="2045">0.669</income-elasticity>
+                <income-elasticity year="2050">0.65</income-elasticity>
+                <income-elasticity year="2055">0.631</income-elasticity>
+                <income-elasticity year="2060">0.613</income-elasticity>
+                <income-elasticity year="2065">0.594</income-elasticity>
+                <income-elasticity year="2070">0.575</income-elasticity>
+                <income-elasticity year="2075">0.533</income-elasticity>
+                <income-elasticity year="2080">0.517</income-elasticity>
+                <income-elasticity year="2085">0.5</income-elasticity>
+                <income-elasticity year="2090">0.483</income-elasticity>
+                <income-elasticity year="2095">0.467</income-elasticity>
+                <income-elasticity year="2100">0.45</income-elasticity>
+            </energy-final-demand>
+            <energy-final-demand name="construction">
+                <income-elasticity year="2020">0.8</income-elasticity>
+                <income-elasticity year="2025">0.745</income-elasticity>
+                <income-elasticity year="2030">0.726</income-elasticity>
+                <income-elasticity year="2035">0.707</income-elasticity>
+                <income-elasticity year="2040">0.688</income-elasticity>
+                <income-elasticity year="2045">0.669</income-elasticity>
+                <income-elasticity year="2050">0.65</income-elasticity>
+                <income-elasticity year="2055">0.631</income-elasticity>
+                <income-elasticity year="2060">0.613</income-elasticity>
+                <income-elasticity year="2065">0.594</income-elasticity>
+                <income-elasticity year="2070">0.575</income-elasticity>
+                <income-elasticity year="2075">0.533</income-elasticity>
+                <income-elasticity year="2080">0.517</income-elasticity>
+                <income-elasticity year="2085">0.5</income-elasticity>
+                <income-elasticity year="2090">0.483</income-elasticity>
+                <income-elasticity year="2095">0.467</income-elasticity>
+                <income-elasticity year="2100">0.45</income-elasticity>
+            </energy-final-demand>
+            <energy-final-demand name="mining energy use">
+                <income-elasticity year="2020">0.8</income-elasticity>
+                <income-elasticity year="2025">0.745</income-elasticity>
+                <income-elasticity year="2030">0.726</income-elasticity>
+                <income-elasticity year="2035">0.707</income-elasticity>
+                <income-elasticity year="2040">0.688</income-elasticity>
+                <income-elasticity year="2045">0.669</income-elasticity>
+                <income-elasticity year="2050">0.65</income-elasticity>
+                <income-elasticity year="2055">0.631</income-elasticity>
+                <income-elasticity year="2060">0.613</income-elasticity>
+                <income-elasticity year="2065">0.594</income-elasticity>
+                <income-elasticity year="2070">0.575</income-elasticity>
+                <income-elasticity year="2075">0.533</income-elasticity>
+                <income-elasticity year="2080">0.517</income-elasticity>
+                <income-elasticity year="2085">0.5</income-elasticity>
+                <income-elasticity year="2090">0.483</income-elasticity>
+                <income-elasticity year="2095">0.467</income-elasticity>
+                <income-elasticity year="2100">0.45</income-elasticity>
+            </energy-final-demand>
+        </region>
+    </world>
+</scenario>
