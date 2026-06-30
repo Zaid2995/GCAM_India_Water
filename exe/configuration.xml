@@ -105,7 +105,7 @@
 		<Value name = "elec_water_India_basinfueltechshrwts">../input/gcamdata/xml/India/Water/zwater_IndiaBasinspowerplantShrwt.xml</Value>
 		<Value name = "elec_water_India_basinfuelshrwts">../input/gcamdata/xml/India/Water/zwater_IndiaBasinsfuelShrwt.xml</Value>
         <Value name = "elec_water_India_basincoolingtechshrwts">../input/gcamdata/xml/India/Water/zwater_Indiacoolingtechshrwtinterp.xml</Value>
-        <Value name = "elec_India_coal_fuel_adder_for_basins">../input/gcamdata/xml/India/Electricity/new/India_coal_fuel_adder_for_basins2.xml</Value>
+        <Value name = "elec_India_coal_fuel_adder_for_basins">../input/gcamdata/xml/India/Electricity/new/India_coal_fuel_adder_for_basins.xml</Value>
 
 
 

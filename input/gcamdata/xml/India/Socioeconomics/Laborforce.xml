@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <region name="India">
+            <nationalAccountContainer>
+                <nationalAccount year="1975">
+                    <labor-force-share>0.431506</labor-force-share>
+                </nationalAccount>
+                <nationalAccount year="1990">
+                    <labor-force-share>0.430164</labor-force-share>
+                </nationalAccount>
+                <nationalAccount year="2005">
+                    <labor-force-share>0.452655905</labor-force-share>
+                </nationalAccount>
+                <nationalAccount year="2010">
+                    <labor-force-share>0.474291747</labor-force-share>
+                </nationalAccount>
+                <nationalAccount year="2015">
+                    <labor-force-share>0.498199308</labor-force-share>
+                </nationalAccount>
+                <nationalAccount year="2020">
+                    <labor-force-share>0.429985791</labor-force-share>
+                </nationalAccount>
+                <nationalAccount year="2025">
+                    <labor-force-share>0.459937259</labor-force-share>
+                </nationalAccount>
+                <nationalAccount year="2030">
+                    <labor-force-share>0.471485725</labor-force-share>
+                </nationalAccount>
+                <nationalAccount year="2035">
+                    <labor-force-share>0.466086946</labor-force-share>
+                </nationalAccount>
+                <nationalAccount year="2040">
+                    <labor-force-share>0.449889199</labor-force-share>
+                </nationalAccount>
+                <nationalAccount year="2045">
+                    <labor-force-share>0.424888875</labor-force-share>
+                </nationalAccount>
+                <nationalAccount year="2050">
+                    <labor-force-share>0.40183832</labor-force-share>
+                </nationalAccount>
+                <nationalAccount year="2055">
+                    <labor-force-share>0.380393045</labor-force-share>
+                </nationalAccount>
+                <nationalAccount year="2060">
+                    <labor-force-share>0.367591507</labor-force-share>
+                </nationalAccount>
+                <nationalAccount year="2065">
+                    <labor-force-share>0.374888313</labor-force-share>
+                </nationalAccount>
+                <nationalAccount year="2070">
+                    <labor-force-share>0.370894828</labor-force-share>
+                </nationalAccount>
+                <nationalAccount year="2075">
+                    <labor-force-share>0.362385144</labor-force-share>
+                </nationalAccount>
+                <nationalAccount year="2080">
+                    <labor-force-share>0.351670816</labor-force-share>
+                </nationalAccount>
+                <nationalAccount year="2085">
+                    <labor-force-share>0.338764535</labor-force-share>
+                </nationalAccount>
+                <nationalAccount year="2090">
+                    <labor-force-share>0.327858145</labor-force-share>
+                </nationalAccount>
+                <nationalAccount year="2095">
+                    <labor-force-share>0.318557973</labor-force-share>
+                </nationalAccount>
+                <nationalAccount year="2100">
+                    <labor-force-share>0.318341405</labor-force-share>
+                </nationalAccount>
+            </nationalAccountContainer>
+        </region>
+    </world>
+</scenario>
