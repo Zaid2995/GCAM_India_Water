@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BatchRunner xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="batch_runner.xsd">
+	<ComponentSet name="Policy Scenarios">
+
+		<!--FileSet name="_shellconductanceup15percent">
+		<Value name = "Building shell conductance">../input/gcamdata/xml/India/Building/ShellConductance_bld_increase15percent.xml</Value>
+		</FileSet-->
+
+		<!--FileSet name="_shellconductanceup30percent">
+		<Value name = "Building shell conductance">../input/gcamdata/xml/India/Building/ShellConductance_bld_increase30percent.xml</Value>
+		</FileSet-->
+
+		<!--FileSet name="_shellconductanceup40percent">
+		<Value name = "Building shell conductance">../input/gcamdata/xml/India/Building/ShellConductance_bld_increase40percent.xml</Value>
+		</FileSet-->
+		
+
+		<!--FileSet name="_shellconductancedownandthenup40percent">
+		<Value name = "Building shell conductance">../input/gcamdata/xml/India/Building/ShellConductance_bld_reduceandincreaseby40percent.xml</Value>
+		</FileSet>
+
+		<FileSet name="_shellconductancedown40andup30percent">
+		<Value name = "Building shell conductance">../input/gcamdata/xml/India/Building/ShellConductance_bld_reduceby40andincreaseby30percent.xml</Value>
+		</FileSet>
+
+		<FileSet name="_shellconductancedown40andup20percent">
+		<Value name = "Building shell conductance">../input/gcamdata/xml/India/Building/ShellConductance_bld_reduceby40andincreaseby20percent.xml</Value>
+		</FileSet-->
+		
+
+		<!--FileSet name="_shellconductancedown80andthenup40percent">
+		<Value name = "Building shell conductance">../input/gcamdata/xml/India/Building/ShellConductance_bld_reduce80percentandincrease40percent.xml</Value>
+		</FileSet>
+
+		<FileSet name="_shellconductancedown85andthenup40percent">
+		<Value name = "Building shell conductance">../input/gcamdata/xml/India/Building/ShellConductance_bld_reduce85percentandincrease40percent.xml</Value>
+		</FileSet>
+
+		<FileSet name="_shellconductancedown90andthenup40percent">
+		<Value name = "Building shell conductance">../input/gcamdata/xml/India/Building/ShellConductance_bld_reduce90percentandincrease40percent.xml</Value>
+		</FileSet-->
+
+		<!--FileSet name="_shellconductancedown95andthenup40percent_industry07">
+		<Value name = "Building shell conductance">../input/gcamdata/xml/India/Building/ShellConductance_bld_reduce95percentandincrease40percent.xml</Value>
+		<Value name = "industry_07">../input/gcamdata/xml/India/Industry/India_indus_incelas_calibration_07.xml</Value>		
+		</FileSet>
+
+		<FileSet name="_shellconductancedown95andthenup40percent_industry09">
+		<Value name = "Building shell conductance">../input/gcamdata/xml/India/Building/ShellConductance_bld_reduce95percentandincrease40percent.xml</Value>
+		<Value name = "industry_09">../input/gcamdata/xml/India/Industry/India_indus_incelas_calibration_09.xml</Value>		
+		</FileSet-->
+
+		<!--FileSet name="_shellconductancedown95andthenup40percent_industry05">
+		<Value name = "Building shell conductance">../input/gcamdata/xml/India/Building/ShellConductance_bld_reduce95percentandincrease40percent.xml</Value>
+		<Value name = "industry_05">../input/gcamdata/xml/India/Industry/India_indus_incelas_calibration_05.xml</Value>		
+		</FileSet>
+
+		<FileSet name="_shellconductancedown95andthenup40percent_industry045">
+		<Value name = "Building shell conductance">../input/gcamdata/xml/India/Building/ShellConductance_bld_reduce95percentandincrease40percent.xml</Value>
+		<Value name = "industry_045">../input/gcamdata/xml/India/Industry/India_indus_incelas_calibration_045.xml</Value>		
+		</FileSet>
+
+		<FileSet name="_shellconductancedown95andthenup40percent_industry04">
+		<Value name = "Building shell conductance">../input/gcamdata/xml/India/Building/ShellConductance_bld_reduce95percentandincrease40percent.xml</Value>
+		<Value name = "industry_04">../input/gcamdata/xml/India/Industry/India_indus_incelas_calibration_04.xml</Value>		
+		</FileSet>
+
+		<FileSet name="_shellconductancedown95andthenup40percent_industry03">
+		<Value name = "Building shell conductance">../input/gcamdata/xml/India/Building/ShellConductance_bld_reduce95percentandincrease40percent.xml</Value>
+		<Value name = "industry_03">../input/gcamdata/xml/India/Industry/India_indus_incelas_calibration_05.xml</Value>		
+		</FileSet>
+
+		<FileSet name="_shellconductancedown95andthenup40percent_industry01">
+		<Value name = "Building shell conductance">../input/gcamdata/xml/India/Building/ShellConductance_bld_reduce95percentandincrease40percent.xml</Value>
+		<Value name = "industry_01">../input/gcamdata/xml/India/Industry/India_indus_incelas_calibration_05.xml</Value>		
+		</FileSet-->
+
+		<!--FileSet name="_shellconductancedown95andthenup40percent_industry06_055">
+		<Value name = "Building shell conductance">../input/gcamdata/xml/India/Building/ShellConductance_bld_reduce95percentandincrease40percent.xml</Value>
+		<Value name = "industry_06_055">../input/gcamdata/xml/India/Industry/India_indus_incelas_calibration_06_055.xml</Value>		
+		</FileSet>
+
+		<FileSet name="_shellconductancedown95andthenup40percent_industry001_055">
+		<Value name = "Building shell conductance">../input/gcamdata/xml/India/Building/ShellConductance_bld_reduce95percentandincrease40percent.xml</Value>
+		<Value name = "industry_001_055">../input/gcamdata/xml/India/Industry/India_indus_incelas_calibration_001_055.xml</Value>		
+		</FileSet>
+
+		<FileSet name="_shellconductancedown95andthenup40percent_industry001_065">
+		<Value name = "Building shell conductance">../input/gcamdata/xml/India/Building/ShellConductance_bld_reduce95percentandincrease40percent.xml</Value>
+		<Value name = "industry_001_065">../input/gcamdata/xml/India/Industry/India_indus_incelas_calibration_001_065.xml</Value>		
+		</FileSet-->
+
+		<!--FileSet name="_shellconductancedown95andthenup40percent_industry0001_095">
+		<Value name = "Building shell conductance">../input/gcamdata/xml/India/Building/ShellConductance_bld_reduce95percentandincrease40percent.xml</Value>
+		<Value name = "industry_0001_095">../input/gcamdata/xml/India/Industry/India_indus_incelas_calibration_0001_095.xml</Value>		
+		</FileSet>
+
+		<FileSet name="_shellconductancedown95andthenup40percent_industry00005_095">
+		<Value name = "Building shell conductance">../input/gcamdata/xml/India/Building/ShellConductance_bld_reduce95percentandincrease40percent.xml</Value>
+		<Value name = "industry_00005_095">../input/gcamdata/xml/India/Industry/India_indus_incelas_calibration_00005_095.xml</Value>		
+		</FileSet>
+
+		<FileSet name="_shellconductancedown95andthenup40percent_industry00001_095">
+		<Value name = "Building shell conductance">../input/gcamdata/xml/India/Building/ShellConductance_bld_reduce95percentandincrease40percent.xml</Value>
+		<Value name = "industry_00001_095">../input/gcamdata/xml/India/Industry/India_indus_incelas_calibration_00001_095.xml</Value>		
+		</FileSet>
+
+		<FileSet name="_shellconductancedown95andthenup40percent_industry000001_095">
+		<Value name = "Building shell conductance">../input/gcamdata/xml/India/Building/ShellConductance_bld_reduce95percentandincrease40percent.xml</Value>
+		<Value name = "industry_000001_095">../input/gcamdata/xml/India/Industry/India_indus_incelas_calibration_000001_095.xml</Value>		
+		</FileSet-->
+
+		<!--FileSet name="_shellconductancedown95andthenup40percent_industry-01_045">
+		<Value name = "Building shell conductance">../input/gcamdata/xml/India/Building/ShellConductance_bld_reduce95percentandincrease40percent.xml</Value>
+		<Value name = "industry_-01_045">../input/gcamdata/xml/India/Industry/India_indus_incelas_calibration_-01_45.xml</Value>		
+		</FileSet-->
+
+		<!--FileSet name="_shellconductancedown95andthenup40percent_industry-02_055">
+		<Value name = "Building shell conductance">../input/gcamdata/xml/India/Building/ShellConductance_bld_reduce95percentandincrease40percent.xml</Value>
+		<Value name = "industry_-02_055">../input/gcamdata/xml/India/Industry/India_indus_incelas_calibration_-02_055.xml</Value>		
+		</FileSet-->		
+
+		<!--FileSet name="_shellconductancedown95andthenup40percent_industry-02_065">
+		<Value name = "Building shell conductance">../input/gcamdata/xml/India/Building/ShellConductance_bld_reduce95percentandincrease40percent.xml</Value>
+		<Value name = "industry_-02_065">../input/gcamdata/xml/India/Industry/India_indus_incelas_calibration_-02_065.xml</Value>		
+		</FileSet-->		
+
+		<!--FileSet name="_shellconductancedown95andthenup40percent_industry-03_055">
+		<Value name = "Building shell conductance">../input/gcamdata/xml/India/Building/ShellConductance_bld_reduce95percentandincrease40percent.xml</Value>
+		<Value name = "industry_-03_055">../input/gcamdata/xml/India/Industry/India_indus_incelas_calibration_-03_055.xml</Value>		
+		</FileSet-->		
+
+		<!--FileSet name="_shellconductancedown95andthenup40percent_industry-03_065">
+		<Value name = "Building shell conductance">../input/gcamdata/xml/India/Building/ShellConductance_bld_reduce95percentandincrease40percent.xml</Value>
+		<Value name = "industry_-03_065">../input/gcamdata/xml/India/Industry/India_indus_incelas_calibration_-03_065.xml</Value>		
+		</FileSet-->		
+
+		<!--FileSet name="_shellconductancedown95andthenup40percent_industry-08_09">
+		<Value name = "Building shell conductance">../input/gcamdata/xml/India/Building/ShellConductance_bld_reduce95percentandincrease40percent.xml</Value>
+		<Value name = "industry_-08_09">../input/gcamdata/xml/India/Industry/India_indus_incelas_calibration_-08_09.xml</Value>		
+		</FileSet>		
+
+		<FileSet name="_shellconductancedown95andthenup40percent_industry-1_1">
+		<Value name = "Building shell conductance">../input/gcamdata/xml/India/Building/ShellConductance_bld_reduce95percentandincrease40percent.xml</Value>
+		<Value name = "industry_-1_1">../input/gcamdata/xml/India/Industry/India_indus_incelas_calibration_-1_1.xml</Value>		
+		</FileSet>		
+
+		<FileSet name="_shellconductancedown95andthenup40percent_industry-12_1">
+		<Value name = "Building shell conductance">../input/gcamdata/xml/India/Building/ShellConductance_bld_reduce95percentandincrease40percent.xml</Value>
+		<Value name = "industry_-12_1">../input/gcamdata/xml/India/Industry/India_indus_incelas_calibration_-12_1.xml</Value>		
+		</FileSet-->		
+
+		<!--FileSet name="_water_price_real_value">        
+		<Value name = "water_price_sectoral">../input/gcamdata/xml/India/Water/India_water_price_demand_side_real_value.xml</Value>
+		</FileSet>		
+
+		<FileSet name="_water_price_positive_big">        
+		<Value name = "water_price_sectoral">../input/gcamdata/xml/India/Water/India_water_price_demand_side_positive_big.xml</Value>
+		</FileSet>		
+
+		<FileSet name="_water_price_negative_big">        
+		<Value name = "water_price_sectoral">../input/gcamdata/xml/India/Water/India_water_price_demand_side_negative_big.xml</Value>
+		</FileSet>		
+
+		<FileSet name="_water_price_negative_small">        
+		<Value name = "water_price_sectoral">../input/gcamdata/xml/India/Water/India_water_price_demand_side_negative_small.xml</Value>
+		</FileSet-->		
+
+		<!--FileSet name="_elec_tax_no_SW">        
+		<Value name = "water_price_industrial">../input/gcamdata/xml/India/Water/India_water_price_industry_cons.xml</Value>
+		<Value name = "water_price_power">../input/gcamdata/xml/India/Water/India_water_price_power_cons.xml</Value>
+		<!--Value name = "elec_tax">../input/gcamdata/xml/India/Electricity/new/India_state_tech_CC_India_water_tax.xml</Value>
+		<Value name = "Rest of the world">../input/gcamdata/xml/India/Peaking/GHG_market_constraints_2040_2070_row.xml</Value>
+		<Value name = "India NZ">../input/gcamdata/xml/India/Peaking/GHG_market_constraints_2040_2070_India.xml</Value>
+		</FileSet>		
+
+		<FileSet name="_elec_tax_no_SW_1">        
+		<Value name = "water_price_industrial">../input/gcamdata/xml/India/Water/India_water_price_industry_cons.xml</Value>
+		<Value name = "water_price_power">../input/gcamdata/xml/India/Water/India_water_price_power_cons.xml</Value>
+		<Value name = "India electricity shareweights_1">../input/gcamdata/xml/India/Electricity/new/India_elec_shrwt_latest_1.xml</Value>
+		</FileSet>		
+
+		<FileSet name="_elec_tax_no_SW_2">        
+		<Value name = "water_price_industrial">../input/gcamdata/xml/India/Water/India_water_price_industry_cons.xml</Value>
+		<Value name = "water_price_power">../input/gcamdata/xml/India/Water/India_water_price_power_cons.xml</Value>
+		<Value name = "India electricity shareweights_2">../input/gcamdata/xml/India/Electricity/new/India_elec_shrwt_latest_2.xml</Value>
+		</FileSet>		
+
+		<FileSet name="_elec_tax_no_SW_3">        
+		<Value name = "water_price_industrial">../input/gcamdata/xml/India/Water/India_water_price_industry_cons.xml</Value>
+		<Value name = "water_price_power">../input/gcamdata/xml/India/Water/India_water_price_power_cons.xml</Value>
+		<Value name = "India electricity shareweights_3">../input/gcamdata/xml/India/Electricity/new/India_elec_shrwt_latest_3.xml</Value>
+		</FileSet-->		
+
+		<!--FileSet name="_elec_tax_no_SW_4">        
+		<Value name = "water_price_industrial">../input/gcamdata/xml/India/Water/India_water_price_industry_cons.xml</Value>
+		<Value name = "water_price_power">../input/gcamdata/xml/India/Water/India_water_price_power_cons.xml</Value>
+		<Value name = "India electricity shareweights_4">../input/gcamdata/xml/India/Electricity/new/India_elec_shrwt_latest_4.xml</Value>
+		</FileSet-->		
+
+		<!--FileSet name="_elec_tax_no_SW_5">        
+		<Value name = "water_price_industrial">../input/gcamdata/xml/India/Water/India_water_price_industry_cons.xml</Value>
+		<Value name = "water_price_power">../input/gcamdata/xml/India/Water/India_water_price_power_cons.xml</Value>
+		<Value name = "India electricity shareweights_5">../input/gcamdata/xml/India/Electricity/new/India_elec_shrwt_latest_5.xml</Value>
+		</FileSet-->		
+
+		<!--FileSet name="_elec_tax_no_SW_6">        
+		<Value name = "water_price_industrial">../input/gcamdata/xml/India/Water/India_water_price_industry_cons.xml</Value>
+		<Value name = "water_price_power">../input/gcamdata/xml/India/Water/India_water_price_power_cons.xml</Value>
+		<Value name = "India electricity shareweights_6">../input/gcamdata/xml/India/Electricity/new/India_elec_shrwt_latest_6.xml</Value>
+		</FileSet-->	
+
+		<!--FileSet name="_elec_tax_no_SW_7">        
+		<Value name = "water_price_industrial">../input/gcamdata/xml/India/Water/India_water_price_industry_cons.xml</Value>
+		<Value name = "water_price_power">../input/gcamdata/xml/India/Water/India_water_price_power_cons.xml</Value>
+		<Value name = "India electricity shareweights_7">../input/gcamdata/xml/India/Electricity/new/India_elec_shrwt_latest_7.xml</Value>
+		</FileSet-->	
+
+		<!--FileSet name="_elec_tax_no_SW_8">        
+		<Value name = "water_price_industrial">../input/gcamdata/xml/India/Water/India_water_price_industry_cons.xml</Value>
+		<Value name = "water_price_power">../input/gcamdata/xml/India/Water/India_water_price_power_cons.xml</Value>
+		<Value name = "India electricity shareweights_8">../input/gcamdata/xml/India/Electricity/new/India_elec_shrwt_latest_8.xml</Value>
+		</FileSet-->	
+
+		<!--FileSet name="_elec_tax_no_SW_9">        
+		<Value name = "water_price_industrial">../input/gcamdata/xml/India/Water/India_water_price_industry_cons.xml</Value>
+		<Value name = "water_price_power">../input/gcamdata/xml/India/Water/India_water_price_power_cons.xml</Value>
+		<Value name = "India electricity shareweights_9">../input/gcamdata/xml/India/Electricity/new/India_elec_shrwt_latest_9.xml</Value>
+		</FileSet-->	
+
+		<!--FileSet name="_elec_tax_no_SW_10">        
+		<Value name = "water_price_industrial">../input/gcamdata/xml/India/Water/India_water_price_industry_cons.xml</Value>
+		<Value name = "water_price_power">../input/gcamdata/xml/India/Water/India_water_price_power_cons.xml</Value>
+		<Value name = "India electricity shareweights_10">../input/gcamdata/xml/India/Electricity/new/India_elec_shrwt_latest_10.xml</Value>
+		</FileSet-->	
+
+		<!--FileSet name="_elec_tax_no_SW_11">        
+		<Value name = "water_price_industrial">../input/gcamdata/xml/India/Water/India_water_price_industry_cons.xml</Value>
+		<Value name = "water_price_power">../input/gcamdata/xml/India/Water/India_water_price_power_cons.xml</Value>
+		<Value name = "India electricity shareweights_11">../input/gcamdata/xml/India/Electricity/new/India_elec_shrwt_latest_11.xml</Value>
+		</FileSet-->	
+
+		<!--FileSet name="BAU_water_price">
+		<Value name = "water_price_sectoral">../input/gcamdata/xml/India/Water/India_water_price_industry_cons.xml</Value>	
+		<Value name = "water_price_power">../input/gcamdata/xml/India/Water/India_water_price_power_cons.xml</Value>
+		</FileSet-->	
+
+		<FileSet name="_NZ">
+		<Value name = "India inttech OM var_solar">../input/gcamdata/xml/India/Electricity/new/India_state_solar_OMvar_India_water_NZ.xml</Value>
+		<Value name = "India inttech OM var_wind">../input/gcamdata/xml/India/Electricity/new/India_state_wind_OMvar_India_water_NZ.xml</Value>
+		<Value name = "India NZ">../input/gcamdata/xml/India/Peaking/GHG_market_constraints_2040_2070_India.xml</Value>		
+		<Value name = "Rest of the world">../input/gcamdata/xml/India/Peaking/GHG_market_constraints_2040_2070_row.xml</Value>
+		</FileSet>	
+
+		<!--FileSet name="_NZ">
+		<Value name = "Total Energysector">../input/gcamdata/xml/India/Others/data_long_energy_updated.xml</Value>
+		<Value name = "Energy constraint">../input/gcamdata/xml/India/Peaking/GHG_market_constraints_2040_2070_India.xml</Value>
+		<Value name = "Total land">../input/gcamdata/xml/India/Others/data_long_land.xml</Value>
+		<Value name = "Land constraint">../input/gcamdata/xml/India/Peaking/GHG_market_constraints_2040_2070_India_BAU_land.xml</Value>
+		<Value name = "Rest of the world">../input/gcamdata/xml/India/Peaking/GHG_market_constraints_2040_2070_row_NITI.xml</Value> 
+		</FileSet-->	
+
+		<FileSet name="_NZ_water_price">
+		<Value name = "water_price_sectoral">../input/gcamdata/xml/India/Water/India_water_price_industry_cons.xml</Value>	
+		<Value name = "water_price_power">../input/gcamdata/xml/India/Water/India_water_price_power_cons.xml</Value>
+		<Value name = "India inttech OM var_solar">../input/gcamdata/xml/India/Electricity/new/India_state_solar_OMvar_India_water_NZ.xml</Value>
+		<Value name = "India inttech OM var_wind">../input/gcamdata/xml/India/Electricity/new/India_state_wind_OMvar_India_water_NZ.xml</Value>
+		<Value name = "India NZ">../input/gcamdata/xml/India/Peaking/GHG_market_constraints_2040_2070_India.xml</Value>
+		<Value name = "Rest of the world">../input/gcamdata/xml/India/Peaking/GHG_market_constraints_2040_2070_row.xml</Value>
+		</FileSet>	
+
+		<!--Value name = "Total Energysector">../input/gcamdata/xml/India/Others/data_long_energy_updated.xml</Value>
+		<Value name = "Energy constraint">../input/gcamdata/xml/India/Peaking/GHG_market_constraints_2040_2070_India.xml</Value>
+		<Value name = "Total land">../input/gcamdata/xml/India/Others/data_long_land.xml</Value>
+		<Value name = "Land constraint">../input/gcamdata/xml/India/Peaking/GHG_market_constraints_2040_2070_India_BAU_land.xml</Value>
+		<Value name = "Rest of the world">../input/gcamdata/xml/India/Peaking/GHG_market_constraints_2040_2070_row_NITI.xml</Value--> 
+
+
+
+<!--FileSet name="_NZ">
+		<Value name = "Rest of the world">../input/gcamdata/xml/India/Peaking/GHG_market_constraints_2040_2070_row.xml</Value>
+		<Value name = "India NZ">../input/gcamdata/xml/India/Peaking/GHG_market_constraints_2040_2070_India.xml</Value>
+		</FileSet-->		
+
+		<!--FileSet name="_NZ">
+		<Value name = "Building shell conductance">../input/gcamdata/xml/India/Building/ShellConductance_bld_reduce95percentandincrease40percent.xml</Value>
+		<Value name = "industry_-14_5">../input/gcamdata/xml/India/Industry/India_indus_incelas_calibration_-14_6.xml</Value>
+		<Value name = "Rest of the world">../input/gcamdata/xml/India/Peaking/GHG_market_constraints_2040_2070_row.xml</Value>
+		<Value name = "India NZ">../input/gcamdata/xml/India/Peaking/GHG_market_constraints_2040_2070_India.xml</Value>
+		</FileSet-->
+
+	<!-- 	<FileSet name="_NZ">
+		<Value name = "India NZ">../input/India_NDC/NZonly_GHG_market_constraints_2040_2070_India_high_gr.xml </Value>
+		<Value name = "Rest of the world">../input/India_NDC/NZonly_GHG_market_constraints_2040_2070_row.xml</Value-->
+
+		
+		<!-- <FileSet name="_NZ+ETS">
+		<Value name = "Total ETS link">../input/ETS_sectors/Total_ETS_link.xml</Value>
+		<Value name = "Total ETS constraint">../input/ETS_sectors/Total_ETS_constraint.xml</Value>
+		<Value name = "Total Non-ETS link">../input/ETS_sectors/Total_NONETS_link.xml</Value>
+		<Value name = "Total Non-ETS constraint">../input/ETS_sectors/Total_NONETS_constraint.xml</Value>
+		<Value name = "Rest of the world">../input/India_NDC/NZonly_GHG_market_constraints_2040_2070_row.xml</Value> 
+		<Value name = "Price_link">../input/ETS_sectors/GHG_link.xml</Value>
+		</FileSet> -->
+		
+	<!-- 	<FileSet name="_NZ+CC">
+	<Value name = "Total Non-ETS link">../input/ETS_sectors/Total_NONETS_link.xml</Value>
+		<Value name = "Total Non-ETS constraint">../input/ETS_sectors/Total_NONETS_constraint.xml</Value>
+		
+		<Value name = "Cement link">../input/ETS_sectors/Cement_link.xml</Value>
+		<Value name = "Cement constraint">../input/ETS_sectors/Cement_constraint.xml</Value>
+		<Value name = "Fert link">../input/ETS_sectors/Fert_link.xml</Value>
+		<Value name = "Fert constraint">../input/ETS_sectors/Fert_constraint.xml</Value>
+		<Value name = "IrnStl link">../input/ETS_sectors/IrnStl_link.xml</Value>
+		<Value name = "IrnStl constraint">../input/ETS_sectors/IrnStl_constraint.xml</Value>
+		<Value name = "TPP link">../input/ETS_sectors/TPP_link.xml</Value>
+		<Value name = "TPP constraint">../input/ETS_sectors/TPP_constraint.xml</Value>
+		<Value name = "Rest of the world">../input/India_NDC/NZonly_GHG_market_constraints_2040_2070_row.xml</Value> 
+		</FileSet>  -->
+		
+		<!-- <FileSet name="_NZ+CC_v1">
+		<Value name = "Total Non-ETS link">../input/ETS_sectors/Total_NONETS_link.xml</Value>
+		<Value name = "Total Non-ETS constraint">../input/ETS_sectors/Total_NONETS_constraint.xml</Value>
+			
+		<Value name = "Cement link">../input/ETS_sectors/Cement_link.xml</Value>
+		<Value name = "Cement constraint">../input/ETS_sectors/Cement_constraint_v1.xml</Value>
+		<Value name = "Fert link">../input/ETS_sectors/Fert_link.xml</Value>
+		<Value name = "Fert constraint">../input/ETS_sectors/Fert_constraint_v1.xml</Value>
+		<Value name = "IrnStl link">../input/ETS_sectors/IrnStl_link.xml</Value>
+		<Value name = "IrnStl constraint">../input/ETS_sectors/IrnStl_constraint_v1.xml</Value>
+		<Value name = "TPP link">../input/ETS_sectors/TPP_link.xml</Value>
+		<Value name = "TPP constraint">../input/ETS_sectors/TPP_constraint_v1.xml</Value>
+		</FileSet> 
+		
+		<FileSet name="_NZ+CC_v2">
+		<Value name = "Total Non-ETS link">../input/ETS_sectors/Total_NONETS_link.xml</Value>
+		<Value name = "Total Non-ETS constraint">../input/ETS_sectors/Total_NONETS_constraint.xml</Value>
+			
+		<Value name = "Cement link">../input/ETS_sectors/Cement_link.xml</Value>
+		<Value name = "Cement constraint">../input/ETS_sectors/Cement_constraint_v2.xml</Value>
+		<Value name = "Fert link">../input/ETS_sectors/Fert_link.xml</Value>
+		<Value name = "Fert constraint">../input/ETS_sectors/Fert_constraint_v2.xml</Value>
+		<Value name = "IrnStl link">../input/ETS_sectors/IrnStl_link.xml</Value>
+		<Value name = "IrnStl constraint">../input/ETS_sectors/IrnStl_constraint_v2.xml</Value>
+		<Value name = "TPP link">../input/ETS_sectors/TPP_link.xml</Value>
+		<Value name = "TPP constraint">../input/ETS_sectors/TPP_constraint_v2.xml</Value>
+		</FileSet> -->
+		
+		
+		<!-- <FileSet name="_NZ+RPO+ETS">
+		<Value name = "Total ETS link">../input/ETS_sectors/Total_ETS_link.xml</Value>
+		<Value name = "Total ETS constraint">../input/ETS_sectors/Total_ETS_constraint.xml</Value>
+		<Value name = "Total Non-ETS link">../input/ETS_sectors/Total_NONETS_link.xml</Value>
+		<Value name = "Total Non-ETS constraint">../input/ETS_sectors/Total_NONETS_constraint.xml</Value>
+		<Value name = "India RPS file_general">../input/policy/India_Credits_50_test.xml</Value>
+	
+ 
+		</FileSet> -->
+		
+		<!-- <FileSet name="_NZ+RPO">
+		<Value name = "India NZ">../input/India_NDC/NZonly_GHG_market_constraints_2040_2070_India_high_gr.xml </Value>
+		<Value name = "Rest of the world">../input/India_NDC/NZonly_GHG_market_constraints_2040_2070_row.xml</Value>
+		<Value name = "India RPS file_general">../input/policy/India_Credits_50_test.xml</Value>
+		</FileSet> -->
+		
+			
+		<!--  <FileSet name="_NZ+RPO+CC">
+		<Value name = "India NZ">../input/India_NDC/NZonly_GHG_market_constraints_2040_2070_India_high_gr.xml </Value>
+		<Value name = "Rest of the world">../input/India_NDC/NZonly_GHG_market_constraints_2040_2070_row.xml</Value>
+		<Value name = "India RPS file_general">../input/policy/India_Credits_50_test.xml</Value>
+		
+		<Value name = "Alm link">../input/ETS_sectors/Alu_link.xml</Value>
+		<Value name = "Alm constraint">../input/ETS_sectors/Alu_constraint.xml</Value>
+		<Value name = "Cement link">../input/ETS_sectors/Cement_link.xml</Value>
+		<Value name = "Cement constraint">../input/ETS_sectors/Cement_constraint.xml</Value>
+		<Value name = "Fert link">../input/ETS_sectors/Fert_link.xml</Value>
+		<Value name = "Fert constraint">../input/ETS_sectors/Fert_constraint.xml</Value>
+		<Value name = "IrnStl link">../input/ETS_sectors/IrnStl_link.xml</Value>
+		<Value name = "IrnStl constraint">../input/ETS_sectors/IrnStl_constraint.xml</Value>
+		<Value name = "TPP link">../input/ETS_sectors/TPP_link.xml</Value>
+		<Value name = "TPP constraint">../input/ETS_sectors/TPP_constraint.xml</Value>
+		</FileSet>   -->
+		
+	</ComponentSet>
+</BatchRunner>
