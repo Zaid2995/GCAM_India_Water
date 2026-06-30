@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+    <world>
+        <region name="India">
+            <supplysector name="electricity">
+                <use-trial-market>1</use-trial-market>
+            </supplysector>
+        </region>
+    </world>
+</scenario>

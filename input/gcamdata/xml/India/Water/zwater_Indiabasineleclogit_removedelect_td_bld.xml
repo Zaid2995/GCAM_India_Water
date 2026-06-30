@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+    <world>
+        <region name="India">
+            <supplysector name="electricity">
+                <nesting-subsector name="IndusR">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                    </relative-cost-logit>
+                </nesting-subsector>
+                <nesting-subsector name="SabarmatiR">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                    </relative-cost-logit>
+                </nesting-subsector>
+                <nesting-subsector name="GangesR">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                    </relative-cost-logit>
+                </nesting-subsector>
+                <nesting-subsector name="MahiR">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                    </relative-cost-logit>
+                </nesting-subsector>
+                <nesting-subsector name="BengalBay">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                    </relative-cost-logit>
+                </nesting-subsector>
+                <nesting-subsector name="TaptiR">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                    </relative-cost-logit>
+                </nesting-subsector>
+                <nesting-subsector name="BengalW">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                    </relative-cost-logit>
+                </nesting-subsector>
+                <nesting-subsector name="BrahmaniR">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                    </relative-cost-logit>
+                </nesting-subsector>
+                <nesting-subsector name="MahanadiR">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                    </relative-cost-logit>
+                </nesting-subsector>
+                <nesting-subsector name="GodavariR">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                    </relative-cost-logit>
+                </nesting-subsector>
+                <nesting-subsector name="IndCstNE">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                    </relative-cost-logit>
+                </nesting-subsector>
+                <nesting-subsector name="IndCstW">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                    </relative-cost-logit>
+                </nesting-subsector>
+                <nesting-subsector name="IrrawaddyR">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                    </relative-cost-logit>
+                </nesting-subsector>
+                <nesting-subsector name="KrishnaR">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                    </relative-cost-logit>
+                </nesting-subsector>
+                <nesting-subsector name="IndCstE">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                    </relative-cost-logit>
+                </nesting-subsector>
+                <nesting-subsector name="PennarR">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                    </relative-cost-logit>
+                </nesting-subsector>
+                <nesting-subsector name="CauveryR">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                    </relative-cost-logit>
+                </nesting-subsector>
+                <nesting-subsector name="IndCstS">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                    </relative-cost-logit>
+                </nesting-subsector>
+                <nesting-subsector name="NarmadaR">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                    </relative-cost-logit>
+                </nesting-subsector>
+            </supplysector>
+        </region>
+    </world>
+</scenario>

@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+    <world>
+        <region name="India">
+            <supplysector name="electricity">
+                <nesting-subsector name="BengalBay">
+                    <nesting-subsector name="solar">
+                        <subsector name="CSP">
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2015" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2095" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                        </subsector>
+                        <subsector name="CSP_storage">
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2015" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2095" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                        </subsector>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="BengalW">
+                    <nesting-subsector name="solar">
+                        <subsector name="CSP">
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2015" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2095" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                        </subsector>
+                        <subsector name="CSP_storage">
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2015" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2095" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                        </subsector>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="BrahmaniR">
+                    <nesting-subsector name="solar">
+                        <subsector name="CSP">
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2015" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2095" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                        </subsector>
+                        <subsector name="CSP_storage">
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2015" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2095" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                        </subsector>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="CauveryR">
+                    <nesting-subsector name="solar">
+                        <subsector name="CSP">
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2015" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2095" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                        </subsector>
+                        <subsector name="CSP_storage">
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2015" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2095" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                        </subsector>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="GangesR">
+                    <nesting-subsector name="solar">
+                        <subsector name="CSP">
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2015" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2095" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                        </subsector>
+                        <subsector name="CSP_storage">
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2015" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2095" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                        </subsector>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="GodavariR">
+                    <nesting-subsector name="solar">
+                        <subsector name="CSP">
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2015" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2095" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                        </subsector>
+                        <subsector name="CSP_storage">
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2015" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2095" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                        </subsector>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="IndCstE">
+                    <nesting-subsector name="solar">
+                        <subsector name="CSP">
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2015" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2095" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                        </subsector>
+                        <subsector name="CSP_storage">
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2015" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2095" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                        </subsector>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="IndCstNE">
+                    <nesting-subsector name="solar">
+                        <subsector name="CSP">
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2015" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2095" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                        </subsector>
+                        <subsector name="CSP_storage">
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2015" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2095" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                        </subsector>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="IndCstS">
+                    <nesting-subsector name="solar">
+                        <subsector name="CSP">
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2015" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2095" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                        </subsector>
+                        <subsector name="CSP_storage">
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2015" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2095" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                        </subsector>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="IndCstW">
+                    <nesting-subsector name="solar">
+                        <subsector name="CSP">
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2015" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2095" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                        </subsector>
+                        <subsector name="CSP_storage">
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2015" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2095" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                        </subsector>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="IndusR">
+                    <nesting-subsector name="solar">
+                        <subsector name="CSP">
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2015" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2095" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                        </subsector>
+                        <subsector name="CSP_storage">
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2015" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2095" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                        </subsector>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="IrrawaddyR">
+                    <nesting-subsector name="solar">
+                        <subsector name="CSP">
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2015" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2095" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                        </subsector>
+                        <subsector name="CSP_storage">
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2015" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2095" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                        </subsector>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="KrishnaR">
+                    <nesting-subsector name="solar">
+                        <subsector name="CSP">
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2015" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2095" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                        </subsector>
+                        <subsector name="CSP_storage">
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2015" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2095" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                        </subsector>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="MahanadiR">
+                    <nesting-subsector name="solar">
+                        <subsector name="CSP">
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2015" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2095" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                        </subsector>
+                        <subsector name="CSP_storage">
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2015" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2095" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                        </subsector>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="MahiR">
+                    <nesting-subsector name="solar">
+                        <subsector name="CSP">
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2015" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2095" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                        </subsector>
+                        <subsector name="CSP_storage">
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2015" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2095" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                        </subsector>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="NarmadaR">
+                    <nesting-subsector name="solar">
+                        <subsector name="CSP">
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2015" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2095" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                        </subsector>
+                        <subsector name="CSP_storage">
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2015" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2095" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                        </subsector>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="PennarR">
+                    <nesting-subsector name="solar">
+                        <subsector name="CSP">
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2015" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2095" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                        </subsector>
+                        <subsector name="CSP_storage">
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2015" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2095" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                        </subsector>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="SabarmatiR">
+                    <nesting-subsector name="solar">
+                        <subsector name="CSP">
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2015" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2095" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                        </subsector>
+                        <subsector name="CSP_storage">
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2015" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2095" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                        </subsector>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="TaptiR">
+                    <nesting-subsector name="solar">
+                        <subsector name="CSP">
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2015" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2095" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                        </subsector>
+                        <subsector name="CSP_storage">
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2015" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                            <interpolation-rule apply-to="share-weight"
+                                from-year="2095" to-year="2100">
+                                <from-value>0</from-value>
+                                <to-value>0</to-value>
+                                <interpolation-function name="fixed"/>
+                            </interpolation-rule>
+                        </subsector>
+                    </nesting-subsector>
+                </nesting-subsector>
+            </supplysector>
+        </region>
+    </world>
+</scenario>

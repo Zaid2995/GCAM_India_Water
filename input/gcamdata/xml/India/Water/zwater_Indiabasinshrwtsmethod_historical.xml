@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+    <world>
+        <region name="India">
+            <supplysector name="electricity">
+                <nesting-subsector name="IndusR">
+                    <share-weight year="1975">1</share-weight>
+                    <share-weight year="1990">1</share-weight>
+                    <share-weight year="2005">1</share-weight>
+                    <share-weight year="2010">1</share-weight>
+                    <share-weight year="2015">1</share-weight>
+                </nesting-subsector>
+                <nesting-subsector name="SabarmatiR">
+                    <share-weight year="1975">1</share-weight>
+                    <share-weight year="1990">1</share-weight>
+                    <share-weight year="2005">1</share-weight>
+                    <share-weight year="2010">1</share-weight>
+                    <share-weight year="2015">1</share-weight>
+                </nesting-subsector>
+                <nesting-subsector name="GangesR">
+                    <share-weight year="1975">1</share-weight>
+                    <share-weight year="1990">1</share-weight>
+                    <share-weight year="2005">1</share-weight>
+                    <share-weight year="2010">1</share-weight>
+                    <share-weight year="2015">1</share-weight>
+                </nesting-subsector>
+                <nesting-subsector name="MahiR">
+                    <share-weight year="1975">1</share-weight>
+                    <share-weight year="1990">1</share-weight>
+                    <share-weight year="2005">1</share-weight>
+                    <share-weight year="2010">1</share-weight>
+                    <share-weight year="2015">1</share-weight>
+                </nesting-subsector>
+                <nesting-subsector name="BengalBay">
+                    <share-weight year="1975">1</share-weight>
+                    <share-weight year="1990">1</share-weight>
+                    <share-weight year="2005">1</share-weight>
+                    <share-weight year="2010">1</share-weight>
+                    <share-weight year="2015">1</share-weight>
+                </nesting-subsector>
+                <nesting-subsector name="TaptiR">
+                    <share-weight year="1975">1</share-weight>
+                    <share-weight year="1990">1</share-weight>
+                    <share-weight year="2005">1</share-weight>
+                    <share-weight year="2010">1</share-weight>
+                    <share-weight year="2015">1</share-weight>
+                </nesting-subsector>
+                <nesting-subsector name="BengalW">
+                    <share-weight year="1975">1</share-weight>
+                    <share-weight year="1990">1</share-weight>
+                    <share-weight year="2005">1</share-weight>
+                    <share-weight year="2010">1</share-weight>
+                    <share-weight year="2015">1</share-weight>
+                </nesting-subsector>
+                <nesting-subsector name="BrahmaniR">
+                    <share-weight year="1975">1</share-weight>
+                    <share-weight year="1990">1</share-weight>
+                    <share-weight year="2005">1</share-weight>
+                    <share-weight year="2010">1</share-weight>
+                    <share-weight year="2015">1</share-weight>
+                </nesting-subsector>
+                <nesting-subsector name="MahanadiR">
+                    <share-weight year="1975">1</share-weight>
+                    <share-weight year="1990">1</share-weight>
+                    <share-weight year="2005">1</share-weight>
+                    <share-weight year="2010">1</share-weight>
+                    <share-weight year="2015">1</share-weight>
+                </nesting-subsector>
+                <nesting-subsector name="GodavariR">
+                    <share-weight year="1975">1</share-weight>
+                    <share-weight year="1990">1</share-weight>
+                    <share-weight year="2005">1</share-weight>
+                    <share-weight year="2010">1</share-weight>
+                    <share-weight year="2015">1</share-weight>
+                </nesting-subsector>
+                <nesting-subsector name="IndCstNE">
+                    <share-weight year="1975">1</share-weight>
+                    <share-weight year="1990">1</share-weight>
+                    <share-weight year="2005">1</share-weight>
+                    <share-weight year="2010">1</share-weight>
+                    <share-weight year="2015">1</share-weight>
+                </nesting-subsector>
+                <nesting-subsector name="IndCstW">
+                    <share-weight year="1975">1</share-weight>
+                    <share-weight year="1990">1</share-weight>
+                    <share-weight year="2005">1</share-weight>
+                    <share-weight year="2010">1</share-weight>
+                    <share-weight year="2015">1</share-weight>
+                </nesting-subsector>
+                <nesting-subsector name="IrrawaddyR">
+                    <share-weight year="1975">1</share-weight>
+                    <share-weight year="1990">1</share-weight>
+                    <share-weight year="2005">1</share-weight>
+                    <share-weight year="2010">1</share-weight>
+                    <share-weight year="2015">1</share-weight>
+                </nesting-subsector>
+                <nesting-subsector name="KrishnaR">
+                    <share-weight year="1975">1</share-weight>
+                    <share-weight year="1990">1</share-weight>
+                    <share-weight year="2005">1</share-weight>
+                    <share-weight year="2010">1</share-weight>
+                    <share-weight year="2015">1</share-weight>
+                </nesting-subsector>
+                <nesting-subsector name="IndCstE">
+                    <share-weight year="1975">1</share-weight>
+                    <share-weight year="1990">1</share-weight>
+                    <share-weight year="2005">1</share-weight>
+                    <share-weight year="2010">1</share-weight>
+                    <share-weight year="2015">1</share-weight>
+                </nesting-subsector>
+                <nesting-subsector name="PennarR">
+                    <share-weight year="1975">1</share-weight>
+                    <share-weight year="1990">1</share-weight>
+                    <share-weight year="2005">1</share-weight>
+                    <share-weight year="2010">1</share-weight>
+                    <share-weight year="2015">1</share-weight>
+                </nesting-subsector>
+                <nesting-subsector name="CauveryR">
+                    <share-weight year="1975">1</share-weight>
+                    <share-weight year="1990">1</share-weight>
+                    <share-weight year="2005">1</share-weight>
+                    <share-weight year="2010">1</share-weight>
+                    <share-weight year="2015">1</share-weight>
+                </nesting-subsector>
+                <nesting-subsector name="IndCstS">
+                    <share-weight year="1975">1</share-weight>
+                    <share-weight year="1990">1</share-weight>
+                    <share-weight year="2005">1</share-weight>
+                    <share-weight year="2010">1</share-weight>
+                    <share-weight year="2015">1</share-weight>
+                </nesting-subsector>
+                <nesting-subsector name="NarmadaR">
+                    <share-weight year="1975">1</share-weight>
+                    <share-weight year="1990">1</share-weight>
+                    <share-weight year="2005">1</share-weight>
+                    <share-weight year="2010">1</share-weight>
+                    <share-weight year="2015">1</share-weight>
+                </nesting-subsector>
+            </supplysector>
+        </region>
+    </world>
+</scenario>

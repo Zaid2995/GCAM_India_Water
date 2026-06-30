@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+    <world>
+        <region name="India">
+            <pass-through-sector delete="1" name="elec_CSP"/>
+            <pass-through-sector delete="1" name="elec_coal (conv pul)"/>
+            <pass-through-sector delete="1" name="elec_coal (IGCC)"/>
+            <pass-through-sector delete="1" name="elec_coal (conv pul CCS)"/>
+            <pass-through-sector delete="1" name="elec_coal (IGCC CCS)"/>
+            <pass-through-sector delete="1" name="elec_gas (steam/CT)"/>
+            <pass-through-sector delete="1" name="elec_gas (CC)"/>
+            <pass-through-sector delete="1" name="elec_gas (CC CCS)"/>
+            <pass-through-sector delete="1" name="elec_refined liquids (steam/CT)"/>
+            <pass-through-sector delete="1" name="elec_refined liquids (CC)"/>
+            <pass-through-sector delete="1" name="elec_refined liquids (CC CCS)"/>
+            <pass-through-sector delete="1" name="elec_biomass (conv)"/>
+            <pass-through-sector delete="1" name="elec_biomass (IGCC)"/>
+            <pass-through-sector delete="1" name="elec_biomass (conv CCS)"/>
+            <pass-through-sector delete="1" name="elec_biomass (IGCC CCS)"/>
+            <pass-through-sector delete="1" name="elec_Gen_II_LWR"/>
+            <pass-through-sector delete="1" name="elec_Gen_III"/>
+            <pass-through-sector delete="1" name="elec_CSP_storage"/>
+            <pass-through-sector delete="1" name="elec_geothermal"/>
+        </region>
+    </world>
+</scenario>

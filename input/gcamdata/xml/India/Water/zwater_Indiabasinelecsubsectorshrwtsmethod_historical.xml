@@ -1,0 +1,1244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+    <world>
+        <region name="India">
+            <supplysector name="electricity">
+                <nesting-subsector name="IndusR">
+                    <nesting-subsector name="biomass">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="wind">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="refined liquids">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="nuclear">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="hydro">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="gas">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="geothermal">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">0</share-weight>
+                        <share-weight year="2010">0</share-weight>
+                        <share-weight year="2015">0</share-weight>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="SabarmatiR">
+                    <nesting-subsector name="biomass">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="wind">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="refined liquids">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="nuclear">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="hydro">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="gas">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="geothermal">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">0</share-weight>
+                        <share-weight year="2010">0</share-weight>
+                        <share-weight year="2015">0</share-weight>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="GangesR">
+                    <nesting-subsector name="biomass">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="wind">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="refined liquids">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="nuclear">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="hydro">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="gas">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="geothermal">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">0</share-weight>
+                        <share-weight year="2010">0</share-weight>
+                        <share-weight year="2015">0</share-weight>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="MahiR">
+                    <nesting-subsector name="biomass">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="wind">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="refined liquids">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="nuclear">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="hydro">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="gas">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="geothermal">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">0</share-weight>
+                        <share-weight year="2010">0</share-weight>
+                        <share-weight year="2015">0</share-weight>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="BengalBay">
+                    <nesting-subsector name="biomass">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="wind">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="refined liquids">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="nuclear">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="hydro">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="gas">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="geothermal">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">0</share-weight>
+                        <share-weight year="2010">0</share-weight>
+                        <share-weight year="2015">0</share-weight>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="TaptiR">
+                    <nesting-subsector name="biomass">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="wind">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="refined liquids">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="nuclear">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="hydro">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="gas">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="geothermal">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">0</share-weight>
+                        <share-weight year="2010">0</share-weight>
+                        <share-weight year="2015">0</share-weight>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="BengalW">
+                    <nesting-subsector name="biomass">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="wind">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="refined liquids">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="nuclear">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="hydro">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="gas">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="geothermal">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">0</share-weight>
+                        <share-weight year="2010">0</share-weight>
+                        <share-weight year="2015">0</share-weight>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="BrahmaniR">
+                    <nesting-subsector name="biomass">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="wind">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="refined liquids">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="nuclear">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="hydro">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="gas">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="geothermal">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">0</share-weight>
+                        <share-weight year="2010">0</share-weight>
+                        <share-weight year="2015">0</share-weight>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="MahanadiR">
+                    <nesting-subsector name="biomass">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="wind">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="refined liquids">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="nuclear">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="hydro">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="gas">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="geothermal">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">0</share-weight>
+                        <share-weight year="2010">0</share-weight>
+                        <share-weight year="2015">0</share-weight>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="GodavariR">
+                    <nesting-subsector name="biomass">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="wind">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="refined liquids">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="nuclear">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="hydro">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="gas">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="geothermal">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">0</share-weight>
+                        <share-weight year="2010">0</share-weight>
+                        <share-weight year="2015">0</share-weight>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="IndCstNE">
+                    <nesting-subsector name="biomass">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="wind">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="refined liquids">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="nuclear">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="hydro">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="gas">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="geothermal">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">0</share-weight>
+                        <share-weight year="2010">0</share-weight>
+                        <share-weight year="2015">0</share-weight>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="IndCstW">
+                    <nesting-subsector name="biomass">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="wind">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="refined liquids">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="nuclear">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="hydro">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="gas">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="geothermal">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">0</share-weight>
+                        <share-weight year="2010">0</share-weight>
+                        <share-weight year="2015">0</share-weight>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="IrrawaddyR">
+                    <nesting-subsector name="biomass">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="wind">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="refined liquids">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="nuclear">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="hydro">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="gas">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="geothermal">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">0</share-weight>
+                        <share-weight year="2010">0</share-weight>
+                        <share-weight year="2015">0</share-weight>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="KrishnaR">
+                    <nesting-subsector name="biomass">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="wind">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="refined liquids">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="nuclear">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="hydro">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="gas">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="geothermal">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">0</share-weight>
+                        <share-weight year="2010">0</share-weight>
+                        <share-weight year="2015">0</share-weight>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="IndCstE">
+                    <nesting-subsector name="biomass">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="wind">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="refined liquids">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="nuclear">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="hydro">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="gas">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="geothermal">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">0</share-weight>
+                        <share-weight year="2010">0</share-weight>
+                        <share-weight year="2015">0</share-weight>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="PennarR">
+                    <nesting-subsector name="biomass">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="wind">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="refined liquids">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="nuclear">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="hydro">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="gas">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="geothermal">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">0</share-weight>
+                        <share-weight year="2010">0</share-weight>
+                        <share-weight year="2015">0</share-weight>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="CauveryR">
+                    <nesting-subsector name="biomass">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="wind">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="refined liquids">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="nuclear">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="hydro">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="gas">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="geothermal">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">0</share-weight>
+                        <share-weight year="2010">0</share-weight>
+                        <share-weight year="2015">0</share-weight>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="IndCstS">
+                    <nesting-subsector name="biomass">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="wind">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="refined liquids">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="nuclear">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="hydro">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="gas">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="geothermal">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">0</share-weight>
+                        <share-weight year="2010">0</share-weight>
+                        <share-weight year="2015">0</share-weight>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="NarmadaR">
+                    <nesting-subsector name="biomass">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="wind">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="refined liquids">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="nuclear">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="hydro">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="gas">
+                        <share-weight year="1975">1</share-weight>
+                        <share-weight year="1990">1</share-weight>
+                        <share-weight year="2005">1</share-weight>
+                        <share-weight year="2010">1</share-weight>
+                        <share-weight year="2015">1</share-weight>
+                    </nesting-subsector>
+                    <nesting-subsector name="geothermal">
+                        <share-weight year="1975">0</share-weight>
+                        <share-weight year="1990">0</share-weight>
+                        <share-weight year="2005">0</share-weight>
+                        <share-weight year="2010">0</share-weight>
+                        <share-weight year="2015">0</share-weight>
+                    </nesting-subsector>
+                </nesting-subsector>
+            </supplysector>
+        </region>
+    </world>
+</scenario>

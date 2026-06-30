@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+    <world>
+        <region name="India">
+            <supplysector name="electricity">
+                <object-meta-info name="electricity-reserve-margin">
+                    <value>0.15</value>
+                </object-meta-info>
+                <object-meta-info name="average-grid-capacity-factor">
+                    <value>0.6</value>
+                </object-meta-info>
+            </supplysector>
+        </region>
+    </world>
+</scenario>

@@ -1,0 +1,902 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+    <world>
+        <region name="India">
+            <supplysector name="electricity">
+                <nesting-subsector name="IndusR">
+                    <nesting-subsector name="wind">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="gas">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="refined liquids">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="biomass">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="nuclear">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="hydro">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="geothermal">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="SabarmatiR">
+                    <nesting-subsector name="wind">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="gas">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="refined liquids">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="biomass">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="nuclear">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="hydro">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="geothermal">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="GangesR">
+                    <nesting-subsector name="wind">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="gas">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="refined liquids">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="biomass">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="nuclear">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="hydro">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="geothermal">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="MahiR">
+                    <nesting-subsector name="wind">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="gas">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="refined liquids">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="biomass">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="nuclear">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="hydro">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="geothermal">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="BengalBay">
+                    <nesting-subsector name="wind">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="gas">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="refined liquids">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="biomass">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="nuclear">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="hydro">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="geothermal">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="TaptiR">
+                    <nesting-subsector name="wind">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="gas">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="refined liquids">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="biomass">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="nuclear">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="hydro">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="geothermal">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="BengalW">
+                    <nesting-subsector name="wind">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="gas">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="refined liquids">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="biomass">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="nuclear">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="hydro">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="geothermal">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="BrahmaniR">
+                    <nesting-subsector name="wind">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="gas">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="refined liquids">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="biomass">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="nuclear">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="hydro">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="geothermal">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="MahanadiR">
+                    <nesting-subsector name="wind">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="gas">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="refined liquids">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="biomass">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="nuclear">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="hydro">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="geothermal">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="GodavariR">
+                    <nesting-subsector name="wind">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="gas">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="refined liquids">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="biomass">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="nuclear">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="hydro">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="geothermal">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="IndCstNE">
+                    <nesting-subsector name="wind">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="gas">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="refined liquids">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="biomass">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="nuclear">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="hydro">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="geothermal">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="IndCstW">
+                    <nesting-subsector name="wind">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="gas">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="refined liquids">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="biomass">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="nuclear">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="hydro">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="geothermal">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="IrrawaddyR">
+                    <nesting-subsector name="wind">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="gas">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="refined liquids">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="biomass">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="nuclear">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="hydro">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="geothermal">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="KrishnaR">
+                    <nesting-subsector name="wind">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="gas">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="refined liquids">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="biomass">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="nuclear">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="hydro">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="geothermal">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="IndCstE">
+                    <nesting-subsector name="wind">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="gas">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="refined liquids">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="biomass">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="nuclear">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="hydro">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="geothermal">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="PennarR">
+                    <nesting-subsector name="wind">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="gas">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="refined liquids">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="biomass">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="nuclear">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="hydro">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="geothermal">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="CauveryR">
+                    <nesting-subsector name="wind">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="gas">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="refined liquids">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="biomass">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="nuclear">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="hydro">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="geothermal">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="IndCstS">
+                    <nesting-subsector name="wind">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="gas">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="refined liquids">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="biomass">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="nuclear">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="hydro">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="geothermal">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="NarmadaR">
+                    <nesting-subsector name="wind">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="solar">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="coal">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="gas">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="refined liquids">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="biomass">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-10</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="nuclear">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="hydro">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                    <nesting-subsector name="geothermal">
+                        <relative-cost-logit>
+                            <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                        </relative-cost-logit>
+                    </nesting-subsector>
+                </nesting-subsector>
+            </supplysector>
+        </region>
+    </world>
+</scenario>

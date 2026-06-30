@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+    <world>
+        <region name="India">
+            <supplysector name="electricity">
+                <output-unit>EJ</output-unit>
+                <input-unit>EJ</input-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <relative-cost-logit>
+                    <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                </relative-cost-logit>
+            </supplysector>
+        </region>
+    </world>
+</scenario>
