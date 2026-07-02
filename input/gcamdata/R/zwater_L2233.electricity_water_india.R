@@ -289,14 +289,6 @@ module_water_L2233.electricity_water_india <- function(command, ...) {
     L2233.out_EJ_elec_B_F_tech_Yh_cool_India <- L2233.out_EJ_elec_B_F_tech_Yh_cool_India %>%
       filter(fuel != "hydro")
 
-    #To resolve the calibration error: Multiplying the calOutputValues by 0.704
-    #L2233.out_EJ_elec_B_F_tech_Yh_cool_India$calOutputValue[L2233.out_EJ_elec_B_F_tech_Yh_cool_India$year == 1990] <- L2233.out_EJ_elec_B_F_tech_Yh_cool_India$calOutputValue[L2233.out_EJ_elec_B_F_tech_Yh_cool_India$year == 1990]*0.704
-    #To resolve the calibration error: Multiplying the calOutputValues by 0.6188
-    #L2233.out_EJ_elec_B_F_tech_Yh_cool_India$calOutputValue[L2233.out_EJ_elec_B_F_tech_Yh_cool_India$year == 2005] <- L2233.out_EJ_elec_B_F_tech_Yh_cool_India$calOutputValue[L2233.out_EJ_elec_B_F_tech_Yh_cool_India$year == 2005]*0.6188
-    #To resolve the calibration error: Multiplying the calOutputValues by 0.6188
-    #L2233.out_EJ_elec_B_F_tech_Yh_cool_India$calOutputValue[L2233.out_EJ_elec_B_F_tech_Yh_cool_India$year == 2010] <- L2233.out_EJ_elec_B_F_tech_Yh_cool_India$calOutputValue[L2233.out_EJ_elec_B_F_tech_Yh_cool_India$year == 2010]*0.6304
-    #To resolve the calibration error: Multiplying the calOutputValues by 0.6188
-    #L2233.out_EJ_elec_B_F_tech_Yh_cool_India$calOutputValue[L2233.out_EJ_elec_B_F_tech_Yh_cool_India$year == 2015] <- L2233.out_EJ_elec_B_F_tech_Yh_cool_India$calOutputValue[L2233.out_EJ_elec_B_F_tech_Yh_cool_India$year == 2015]*0.591
 
     #Joining with the original elec-water map to get the desired columns and associated cooling technologies
 
