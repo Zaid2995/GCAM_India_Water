@@ -5,7 +5,7 @@
 		<Value name="BatchFileName">batch_water.xml</Value>
 		<Value name="policy-target-file">../input/policy/forcing_target_4p5.xml</Value>
 		<Value name="GHGInputFileName">../input/magicc/inputs/input_gases.emk</Value>
-		<Value write-output="1" append-scenario-name="0" name="xmldb-location">../output/database_basexdb_trial</Value>
+		<Value write-output="1" append-scenario-name="0" name="xmldb-location">../output/database_basexdb</Value>
 		<Value write-output="1" append-scenario-name="0" name="restart">./restart/restart</Value>
 		<Value write-output="1" append-scenario-name="1" name="xmlDebugFileName">debug.xml</Value>
 		<Value write-output="1" append-scenario-name="0" name="climatFileName">gas.emk</Value>
@@ -82,20 +82,15 @@
 		<Value name = "primary_ene_water">../input/gcamdata/xml/All/water_demand_primary.xml</Value>
 
         <!--Electricity_Water_India-->
-		<Value name = "elec_water_India_DeletePassthrough">../input/gcamdata/xml/India/Water/zwater_DeletePassthroughsector_Indiaelec.xml</Value>		
+		<Value name = "elec_water_India_DeletePassthrough">../input/gcamdata/xml/India/Water/zwater_DeletePassthroughsector_Indiaelec.xml</Value>
 		<Value name = "elec_water_india">../input/gcamdata/xml/India/Water/electricity_water_india_final.xml</Value>     
+		<!--Value name = "elec_water_india">../input/gcamdata/xml/India/Water/electricity_water_india_removedelect_td_bld.xml</Value-->     
 		<Value name = "elec_water_India_basinelecgen">../input/gcamdata/xml/India/Water/out_EJ_elec_B_F_tech_Yh_cool_India.xml</Value>        
         <Value name = "elec_water_India_tech_coef">../input/gcamdata/xml/India/Water/zwater_IndiaGlobalTechCoef_elec_cool2.xml</Value>
         <Value name = "elec_water_Indiainttech_coef">../input/gcamdata/xml/India/Water/zwater_IndiaGlobalIntTechCoef_elec_cool2.xml</Value>
-        <!--Value name = "elec_water_india2">../input/gcamdata/xml/India/Water/zwater_electricity_water_india2.xml</Value-->   
 		<Value name = "elec_water_India_basinelecgen">../input/gcamdata/xml/India/Water/zwater_IndiaSubsectorelec_fllt_removedelect_td_bld.xml</Value>
-		<!--Value name = "elec_water_India_basinelecgen">../input/gcamdata/xml/India/Water/zwater_IndiaGlobalTechCapFac_elec.xml</Value>
-		<Value name = "elec_water_India_basinelecgen">../input/gcamdata/xml/India/Water/zwater_IndiaStubTechCapFactor_elec.xml</Value-->
-        <!--Value name = "elec_water_india_basin_shareweights">../input/gcamdata/xml/India/Water/zwater_Indiabasinelecshrwt_historical.xml</Value>
-        <Value name = "elec_water_india_basin_shareweights">../input/gcamdata/xml/India/Water/zwater_Indiabasinelecsubsectorshrwts_historical.xml</Value-->
         <Value name = "elec_water_india_basin_shareweights">../input/gcamdata/xml/India/Water/zwater_Indiabasinshrwtsmethod_historical.xml</Value>
         <Value name = "elec_water_india_basin_shareweights">../input/gcamdata/xml/India/Water/zwater_Indiabasinelecsubsectorshrwtsmethod_historical.xml</Value>
-        <!--Value name = "elec_water_india_basin_shareweights">../input/gcamdata/xml/India/Water/zwater_IndiaBasinscoolingtechshrwt_historical.xml</Value-->
         <Value name = "elec_water_India_ElecReserve">../input/gcamdata/xml/India/Water/zwater_IndiaElecReserve_removedelect_td_bld.xml</Value>
         <Value name = "elec_water_India_SectorUseTrialMarket">../input/gcamdata/xml/India/Water/zwater_IndiaSectorUseTrialMarket_elec.xml</Value>
         <Value name = "elec_water_India_Supplysector_logit">../input/gcamdata/xml/India/Water/zwater_IndiaSupplysectorelecLogit_removedelect_td_bld.xml</Value>
@@ -103,12 +98,16 @@
         <Value name = "elec_water_India_Subsector_logit">../input/gcamdata/xml/India/Water/zwater_IndiaSubsectorelec_logit_removedelect_td_bld.xml</Value>
         <Value name = "elec_water_India_Plantlevel_logit">../input/gcamdata/xml/India/Water/zwater_Indiaplantelec_logit_removedelect_td_bld.xml</Value>
 		<Value name = "elec_water_India_basinfueltechshrwts">../input/gcamdata/xml/India/Water/zwater_IndiaBasinspowerplantShrwt.xml</Value>
-		<Value name = "elec_water_India_basinfuelshrwts">../input/gcamdata/xml/India/Water/zwater_IndiaBasinsfuelShrwt.xml</Value>
         <Value name = "elec_water_India_basincoolingtechshrwts">../input/gcamdata/xml/India/Water/zwater_Indiacoolingtechshrwtinterp.xml</Value>
         <Value name = "elec_India_coal_fuel_adder_for_basins">../input/gcamdata/xml/India/Electricity/new/India_coal_tax_adder_for_basins.xml</Value>
+        <Value name = "elec_India_rooftop_tax_adder_for_India">../input/gcamdata/xml/India/Electricity/new/rooftop_tax_adder_for_India.xml</Value>
 
-
-
+		<!--Value name = "elec_water_india2">../input/gcamdata/xml/India/Water/zwater_electricity_water_india2.xml</Value-->   
+		<!--Value name = "elec_water_India_basinelecgen">../input/gcamdata/xml/India/Water/zwater_IndiaGlobalTechCapFac_elec.xml</Value>
+		<Value name = "elec_water_India_basinelecgen">../input/gcamdata/xml/India/Water/zwater_IndiaStubTechCapFactor_elec.xml</Value-->
+        <!--Value name = "elec_water_india_basin_shareweights">../input/gcamdata/xml/India/Water/zwater_Indiabasinelecshrwt_historical.xml</Value>
+        <Value name = "elec_water_india_basin_shareweights">../input/gcamdata/xml/India/Water/zwater_Indiabasinelecsubsectorshrwts_historical.xml</Value-->
+        <!--Value name = "elec_water_india_basin_shareweights">../input/gcamdata/xml/India/Water/zwater_IndiaBasinscoolingtechshrwt_historical.xml</Value-->
 		<!--Value name = "elec_water_India_basincoolingtechshrwts">../input/gcamdata/xml/India/Water/zwater_Indiacoolingtechshrwtinterp_Pennartrial.xml</Value>
         <Value name = "elec_water_India_basincoolingtechshrwts">../input/gcamdata/xml/India/Water/zwater_Indiafueltechshrwtinterp_Pennartrial.xml</Value-->
 		<!--Value name = "Basin_level_Shrwt_India">../input/gcamdata/xml/India/Water/zwater_IndiaBasinWaterelectdshrwt.xml</Value-->
@@ -140,17 +139,16 @@
 		
 		<!--Resource potential for wind onshore and solar-->
 		<Value name = "India solar resource changed">../input/gcamdata/xml/India/Electricity/new/zenergy_solarresource_India_BAU.xml</Value>
-		
-		<!-- India-specific OM fixed and var costs: -->
-		<!--Value name = "India inttech OM var_solar">../input/gcamdata/xml/India/Electricity/new/India_state_solar_OMvar_India_water_NZ.xml</Value>
-		<Value name = "India inttech OM var_wind">../input/gcamdata/xml/India/Electricity/new/India_state_wind_OMvar_India_water_NZ.xml</Value-->
-
 
 		<!-- Tech efficiencies  -->
 		<Value name = "India tech efficiencies">../input/gcamdata/xml/India/Electricity/new/India_TechEff_elec_update_basins.xml</Value>
 			
-		<!-- Share weight -->
-		<Value name = "India electricity shareweights">../input/gcamdata/xml/India/Electricity/new/India_elec_shrwt_new2.xml</Value>
+		<!--Share weight -->
+		<Value name = "India electricity shareweights_renewables">../input/gcamdata/xml/India/Electricity/new/zwater_IndiaBasinsfuelShrwt.xml</Value>
+		<Value name = "India electricity shareweights_renewables">../input/gcamdata/xml/India/Electricity/new/zwater_IndiaBasinspowerplantnuclearShrwt.xml</Value>
+		<!--Value name = "India electricity shareweights_CCS">../input/gcamdata/xml/India/Electricity/new/India_elec_shrwt_CCS.xml</Value-->
+		<Value name = "India electricity shareweights_rooftop_pv">../input/gcamdata/xml/India/Electricity/new/India_elec_shrwt_rooftop_pv.xml</Value>
+		<Value name = "India electricity shareweights_elect_td_bld">../input/gcamdata/xml/India/Electricity/new/India_elec_shrwt_elect_td_bld.xml</Value>
 		
 		<!-- To match the Final Energy Demand with GCAM 5.2 -->
 		
@@ -159,7 +157,7 @@
 		<Value name = "Industry shrwt">../input/gcamdata/xml/India/Industry/India_indus_shrwt.xml</Value>
 		<Value name = "India industry income elasticity">../input/gcamdata/xml/India/Industry/India_indus_incelas_LTS_final.xml</Value>
 		<Value name = "India Industry tech efficiencies">../input/gcamdata/xml/India/Industry/India_indus_eff2.3.xml</Value>
-		<Value name = "India_income_elasticity">../input/gcamdata/xml/India/Industry/India_indus_incelas_calibration_-14_6.xml</Value>
+		<!--Value name = "India_income_elasticity">../input/gcamdata/xml/India/Industry/India_indus_incelas_calibration_-14_6.xml</Value-->
 		
 		<!-- Others -->
 		<Value name = "India low hydrogen cost">../input/gcamdata/xml/India/Others/India_hydrogen_cost_change_reference.xml</Value>
@@ -175,7 +173,7 @@
 		<Value name = "Building shrwt">../input/gcamdata/xml/India/Building/India_building_share-weights_Ref6.xml</Value>
 		<Value name = "Building heating cooling days">../input/gcamdata/xml/India/Building/CDD_HDD_BAU.xml</Value>
 		<Value name = "Building fuel adder">../input/gcamdata/xml/India/Building/IndiaBuildingFuelAdder.xml</Value>
-		<Value name = "Building_shell_conductance">../input/gcamdata/xml/India/Building/ShellConductance_bld_reduce95percentandincrease40percent.xml</Value>
+		<!--Value name = "Building_shell_conductance">../input/gcamdata/xml/India/Building/ShellConductance_bld_reduce95percentandincrease40percent.xml</Value-->
 
 
 		<Value name = "ind_urb_proc">../input/gcamdata/xml/All/ind_urb_processing_sectors.xml</Value>
@@ -209,7 +207,7 @@
 
 	</ScenarioComponents>
 	<Strings>
-		<Value name="scenarioName">BAU</Value>
+		<Value name="scenarioName">BAU_Unlimited</Value>
 		<Value name="debug-region">India</Value>
 		<Value name="MAGICC-input-dir">../input/magicc/inputs</Value>
 		<Value name="MAGICC-output-dir">../output</Value>
