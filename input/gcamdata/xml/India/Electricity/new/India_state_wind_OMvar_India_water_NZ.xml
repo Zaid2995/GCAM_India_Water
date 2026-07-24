@@ -1,0 +1,2251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+    <world>
+        <region name="India">
+            <supplysector name="electricity">
+                <nesting-subsector name="SabarmatiR">
+                    <nesting-subsector name="wind">
+                        <subsector name="wind">
+                            <stub-technology name="wind">
+                                <period year="1975">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="1990">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2005">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2010">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2015">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2020">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2025">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.023893939</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2030">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.239886364</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2035">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.455878788</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2040">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.887863636</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2045">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.319848485</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2050">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2055">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2060">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2065">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2070">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2075">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2080">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2085">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2090">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2095">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2100">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                            </stub-technology>
+                        </subsector>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="GangesR">
+                    <nesting-subsector name="wind">
+                        <subsector name="wind">
+                            <stub-technology name="wind">
+                                <period year="1975">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="1990">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2005">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2010">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2015">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2020">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2025">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.023893939</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2030">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.239886364</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2035">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.455878788</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2040">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.887863636</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2045">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.319848485</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2050">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2055">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2060">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2065">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2070">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2075">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2080">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2085">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2090">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2095">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2100">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                            </stub-technology>
+                        </subsector>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="MahiR">
+                    <nesting-subsector name="wind">
+                        <subsector name="wind">
+                            <stub-technology name="wind">
+                                <period year="1975">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="1990">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2005">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2010">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2015">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2020">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2025">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.023893939</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2030">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.239886364</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2035">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.455878788</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2040">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.887863636</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2045">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.319848485</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2050">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2055">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2060">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2065">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2070">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2075">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2080">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2085">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2090">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2095">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2100">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                            </stub-technology>
+                        </subsector>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="BengalBay">
+                    <nesting-subsector name="wind">
+                        <subsector name="wind">
+                            <stub-technology name="wind">
+                                <period year="1975">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="1990">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2005">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2010">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2015">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2020">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2025">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.023893939</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2030">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.239886364</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2035">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.455878788</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2040">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.887863636</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2045">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.319848485</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2050">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2055">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2060">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2065">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2070">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2075">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2080">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2085">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2090">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2095">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2100">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                            </stub-technology>
+                        </subsector>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="TaptiR">
+                    <nesting-subsector name="wind">
+                        <subsector name="wind">
+                            <stub-technology name="wind">
+                                <period year="1975">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="1990">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2005">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2010">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2015">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2020">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2025">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.023893939</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2030">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.239886364</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2035">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.455878788</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2040">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.887863636</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2045">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.319848485</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2050">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2055">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2060">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2065">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2070">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2075">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2080">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2085">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2090">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2095">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2100">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                            </stub-technology>
+                        </subsector>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="BengalW">
+                    <nesting-subsector name="wind">
+                        <subsector name="wind">
+                            <stub-technology name="wind">
+                                <period year="1975">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="1990">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2005">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2010">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2015">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2020">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2025">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.023893939</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2030">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.239886364</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2035">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.455878788</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2040">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.887863636</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2045">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.319848485</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2050">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2055">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2060">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2065">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2070">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2075">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2080">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2085">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2090">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2095">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2100">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                            </stub-technology>
+                        </subsector>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="BrahmaniR">
+                    <nesting-subsector name="wind">
+                        <subsector name="wind">
+                            <stub-technology name="wind">
+                                <period year="1975">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="1990">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2005">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2010">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2015">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2020">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2025">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.023893939</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2030">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.239886364</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2035">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.455878788</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2040">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.887863636</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2045">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.319848485</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2050">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2055">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2060">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2065">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2070">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2075">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2080">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2085">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2090">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2095">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2100">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                            </stub-technology>
+                        </subsector>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="MahanadiR">
+                    <nesting-subsector name="wind">
+                        <subsector name="wind">
+                            <stub-technology name="wind">
+                                <period year="1975">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="1990">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2005">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2010">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2015">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2020">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2025">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.023893939</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2030">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.239886364</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2035">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.455878788</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2040">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.887863636</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2045">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.319848485</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2050">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2055">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2060">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2065">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2070">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2075">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2080">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2085">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2090">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2095">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2100">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                            </stub-technology>
+                        </subsector>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="GodavariR">
+                    <nesting-subsector name="wind">
+                        <subsector name="wind">
+                            <stub-technology name="wind">
+                                <period year="1975">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="1990">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2005">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2010">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2015">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2020">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2025">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.023893939</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2030">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.239886364</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2035">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.455878788</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2040">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.887863636</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2045">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.319848485</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2050">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2055">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2060">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2065">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2070">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2075">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2080">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2085">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2090">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2095">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2100">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                            </stub-technology>
+                        </subsector>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="IndCstNE">
+                    <nesting-subsector name="wind">
+                        <subsector name="wind">
+                            <stub-technology name="wind">
+                                <period year="1975">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="1990">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2005">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2010">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2015">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2020">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2025">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.023893939</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2030">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.239886364</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2035">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.455878788</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2040">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.887863636</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2045">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.319848485</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2050">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2055">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2060">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2065">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2070">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2075">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2080">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2085">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2090">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2095">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2100">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                            </stub-technology>
+                        </subsector>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="IndCstW">
+                    <nesting-subsector name="wind">
+                        <subsector name="wind">
+                            <stub-technology name="wind">
+                                <period year="1975">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="1990">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2005">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2010">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2015">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2020">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2025">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.023893939</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2030">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.239886364</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2035">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.455878788</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2040">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.887863636</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2045">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.319848485</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2050">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2055">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2060">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2065">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2070">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2075">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2080">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2085">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2090">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2095">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2100">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                            </stub-technology>
+                        </subsector>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="IrrawaddyR">
+                    <nesting-subsector name="wind">
+                        <subsector name="wind">
+                            <stub-technology name="wind">
+                                <period year="1975">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="1990">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2005">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2010">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2015">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2020">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2025">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.023893939</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2030">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.239886364</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2035">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.455878788</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2040">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.887863636</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2045">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.319848485</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2050">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>16.75183333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2055">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>16.75183333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2060">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>16.75183333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2065">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>16.75183333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2070">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>16.75183333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2075">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2080">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2085">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2090">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2095">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2100">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                            </stub-technology>
+                        </subsector>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="KrishnaR">
+                    <nesting-subsector name="wind">
+                        <subsector name="wind">
+                            <stub-technology name="wind">
+                                <period year="1975">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="1990">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2005">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2010">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2015">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2020">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2025">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.023893939</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2030">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.239886364</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2035">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.455878788</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2040">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.887863636</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2045">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.319848485</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2050">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2055">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2060">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2065">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2070">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2075">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2080">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2085">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2090">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2095">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2100">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                            </stub-technology>
+                        </subsector>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="IndCstE">
+                    <nesting-subsector name="wind">
+                        <subsector name="wind">
+                            <stub-technology name="wind">
+                                <period year="1975">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="1990">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2005">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2010">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2015">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2020">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2025">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.023893939</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2030">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.239886364</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2035">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.455878788</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2040">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.887863636</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2045">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.319848485</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2050">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2055">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2060">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2065">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2070">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2075">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2080">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2085">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2090">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2095">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2100">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                            </stub-technology>
+                        </subsector>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="PennarR">
+                    <nesting-subsector name="wind">
+                        <subsector name="wind">
+                            <stub-technology name="wind">
+                                <period year="1975">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="1990">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2005">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2010">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2015">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2020">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2025">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.023893939</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2030">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.239886364</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2035">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.455878788</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2040">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.887863636</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2045">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.319848485</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2050">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2055">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2060">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2065">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2070">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2075">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2080">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2085">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2090">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2095">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2100">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                            </stub-technology>
+                        </subsector>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="CauveryR">
+                    <nesting-subsector name="wind">
+                        <subsector name="wind">
+                            <stub-technology name="wind">
+                                <period year="1975">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="1990">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2005">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2010">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2015">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2020">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2025">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.023893939</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2030">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.239886364</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2035">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.455878788</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2040">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.887863636</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2045">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.319848485</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2050">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2055">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2060">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2065">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2070">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2075">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2080">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2085">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2090">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2095">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2100">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                            </stub-technology>
+                        </subsector>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="IndCstS">
+                    <nesting-subsector name="wind">
+                        <subsector name="wind">
+                            <stub-technology name="wind">
+                                <period year="1975">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="1990">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2005">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2010">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2015">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2020">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2025">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.023893939</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2030">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.239886364</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2035">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.455878788</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2040">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.887863636</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2045">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.319848485</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2050">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2055">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2060">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2065">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2070">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2075">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2080">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2085">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2090">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2095">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2100">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                            </stub-technology>
+                        </subsector>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="NarmadaR">
+                    <nesting-subsector name="wind">
+                        <subsector name="wind">
+                            <stub-technology name="wind">
+                                <period year="1975">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="1990">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2005">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2010">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2015">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2020">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2025">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.023893939</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2030">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.239886364</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2035">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.455878788</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2040">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.887863636</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2045">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.319848485</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2050">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2055">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2060">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2065">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2070">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2075">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2080">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2085">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2090">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2095">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2100">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                            </stub-technology>
+                        </subsector>
+                    </nesting-subsector>
+                </nesting-subsector>
+                <nesting-subsector name="IndusR">
+                    <nesting-subsector name="wind">
+                        <subsector name="wind">
+                            <stub-technology name="wind">
+                                <period year="1975">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="1990">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2005">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2010">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2015">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2020">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>0</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2025">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.023893939</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2030">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.239886364</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2035">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.455878788</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2040">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>3.887863636</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2045">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.319848485</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2050">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2055">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2060">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2065">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2070">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2075">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2080">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2085">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2090">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2095">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                                <period year="2100">
+                                    <input-OM-var name="OM-var">
+                                    <OM-var>4.751833333</OM-var>
+                                    </input-OM-var>
+                                </period>
+                            </stub-technology>
+                        </subsector>
+                    </nesting-subsector>
+                </nesting-subsector>
+            </supplysector>
+        </region>
+    </world>
+</scenario>
